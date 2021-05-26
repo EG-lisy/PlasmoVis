@@ -1,0 +1,87 @@
+/* constats to page root: */
+:root{
+    --green: #00FF00;
+    --white:#ffffff;
+    --black: #000000;
+}
+
+* {
+    margin:0;
+    padding:0;
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7),url(../pics/close-up-mosquito-sucking-blood.jpg));
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+
+/* h1 not defined, so styling is inherited from body */
+
+body {
+    background: var(--bg); /* declaration */
+}
+
+/* SELECTOR which selects ul HTML element to apply styles
+font-family=property name; helvetica=value*/
+ul {
+    font-family: helvetica;
+}
+
+/* ID and class selectors enable to apply styles to custom attribute names in HTML
+ID=style one element; class=style multiple elements
+*/
+
+li {
+    list-style: collapse;
+}
+
+/* selectors names are arbitrary but must match both in CSS and HTML files 
+.list{ /* CLASS SELECTOR has "." as prefix; custom attribute 
+    list-style: square;
+}
+
+#msg{ /* ID SELECTOR has a "#" ad prefix; custom attribute 
+    font-family: monospace;
+}
+
+*/
+/* call in body variables --bg --fontColour */
+.fluo-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+  }
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--white);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+  }
+  
+  /* event handler is inside javascript */
+  .btn {
+      position: center;
+      top: 20px;
+      left: 250;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      border: none;
+      color: var(--btnFontColor);
+      background-color: var(--btnBg);
+  }
+
+  /* improve button appearance */
+
+  .btn:focus {
+      outline-style: none; /* eliminate rectangular outline */
+  } /* now update themes .dark and .fluo */
+
