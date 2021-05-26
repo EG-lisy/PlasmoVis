@@ -1,9 +1,9 @@
 <br><br>
 
-<div style="text-align: right"><img src="plasmoVis_logo.png" width="600" /></div>
+<div style="text-align: center"><img src="plasmoVis_logo.png" width="600" /></div>
 
 
-<img style="float: right;" src="plasmoVis_logo.png" width="550"> </img>
+<img style="float: center;" src="plasmoVis_logo.png" width="550"> </img>
 
 
 
