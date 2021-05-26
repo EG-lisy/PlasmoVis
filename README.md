@@ -1,8 +1,4 @@
-<br>
-<div style="align: center">
-<img src="plasmoVis_logo.png" width="600"/>
-</div>
-
+![PlasmoVis](plasmoVis_logo.png)
 #
 
 PlasmoVis is a species-specific genomic variant browser specifically developped to inspect Plasmodium malariae variations.
