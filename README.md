@@ -33,8 +33,10 @@ BSAvis package requires merged Variant Calling Format (`VCF`) files as input fil
 ```
 
 # Author
-PlasmoVis was developed by Elisabetta Galatola<br><br>
+```
+Developed by _Elisabetta Galatola_<br><br>
 
 _Applied Bioinformatics MSc_<br>
 _Cranfield University - Cranfield, Bedford, UK_<br>
 _Academic Year: 2020-2021_
+```
