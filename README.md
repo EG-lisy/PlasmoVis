@@ -1,5 +1,6 @@
 <br>
 <div style="text-align: center">
+<div style="text-align: left">
 <img src="plasmoVis_logo.png" width="600"/>
 </div>
 
