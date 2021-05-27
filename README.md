@@ -5,12 +5,18 @@
 
 PlasmoVis is a species-specific genomic variant browser specifically developped to inspect Plasmodium malariae variations.
 
-# Preview
-![preview](preview.png)
-
 ## Table of Contents
+> - [Preview](#Preview)
 > - [Prerequisites](#Prerequisites)<br>
 > - [Author](#Author)<br>
+
+# Preview
+Complete web page view<br>
+![preview](preview.png)
+
+Responsive view<br>
+![responsive](responsive.png)
+
 
 # Prerequisites
 Prerequisites<br>
@@ -34,7 +40,7 @@ BSAvis package requires merged Variant Calling Format (`VCF`) files as input fil
 
 # Author
 ```
-Developed by Elisabetta Galatolabr
+Developed by Elisabetta Galatola
 
 Applied Bioinformatics MSc
 Cranfield University - Cranfield, Bedford, UK

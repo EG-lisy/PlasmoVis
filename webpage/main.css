@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding:0;
+    font-family: helvetica;
+}
+
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    position: fixed;
+    height: 80px;
+    display: flex;
+    box-shadow: 0 0 25px 0 black;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+nav img {
+        margin-left: 20px;
+        margin-top: 5px;
+        width:230px;
+    
+}
+
+.navlinks {
+    flex: 1; /* occupy all space in row */
+    text-align: right;
+}
+
+.navlinks ul li{
+    list-style: none;
+    display: inline-block; 
+    padding: 8px 12px;
+}
+
+
+body {
+    min-height: 80vh;
+    margin-left: 20px;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../pics/mosquito.jpg);
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    font-family: helvetica;
+    margin-top:80px;
+    padding:30px;
+}
