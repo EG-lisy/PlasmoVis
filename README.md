@@ -14,7 +14,8 @@ PlasmoVis is a species-specific genomic variant browser specifically developped 
 Complete web page view<br>
 ![preview](preview.png)
 
-Responsive view<br>
+## Responsive view
+If the user is using a smaller screen, the menu will adapt accordingly
 ![responsive](responsive.png)
 
 
