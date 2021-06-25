@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<!-- https://www.youtube.com/watch?v=AOfSuajwY-I try this!!-->
+
+<html lang="en">
+
+<!-- header from partials/ -->
+<%- include ('partials/header.ejs') -%>
+
+    <section class="description">
+        <img src="img/plasmoVis_logo.png">
+
+    </section>
+
+    <body>
+        <h1>Populate table with AJAX</h1>
+        <section class="table_test">
+
+            <p>Table Test</p><br>
+            <table id="sample-location" class="table">
+                <thead>
+                    <tr>
+                        <th>Sample</th>
+                        <th>Location</th>
+                        <th>Tot </th>
+                    </tr>
+                <tbody>
+
+                    <!-- Populated by JavaScript-->
+
+                </tbody>
+
+                </thead>
+            </table>
+
+            <script type="text/javascript">
+                const tableBody = document.querySelector("#sample-location > tbody");
+
+                function loadTable() {
+
+                    const request = new XMLHttpRequest();
+
+                    request.open("get", "./json/metadata.json");
+                    //response come back
+
+                    request.onload = () => {
+                        //try catch block
+                        try {
+                            //parse json file
+                            const json = JSON.parse(request.responseText); //parse response of req
+                            //populate table using DOM
+                            pupulateTable(json);
+
+                        } catch (e) {
+                            console.warn("Could not load table :(");
+                        }
+                    };
+
+                    request.send();
+
+                }
+
+                //pop table
+                function pupulateTable(json) {
+                    console.log(json);
+                    //clears existing data from table
+                    while (tableBody.firstChild){
+                        tableBody.removeChild(tableBody.firstChild);
+                    }
+
+                    json.forEach((row)=> {
+                        const tr = document.createElement("tr");
+
+
+                       row.forEach((cell) =>{
+                           const td = document.createElement("td");
+                           td.textContent = cell;
+                           tr.appendChild(td);
+                       });
+
+                       tableBody.appendChild(tr)
+                    });
+                        
+
+                    //pop table
+
+                }
+                document.addEventListener("DOMContentLoaded", () => {
+                    loadTable();
+                });
+
+            </script>
+
+    </body>
+
+    <!-- footer from partials/ -->
+    <%- include ('partials/footer.ejs') -%>
+
+</html>

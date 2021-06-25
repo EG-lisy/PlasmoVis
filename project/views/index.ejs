@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- header from partials/ -->
+<%- include ('partials/header.ejs') -%>
+
+
+    <!-- textbox -->
+    <section class="textbox">
+        <h1>Welcome to PlasmoVis</h1>
+        <p>The Genomic Variant Platform<br>for Plasmodium malariae species</p>
+        <!--<a href="https://github.com/EG-lisy/PlasmoVis" target="_blank" class="btn">Visit Us</a>-->
+        <a href="/browser" target="_blank" class="btn-index">Genome Browser</a>
+    </section>
+
+    <!--    DESCRIPTIONS - test   -->
+    <section class="description">
+        <h1>Testing Columns</h1>
+        <p>Lorem ipsum</p><br>
+
+        <div class="row">
+            <div class="col_one">
+                <h3>Query Data</h3>
+                <p>Inspect data stored in PlasmoVis<br>
+                    <a href="/tabletest">Click Here</a>
+
+                </p>
+            </div>
+            <div class="col_two">
+                <h3>Two</h3>
+                <p>Lorem ipsum dolor<br>
+                    Pell....
+                </p>
+            </div>
+            <div class="col_three">
+                <h3>Three</h3>
+                <p>Lorem ipsum dolor<br>
+                    Pell....
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer from partials/ -->
+    <%- include ('partials/footer.ejs') -%>
+</html>

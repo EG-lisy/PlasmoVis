@@ -1,0 +1,77 @@
+[
+    {
+        "sample_id": "ERR985372_bqsr",
+        "location": "Betong",
+        "tot_samples": 15
+    },
+    {
+        "sample_id": "DBPalpha._Ko_bqsr",
+        "location": "Clinic/Lab",
+        "tot_samples": 12
+    },
+    {
+        "sample_id": "ERR3374031_bqsr",
+        "location": "Gua Musang",
+        "tot_samples": 4
+    },
+    {
+        "sample_id": "KEL30004_bqsr",
+        "location": "Johor",
+        "tot_samples": 1
+    },
+    {
+        "sample_id": "ERR2214837_bqsr",
+        "location": "Kapit",
+        "tot_samples": 54
+    },
+    {
+        "sample_id": "KTLT009_bqsr",
+        "location": "Kelantan",
+        "tot_samples": 1
+    },
+    {
+        "sample_id": "ERR3374035_bqsr",
+        "location": "Kuala Lipis",
+        "tot_samples": 16
+    },
+    {
+        "sample_id": "UM02_bqsr",
+        "location": "NA",
+        "tot_samples": 1
+    },
+    {
+        "sample_id": "swga_0137_f_bqsr",
+        "location": "Peninsula",
+        "tot_samples": 1
+    },
+    {
+        "sample_id": "PKAP_KK41_bqsr",
+        "location": "Sabah",
+        "tot_samples": 14
+    },
+    {
+        "sample_id": "ERR274221_bqsr",
+        "location": "Sarikei",
+        "tot_samples": 13
+    },
+    {
+        "sample_id": "SEL3001_bqsr",
+        "location": "Selangor",
+        "tot_samples": 1
+    },
+    {
+        "sample_id": "ERR3374051_bqsr",
+        "location": "Sungai Siput",
+        "tot_samples": 4
+    },
+    {
+        "sample_id": "ERR3374057_bqsr",
+        "location": "Taiping",
+        "tot_samples": 2
+    },
+    {
+        "sample_id": "ERR3374055_bqsr",
+        "location": "Temerloh",
+        "tot_samples": 2
+    }
+]
