@@ -1,7 +1,7 @@
 <br><br>
 <img style="float: center;" src="plasmoVis_logo.png" width="550"> </img>
 
-#
+# JUST A RAW SCHELETON...to be done...
 
 PlasmoVis is a species-specific genomic variant browser specifically developped to inspect Plasmodium malariae variations.
 
@@ -18,12 +18,11 @@ Complete web page view<br>
 If the user is using a smaller screen, the menu will adapt accordingly
 ![responsive](responsive.png)
 
-
 # Prerequisites
 Prerequisites<br>
 
-- [RStudio](https://www.rstudio.com/products/rstudio/download/ "RStudio") (free version) <br>
-- [R](https://cran.r-project.org "R") 
+- [One](https://www.rstudio.com/products/rstudio/download/ "RStudio") (free version) <br>
+- [Two](https://cran.r-project.org "R") 
 
 BSAvis package requires merged Variant Calling Format (`VCF`) files as input files, generated using `GATK4`.<br> 
 
@@ -31,7 +30,6 @@ BSAvis package requires merged Variant Calling Format (`VCF`) files as input fil
 - [Variant Calling Steps](https://github.com/FadyMohareb/BSAvis_GP_2020/blob/main/QC_Alignment_VC/alignment_variantCalling/steps/variantCalling_steps.txt "Variant Calling Steps")
 
 
-* `test.RData`
 * `test.vcf` 
 
 
@@ -45,5 +43,5 @@ Developed by Elisabetta Galatola
 
 Applied Bioinformatics MSc
 Cranfield University - Cranfield, Bedford, UK
-Academic Year: 2020-202
+Academic Year: 2020-2021
 ```
