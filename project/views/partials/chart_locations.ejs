@@ -1,0 +1,165 @@
+<!-- Chart.js library: data visualisation-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>Sample Location</title>
+</head>
+
+<body>
+
+  <div class="chart-container">
+    <canvas id="locationChart"></canvas>
+  </div>
+
+
+  <script>
+    // var for chart
+    let locationChart = document.getElementById('locationChart').getContext('2d');
+
+    // Global Options
+    Chart.defaults.global.defaultFontFamily = 'Arial';
+    Chart.defaults.global.defaultFontSize = 12;
+    Chart.defaults.global.defaultFontColor = '#777';
+
+    let massPopChart = new Chart(locationChart, {
+
+      //all properties, data
+      type: 'bar', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
+
+      data: {
+
+        labels: ['Location'],
+
+        datasets: [{
+          label: 'Betong',
+          backgroundColor: "#277da1",
+          data: [15]
+        }, {
+          label: 'Gua Musang',
+          backgroundColor: "#577590",
+          data: [4]
+        }, {
+          label: 'Johor',
+          backgroundColor: "#87CEFA",
+          data: [1]
+        }, {
+          label: 'Kapit',
+          backgroundColor: "#43aa8b",
+          data: [54]
+        }, {
+          label: 'Kelantan',
+          backgroundColor: "#90be6d",
+          data: [1]
+        }, {
+          label: 'Kuala Lipis',
+          backgroundColor: "#f9c74f",
+          data: [16]
+        }, {
+          label: 'Peninsula',
+          backgroundColor: "#f9844a",
+          data: [1]
+        }, {
+          label: 'Sabah',
+          backgroundColor: "#ff595e",
+          data: [14]
+        }, {
+          label: 'Sarikei',
+          backgroundColor: "#a05195",
+          data: [13]
+        }, {
+          label: 'Selangor',
+          backgroundColor: "#55a630",
+          data: [1]
+        }, {
+          label: 'Sungai Siput',
+          backgroundColor: "#DB7093",
+          data: [4]
+        }, {
+          label: 'Taiping',
+          backgroundColor: "#FFE4E1",
+          data: [2]
+        }, {
+          label: 'Tamerloh',
+          backgroundColor: "#BC8F8F",
+          data: [2]
+        }, {
+          label: 'NA',
+          backgroundColor: "#777",
+          data: [1]
+        }, {
+          label: 'Clinic Lab',
+          backgroundColor: "#f7c59f",
+          data: [12]
+        }],
+
+
+      },
+
+
+      // data: {
+
+      //   labels: ['Betong', 'Gua Musang', 'Johor', 'Kapit', 'Kelantan', 'Kuala Lipis', 'Peninsula', 'Sabah', 'Sarikei', 'Selangor', 'Sungai Siput', 'Taiping', 'Tamerloh', 'NA', 'Clinic Lab'],
+
+      //   ///CHECK THIS OUT https://codepen.io/jordanwillis/pen/xqrjGp
+      //   datasets: [{
+      //     label: 'Samples',
+      //     data: [
+      //       15, 4, 1, 54, 1, 16, 1, 14, 13, 1, 4, 2, 2, 1, 12
+      //     ],
+      //     //backgroundColor:'green',
+      //     backgroundColor: [
+      //       '#277da1', '#577590', '#4e78b5', '#43aa8b', '#90be6d', '#f9c74f', '#f9844a', '#ff595e', '#a05195', '#55a630', '#f08080', '#ffcb77', '#fe6d73', '#777', '#f7c59f',
+
+      //       // '#277da1', '#2f4b7c', '#665191', '#a05195', '#d45087', '#f95d6a', '#ff7c43', '#ffa600', '#43aa8b', '#577590', '#55a630', '#43aa8b', '#ffcb77', '#777', '#f7c59f'
+      //     ],
+      //   }]
+      // },
+
+      options: {
+        // title: {
+        //   display: true,
+        //   // text: 'Sample counts',
+        //   fontSize: 25
+        // },
+        responsive: true,
+        maintainAspectRatio: false,
+        legend: {
+          display: true,
+          position: 'right',
+          labels: {
+            fontColor: '#000'
+          }
+        },
+        layout: {
+          padding: {
+            left: 50,
+            right: 0,
+            bottom: 0,
+            top: 0
+          }
+        },
+        tooltips: {
+          enabled: true
+        },
+
+        scales: {
+          yAxes: [{
+            ticks: {
+              beginAtZero: true
+            }
+          }]
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>

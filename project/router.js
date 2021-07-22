@@ -10,7 +10,27 @@ metadata_router.use(function (req, res, next) {
 });
 
 metadata_router.get('/locations', function (req, res) {
-    const query = 'SELECT sample_id, location, COUNT(location) AS tot_samples FROM metadata GROUP BY location;';
+    const query = 'SELECT location, COUNT(location) AS tot_samples FROM metadata GROUP BY location;';
+    db.all(query, [], function (err, rows) {
+        if (err) {
+            throw err;
+        }
+        res.json(rows);
+    });
+});
+
+metadata_router.get('/groups', function (req, res) {
+    const query = 'SELECT group_pca, COUNT(group_pca) AS groups FROM metadata GROUP BY group_pca;';
+    db.all(query, [], function (err, rows) {
+        if (err) {
+            throw err;
+        }
+        res.json(rows);
+    });
+});
+
+metadata_router.get('/metadata', function (req, res) {
+    const query = 'SELECT * FROM metadata';
     db.all(query, [], function (err, rows) {
         if (err) {
             throw err;

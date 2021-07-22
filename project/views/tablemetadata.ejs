@@ -1,5 +1,5 @@
 <!--https://www.convertjson.com/json-to-html-table.htm -->
-<!-- https://www.youtube.com/watch?v=yGBk9Nalyq8 CHECK!!!!! DATA TABçE -->
+<!-- https://www.youtube.com/watch?v=yGBk9Nalyq8 CHECK!!!!! DATA TABLE -->
 <!-- https://mdbootstrap.com/docs/b4/jquery/tables/search/ -->
 
 <!DOCTYPE html>
@@ -7,6 +7,51 @@
 
 <!-- header from partials/ -->
 <%- include ('partials/header.ejs') -%>
+
+    <!--  ----------------------------------LOGO------------------------------------------- -->
+    <section class="description">
+        <img src="img/plasmoVis_logo.png">
+    </section>
+
+    <!--  ----------------------------------MAP------------------------------------------- -->
+    <div class='map' style="width: 100%;">
+        <!-- include AnyChart partial (Malaysia map)-->
+        <br><br><br>
+        <%- include ('partials/map_mal.ejs') -%>
+    </div>
+
+
+    <!--  ----------------------------------DESC------------------------------------------- -->
+    <section class="description">
+        <p>Dataset Overview (P. knowlesi)</p>
+        <div class="igv_btn">
+            <a href="/igv" target="_blank">GO BACK TO GENOME BROWSWER</a>
+        </div>
+
+        <div class="row">
+            <!--  ---------------------------------- Location - using partials ------------------------------------------- -->
+            <div class="col_one">
+                <h3>Sample Location</h3>
+                <p>Sample counts based on location</p><br>
+
+                <%- include ('partials/chart_locationsv2.ejs') -%>
+            </div>
+
+            <!--  ---------------------------------- Groups - using iframe ------------------------------------------- -->
+            <div class="col_two" style="width:40%;">
+                <h3>Groups</h3>
+                <p>Sample counts based on group</p><br>
+                <iframe src="http://localhost:3000/groupschart" scrolling="no" frameBorder="0"
+                    style=" width: 100%; height: 100%;  overflow: hidden;"></iframe>
+            </div>
+        </div>
+
+        <h3>Sample List</h3>
+
+    </section>
+
+
+    <!--  ----------------------------------Table------------------------------------------- -->
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
@@ -17,11 +62,11 @@
         <div class="row justify-content-center">
             <table id="metadataTable" class="table table-striped table-bordered table-sm table-hover">
 
-
-                <%- include ('partials/table.ejs') -%>
-
+                <%- include ('partials/table_locations.ejs') -%>
             </table>
+
         </div>
+
 
         <!-- https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -38,7 +83,9 @@
                 //$('.dataTables_length').addClass('bs-select');
             });
         </script>
-
     </body>
+
+    <!-- footer from partials/ -->
+    <%- include ('partials/footer.ejs') -%>
 
 </html>

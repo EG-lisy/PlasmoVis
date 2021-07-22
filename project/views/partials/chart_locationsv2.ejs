@@ -1,0 +1,74 @@
+<!-- TESTING -->
+
+<!-- Chart.js library: data visualisation -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>Sample Location</title>
+</head>
+
+<body>
+
+  <div class="containerv2">
+    <canvas id="myChart"></canvas>
+  </div>
+
+
+  <script>
+    // var for chart
+    let myChart = document.getElementById('myChart').getContext('2d');
+
+    // Global Options
+    Chart.defaults.global.defaultFontFamily = 'Arial';
+    Chart.defaults.global.defaultFontSize = 12;
+    Chart.defaults.global.defaultFontColor = '#777';
+
+    let massPopChart = new Chart(myChart, {
+
+      //all properties, data
+      type: 'horizontalBar', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
+      data: {
+
+        labels: ['Betong', 'Gua Musang', 'Johor', 'Kapit', 'Kelantan', 'Kuala Lipis', 'Peninsula', 'Sabah', 'Sarikei', 'Selangor', 'Sungai Siput', 'Taiping', 'Tamerloh', 'NA', 'Clinic Lab'],
+
+        ///CHECK THIS OUT https://codepen.io/jordanwillis/pen/xqrjGp
+        datasets: [{
+          data: [
+            15, 4, 1, 54, 1, 16, 1, 14, 13, 1, 4, 2, 2, 1, 12
+          ],
+          //backgroundColor:'green',
+          backgroundColor: [
+            '#277da1', '#577590', '#87CEFA', '#43aa8b', '#90be6d', '#f9c74f', '#f9844a', '#ff595e', '#a05195', '#55a630', '#DB7093', '#FFE4E1', '#BC8F8F', '#777', '#f7c59f',
+          ],
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        legend: {
+          display: false,
+          position: 'right',
+          labels: {
+            fontColor: "#000080",
+          }
+        },
+        scales: {
+          xAxes: [{
+            ticks: {
+              beginAtZero: true
+            }
+          }]
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>

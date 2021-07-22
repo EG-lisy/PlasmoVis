@@ -1,0 +1,72 @@
+<!-- Chart.js library: data visualisation-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Sample Location</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <canvas id="myChart"></canvas>
+    </div>
+
+
+    <script>
+        // var for chart
+        let myChart = document.getElementById('myChart').getContext('2d');
+
+        // Global Options
+        Chart.defaults.global.defaultFontFamily = 'Arial';
+        Chart.defaults.global.defaultFontSize = 12;
+        Chart.defaults.global.defaultFontColor = '#777';
+
+        let massPopChart = new Chart(myChart, {
+
+            type: 'horizontalBar',
+            data: {
+                labels: ['Groups'],
+                datasets: [{
+                    label: 'Mf-Pk',
+                    backgroundColor: "#004c6d",
+                    data: [56]
+                }, {
+                    label: 'Mn-Pk',
+                    backgroundColor: "#6996b3",
+                    data: [40]
+                }, {
+                    label: 'Pen-Pk',
+                    backgroundColor: "#c1e7ff",
+                    data: [45]
+                }]
+            },
+            options: {
+                responsive: false,
+                maintainAspectRatio: false,
+                legend: {
+                    display: true,
+                    position: 'right',
+                    labels: {
+                        fontColor: "#000080",
+                    }
+                },
+                scales: {
+                    xAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -3,26 +3,28 @@
 
 <!-- header from partials/ -->
 <%- include ('partials/header.ejs') -%>
-
-
+    <!--embedding IGV.js-->
     <script src="https://igv.org/web/release/2.1.0/dist/igv.min.js"></script>
-    <div>
-        <h1>Testing IGV.js</h1>
 
+    <div>
+        
+        <!-- <h1>Genomic Variant Browser (P. knowlesi)</h1> -->
         <div id="igv-div" style="padding-top: 10px;padding-bottom: 10px; border:1px solid lightgray"></div>
 
+        <!--IGV.js script-->
         <script type="text/javascript">
             var igvDiv = document.getElementById("igv-div");
 
             var options = {
-                "locus": "ordered_PKNH_01_v2:1-892,570",
+                "locus": "PKNH_MIT_v2:1-5,957",
 
                 "reference": {
                     "id": "P. knowlesi",
                     "fastaURL": "https://www.dropbox.com/s/jbcf4wyvef0mglp/strain_A1_H.1.Icor.fasta",
+                    //"fastaURL": "localhost:3000/pk_data/strain_A1_H.1.Icor.fasta", // !!! error
+                    //"indexURL": "localhost:3000/pk_data/strain_A1_H.1.Icor.fasta.fai", // !!! error
                     "indexURL": "https://www.dropbox.com/s/gv03eq28ta4gco3/strain_A1_H.1.Icor.fasta.fai",
-                    // "fastaURL": "https://www.dropbox.com/s/qrlwtygej3z439i/PlasmoDB-52_PknowlesiH_Genome.fasta",
-                    // "indexURL": "https://www.dropbox.com/s/egfr5xxe3j56wu9/PlasmoDB-52_PknowlesiH_Genome.fasta.fai",
+
 
                     "tracks": [
                         {
@@ -31,7 +33,9 @@
                             // "type": "annotation",
                             "format": "gff3",
                             "url": "https://www.dropbox.com/s/hjoin75wiwr10y0/out.sorted.gff3.gz",
+                            //"url": "localhost:8080/static/pk_data/out.sorted.gff3.gz", !!!error
                             "indexURL": "https://www.dropbox.com/s/yi0vwiu839wupie/out.sorted.gff3.gz.tbi",
+                            // "indexURL": "localhost:8080/static/pk_data/out.sorted.gff3.gz.tbi", !!!error
                             "displayMode": "EXPANDED",
                             "indexed": true,
                             // "supportsWholeGenome": true,
@@ -55,16 +59,112 @@
 
                         // }
 
-                        // THIS TAKES TOO MUCH TIME!!!
+                        //Mf-Pk
                         {
                             "type": "variant",
-                            "format":"vcf",
-                            "url": "https://www.dropbox.com/s/gpysbmdaf07k4n4/ERR274221_bqsr.vcf.gz",
-                            "indexURL": "https://www.dropbox.com/s/62qlspddnynhcue/ERR274221_bqsr.vcf.gz.tbi?dl=0",
-                            "name": "ERR274221",
+                            "format": "vcf",
+                            "url": "https://www.dropbox.com/s/auk44klw73itrkh/filteredERR274221_bqsr.vcf.gz",
+                            "indexURL": "https://www.dropbox.com/s/oisxejawq6lnszb/filteredERR274221_bqsr.vcf.gz.tbi",
+                            "name": "ERR274221 (Sarikei - Mf-Pk)",
+                            "color": "#004c6d"
 
+                        },
+
+                        {
+                            "type": "variant",
+                            "format": "vcf",
+                            "url": "https://www.dropbox.com/s/fapmv1sc44umotg/filteredERR985372_bqsr.vcf.gz",
+                            "indexURL": "https://www.dropbox.com/s/48bqtcme1xpbo37/filteredERR985372_bqsr.vcf.gz.tbi",
+                            "name": "ERR985372 (Betong - Mf-Pk)",
+                            "color": "#004c6d"
+
+                        },
+                        {
+                            "type": "variant",
+                            "format": "vcf",
+                            "url": "https://www.dropbox.com/s/2mrs3xz3nouwz2a/filteredERR985385_bqsr.vcf.gz",
+                            "indexURL": "https://www.dropbox.com/s/t3go364dpl89cwm/filteredERR985385_bqsr.vcf.gz.tbi",
+                            "name": "ERR985385 (Kapit - Mf-Pk)",
+                            "color": "#004c6d"
+
+                        },
+                        // {
+                        //     "type": "variant",
+                        //     "format": "vcf",
+                        //     "url": "https://www.dropbox.com/s/olr3gpt1lqnayjz/ERR274221_bqsr.g.vcf.gz",
+                        //     "indexURL": "https://www.dropbox.com/s/gpctajfcniwzu9z/ERR274221_bqsr.g.vcf.gz.tbi",
+                        //     "name": "ERR274221 (SARIKEI UNFILTERED)",
+
+                        // },
+                        {
+                            "type": "variant",
+                            "format": "vcf",
+                            "url": "https://www.dropbox.com/s/t295lx92z9jlqag/filteredERR274224_bqsr.vcf.gz",
+                            "indexURL": "https://www.dropbox.com/s/euvkt2nh6hjcbx0/filteredERR274224_bqsr.vcf.gz.tbi",
+                            "name": "ERR274224 (Sarikei - Mn-Pk)",
+                            "color": "#6996b3"
+
+
+                        },
+
+                        //Mn-Pk
+                        {
+                            "type": "variant",
+                            "format": "vcf",
+                            "url": "https://www.dropbox.com/s/1rnp9dasnw7tphr/filteredERR985411_bqsr.vcf.gz",
+                            "indexURL": "https://www.dropbox.com/s/ez5hdbiem9n5ijb/filteredERR985411_bqsr.vcf.gz.tbi",
+                            "name": "ERR985411 (Betong - Mn-Pk)",
+                            "color": "#6996b3"
+
+                        },
+                        {
+                            "type": "variant",
+                            "format": "vcf",
+                            "url": "https://www.dropbox.com/s/ju77jv4ucxlyg7v/filteredERR2214837_bqsr.vcf.gz",
+                            "indexURL": "https://www.dropbox.com/s/ic7n5rxsbgkr0lh/filteredERR2214837_bqsr.vcf.gz.tbi",
+                            "name": "ERR2214837 (Kapit - Mn-Pk)",
+                            "color": "#6996b3"
+                        },
+
+                        //Pen-Pk
+                        {
+                            "type": "variant",
+                            "format": "vcf",
+                            "url": "https://www.dropbox.com/s/4wiuwi5urds6r88/filteredERR3374031_bqsr.vcf.gz",
+                            "indexURL": "https://www.dropbox.com/s/rblgobzhr5uab7e/filteredERR3374031_bqsr.vcf.gz.tbi",
+                            "name": "ERR3374031 (Gua Musang - Pen-Pk)",
+                            "color": "#c1e7ff"
+                        },
+                        {
+                            "type": "variant",
+                            "format": "vcf",
+                            "url": "https://www.dropbox.com/s/ek3laz9wtxj1amr/filteredERR3374051_bqsr.vcf.gz",
+                            "indexURL": "https://www.dropbox.com/s/c6ibne3jd5luth8/filteredERR3374051_bqsr.vcf.gz.tbi",
+                            "name": "ERR3374051 (Sungai Siput - Pen-Pk)",
+                            "color": "#c1e7ff"
+                        },
+                        {
+                            "type": "variant",
+                            "format": "vcf",
+                            "url": "https://www.dropbox.com/s/f49jzxe5wmbcsj3/filteredSRR2221468_bqsr.vcf.gz",
+                            "indexURL": "https://www.dropbox.com/s/f2lx1ynmflfutoy/filteredSRR2221468_bqsr.vcf.gz.tbi",
+                            "name": "SRR2221468 (Clinic/Lab - Pen-Pk)",
+                            "color": "#c1e7ff"
                         }
 
+
+                        // https://www.dropbox.com/s/4wiuwi5urds6r88/filteredERR3374031_bqsr.vcf.gz
+                        // https://www.dropbox.com/s/rblgobzhr5uab7e/filteredERR3374031_bqsr.vcf.gz.tbi
+
+                        // https://www.dropbox.com/s/ju77jv4ucxlyg7v/filteredERR2214837_bqsr.vcf.gz
+                        // https://www.dropbox.com/s/ic7n5rxsbgkr0lh/filteredERR2214837_bqsr.vcf.gz.tbi
+
+                        // https://www.dropbox.com/s/ek3laz9wtxj1amr/filteredERR3374051_bqsr.vcf.gz
+                        // https://www.dropbox.com/s/c6ibne3jd5luth8/filteredERR3374051_bqsr.vcf.gz.tbi
+
+                        //  filteredERR3374031_bqsr.vcf  Gua Musang - Pen-Pk
+                        // filteredERR2214837_bqsr.vcf Kapit Mn-Pk
+                        // filteredERR3374051_bqsr.vcf Sungai Siput Pen-Pk
 
                     ]
                 }
@@ -77,7 +177,7 @@
                 })
 
         </script>
-<!-- 
+        <!-- 
         <body>
             <h1>Local File Test</h1>
             <div>
@@ -161,5 +261,52 @@
             </div>
         </body> -->
     </div>
+
+    <!--  ----------------------------------GENE IDs------------------------------------------- -->
+
+    <section class="description">
+        <h3>Gene Name Search</h3>
+        <p>Reference gene names ("PKNH") can be inspected directly on <a
+                href="https://plasmodb.org/plasmo/app">Plasmodb</a></p>
+    </section>
+
+
+    <!--  ---------------------------------- JQUERY ------------------------------------------- -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+
+    <body>
+        <!-- table from partials/ -->
+
+        <div class="row justify-content-center">
+            <table id="genesTable" class="table table-striped table-bordered table-sm table-hover">
+                <%- include ('partials/table_genes.ejs') -%>
+            </table> 
+            <%- include ('partials/chart_groups.ejs') -%>
+        </div>
+
+
+        <!-- https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+        <script src=" https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap4.min.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                //$('#metadataTable').DataTable();
+                $('#genesTable').DataTable();
+                //$('.dataTables_length').addClass('bs-select');
+            });
+        </script>
+    </body>
+
+    <!-- footer from partials/ -->
+    
+    <%- include ('partials/footer.ejs') -%>
 
 </html>

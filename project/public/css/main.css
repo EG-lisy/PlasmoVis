@@ -287,8 +287,47 @@ footer a{
   color:white;
 }
 
- /* =================            BUTTON-IGV            ================= */
+ /* =================            CHARTS            ================= */
 
 iframe{
   overflow:hidden;
+}
+
+.chart-container { /* groups */
+  width: 10px;
+  height:400px
+}
+
+.container {  /* locations v1 - not used */
+  width: 400px;
+  height:500px
+} 
+
+
+.containerv2 { /* locations v2 */
+  width: 600px;
+  height:400px
+}
+
+
+/* =================            Back Button - to IGV            ================= */
+
+.igv_btn {
+  color: #333;
+  font-size:12;
+  text-decoration: none;
+}
+.igv_btn a{
+  color: #333;
+  font-size:12;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.igv_btn a:hover {
+    background-color:whitesmoke; 
+  text-decoration: none;
+    color: #333;
+    transition: 0.5s;
+
 }

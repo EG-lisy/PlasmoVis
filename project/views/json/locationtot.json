@@ -1,0 +1,62 @@
+[
+    {
+        "location": "Betong",
+        "tot_samples": 15
+    },
+    {
+        "location": "Clinic/Lab",
+        "tot_samples": 12
+    },
+    {
+        "location": "Gua Musang",
+        "tot_samples": 4
+    },
+    {
+        "location": "Johor",
+        "tot_samples": 1
+    },
+    {
+        "location": "Kapit",
+        "tot_samples": 54
+    },
+    {
+        "location": "Kelantan",
+        "tot_samples": 1
+    },
+    {
+        "location": "Kuala Lipis",
+        "tot_samples": 16
+    },
+    {
+        "location": "NA",
+        "tot_samples": 1
+    },
+    {
+        "location": "Peninsula",
+        "tot_samples": 1
+    },
+    {
+        "location": "Sabah",
+        "tot_samples": 14
+    },
+    {
+        "location": "Sarikei",
+        "tot_samples": 13
+    },
+    {
+        "location": "Selangor",
+        "tot_samples": 1
+    },
+    {
+        "location": "Sungai Siput",
+        "tot_samples": 4
+    },
+    {
+        "location": "Taiping",
+        "tot_samples": 2
+    },
+    {
+        "location": "Temerloh",
+        "tot_samples": 2
+    }
+]
