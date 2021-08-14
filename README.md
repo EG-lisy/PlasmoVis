@@ -1,30 +1,33 @@
 <br><br>
-<img style="float: center;" src="plasmoVis_logo.png" width="550"> </img>
-
-# JUST A RAW SCHELETON...to be done...
-
+<img style="float: center;" src="PV_pics/plasmoVis_logo.png" width="550"> </img>
 PlasmoVis is a  user-friendly web-based visualisation tool to assist with the analysis and visualisation of sequencing data, specifically to interrogate the genomic variation of P. malariae parasites. 
 
 ## Table of Contents
-> - [About](#About)
-> - [Preview](#Preview) 
+> - [About](#About)<br>
+> - [Prerequisites](#Prerequisites)<br>
+> - [Download PlasmoVis](#Preview) <br>
 > - [Prerequisites](#Prerequisites)<br>
 > - [Author](#Author)<br>
 
 # Prerequisites
+PlasmoVis is is compatible for being run either on Mac or Windows Operating Systems.
+Please check that you have <b>Node.js<b> installed on your computer before proceeding.
+
+- [Node.js](https://nodejs.org/it/download/ "Node.js")
+
+# Download
 
 PlasmoVis is is compatible for being run either on Mac or Windows Operating Systems.
+Please check that you have <b>Node.js<b> installed on your computer before proceeding.
 
-Requirement:
-- [Node.js](https://nodejs.org/it/download/ "Node.js")
 
 # Preview
 Complete web page view<br>
-![preview](preview.png)
+![preview](PV_pics/preview.png)
 
 ## Responsive view
 If the user is using a smaller screen, the menu will adapt accordingly
-![responsive](responsive.png)
+![responsive](PV_pics/responsive.png)
 
 # Prerequisites
 Prerequisites<br>
