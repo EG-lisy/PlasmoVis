@@ -1,0 +1,163 @@
+<div id="anychart-embed-custom-world" class="anychart-embed anychart-embed-custom-world">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.15/proj4.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-map.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-exports.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-ui.min.js"></script>
+    <script src="https://cdn.anychart.com/geodata/2.1.1/custom/world/world.js"></script>
+
+    <script>(function () {
+            function ac_add_to_head(el) {
+                var head = document.getElementsByTagName('head')[0];
+                head.insertBefore(el, head.firstChild);
+            }
+            function ac_add_link(url) {
+                var el = document.createElement('link');
+                el.rel = 'stylesheet'; el.type = 'text/css'; el.media = 'all'; el.href = url;
+                ac_add_to_head(el);
+            }
+            function ac_add_style(css) {
+                var ac_style = document.createElement('style');
+                if (ac_style.styleSheet) ac_style.styleSheet.cssText = css;
+                else ac_style.appendChild(document.createTextNode(css));
+                ac_add_to_head(ac_style);
+            }
+            ac_add_link('https://cdn.anychart.com/releases/v8/css/anychart-ui.min.css');
+            ac_add_style(document.getElementById("ac_style_custom-world").innerHTML);
+            ac_add_style(".anychart-embed-custom-world{width:600px;height:450px; align:center;}");
+        })();</script>
+    <!-- 
+<div class="grid-container" style="display:grid;grid-template-columns: 1fr 1fr;"> Prova prova
+          <div class="first-grid" id="container_map" style="width:50%;float:left;padding:20px;border:2px solid red;"></div>
+    </div> -->
+
+    <div id='container-map'></div>
+
+    <script>
+        anychart.onDocumentReady(function () {
+            // create map
+            var map = anychart.map();
+
+            // zoom control
+            // var zoomController = anychart.ui.zoom();
+            // zoomController.target(map);
+            // zoomController.render();
+
+            // create data set
+            var dataSet = anychart.data.set(
+                [
+
+                    //Africa tot: 144 samples
+                    { "id": "AG", "value": 1 }, //ALGERIA
+                    { "id": "AO", "value": 11 }, //ANGOLA
+                    { "id": "CM", "value": 6 }, //CAMEROON
+                    { "id": "CT", "value": 1 }, //CENTRAL AFRICAN REPUBLIC
+                    { "id": "CF", "value": 8 }, //CONGO + DEMOCRATIC REP OF CONGO
+                    { "id": "EK", "value": 1 }, //EQ GUNEA
+                    { "id": "GA", "value": 12 }, //GABON
+                    { "id": "GH", "value": 15 }, //GHANA
+                    { "id": "GV", "value": 2 },  //GUINEA
+                    { "id": "IV", "value": 1 }, //IVORY COAST
+                    { "id": "KE", "value": 12 }, ////KENYA
+                    { "id": "LI", "value": 2 }, //LIBERIA
+                    { "id": "MI", "value": 6 }, //MALAWI
+                    { "id": "MZ", "value": 1 }, //MOZAMBIQUE
+                    { "id": "NG", "value": 29 }, //NIGERIA
+                    { "id": "SG", "value": 1 }, //SENEGAL
+                    { "id": "SL", "value": 8 }, //SIERRA LEONE
+                    { "id": "SU", "value": 10 }, //SUDAN
+                    { "id": "TZ", "value": 2 }, //TANZANIA
+                    { "id": "GA", "value": 1 },//GAMBIA
+                    { "id": "UG", "value": 14 },//UGANDA
+
+                    //Asia tot: 21
+                    { "id": "LA", "value": 1 }, //LAOS
+                    { "id": "MY", "value": 1 }, //SE ASIA (SET AS MALAYSIA)
+                    { "id": "TH", "value": 19 }, //THAILAND TH
+
+                    //Americas tot: 6
+                    { "id": "BR", "value": 6 }, //BRAZIL
+
+                      //Australasia tot: 1
+                      { "id": "PG", "value": 1 }, //PAPUA NEW GUINEA
+                ]
+            );
+
+            map.listen('pointClick', function (e) {
+                map.zoomToFeature(e.point.get('id'));
+            })
+
+            // create choropleth series
+            series = map.choropleth(dataSet);
+
+            // set geoIdField to 'id', this field contains in geo data meta properties
+            series.geoIdField('id');
+
+            // set map color settings
+            series.colorScale(anychart.scales.linearColor('#deebf7', '#3182bd'));
+            series.hovered().fill('#addd8e');
+
+            // set geo data, you can find this map in our geo maps collection
+            // https://cdn.anychart.com/#maps-collection
+            map.geoData(anychart.maps['world']);
+
+            //set map container id (div)
+            map.container('container-map');
+
+            //initiate map drawing
+            map.draw();
+        });
+    </script>
+
+    <script>
+
+        //   var scale = anychart.scales.ordinalColor([
+        //     { less: 5 },
+        //     { from: 5, to: 10 },
+        //     { from: 10, to: 20 },
+        //     { greater: 30 }
+        //   ]);
+        //   scale.colors([
+        //     '#81d4fa',
+        //     '#4fc3f7',
+        //     '#29b6f6',
+        //     '#039be5',
+        //     '#0288d1',
+        //     '#0277bd',
+        //     '#01579b',
+        //     '#014377',
+        //     '#000000'
+        //   ]);
+
+        //   var colorRange = map.colorRange();
+        //   colorRange.enabled(true).padding([0, 0, 20, 0]);
+        //   colorRange
+        //     .ticks()
+        //     .enabled(true)
+        //     .stroke('3 #ffffff')
+        //     .position('center')
+        //     .length(7);
+        //   colorRange.colorLineSize(5);
+        //   colorRange.marker().size(7);
+        //   colorRange
+        //     .labels()
+        //     .fontSize(11)
+        //     .padding(3, 0, 0, 0)
+        //     .format(function () {
+        //       var range = this.colorRange;
+        //       var name;
+        //       if (isFinite(range.start + range.end)) {
+        //         name = range.start + ' - ' + range.end;
+        //       } else if (isFinite(range.start)) {
+        //         name = 'More than ' + range.start + ' samples';
+        //       } else {
+        //         name = 'Less than ' + range.end + ' samples';
+        //       }
+        //       return name;
+        //     });
+
+        //  series.colorScale(scale);
+    </script>
+</div>
+</script>
+</div>

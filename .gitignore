@@ -1,0 +1,4 @@
+.DS_store
+project/node_modules
+project/public/pk_data
+project/public/pm_data

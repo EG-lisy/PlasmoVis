@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- header from partials/ -->
+<%- include ('partials/header.ejs') -%>
+    <!--embedding IGV.js-->
+    <script src="https://igv.org/web/release/2.1.0/dist/igv.min.js"></script>
+
+    <div>
+
+        <!-- <h1>Genomic Variant Browser (P. knowlesi)</h1> -->
+        <div id="igv-div" style="padding-top: 10px;padding-bottom: 10px; border:1px solid lightgray"></div>
+
+        <!--IGV.js script-->
+        <script type="text/javascript">
+            var igvDiv = document.getElementById("igv-div");
+
+            var options = {
+                // FOCUS on gene of interest PmUG01_05034700 (chromosome 5) (Gene name: DHFR)
+                "locus": "PmUG01_05_v1:1,292,174-1,292,212",
+
+                "reference": {
+                    "id": "P. malariae",
+                    "fastaURL": "http://localhost:3000/pm_data/Pmalariae_fullgenome.fasta",
+                    "indexURL": "http://localhost:3000/pm_data/Pmalariae_fullgenome.fasta.fai",
+
+                    "tracks": [
+                        {
+                            "name": "Gene ID",
+                            "nameField": "ID",
+                            "type": "annotation",
+                            "format": "gff3",
+                            "url": "http://localhost:3000/pm_data/Pm.sorted.gff3.gz",
+                            "indexURL": "http://localhost:3000/pm_data/Pm.sorted.gff3.gz.tbi",
+                            "displayMode": "EXPANDED",
+                            "indexed": true,
+                            "labelAllFeatures": true
+
+                        },
+                        // Africa
+                        {
+                            "type": "variant",
+                            "format": "vcf",
+                            "url": "http://localhost:3000/pm_data/Pm60/Africa.merged.min_ac0.6.Fst.filt.csq.bi.GT.miss0.5.vqslod.filt.snps.vcf.gz",
+                            "indexURL": "http://localhost:3000/pm_data/Pm60/Africa.merged.min_ac0.6.Fst.filt.csq.bi.GT.miss0.5.vqslod.filt.snps.vcf.gz.tbi",
+                            "name": "Africa",
+                            "color": "#004c6d"
+
+                        },
+                        // Americas 
+                        {
+                            "type": "variant",
+                            "format": "vcf",
+                            "url": "http://localhost:3000/pm_data/Pm60/Americas.merged.min_ac0.6.Fst.filt.csq.bi.GT.miss0.5.vqslod.filt.snps.vcf.gz",
+                            "indexURL": "http://localhost:3000/pm_data/Pm60/Americas.merged.min_ac0.6.Fst.filt.csq.bi.GT.miss0.5.vqslod.filt.snps.vcf.gz.tbi",
+                            "name": "Americas",
+                            "color": "#6996b3"
+
+                        },
+                                // Asia
+                                {
+                            "type": "variant",
+                            "format": "vcf",
+                            "url": "http://localhost:3000/pm_data/Pm60/Asia.merged.min_ac0.6.Fst.filt.csq.bi.GT.miss0.5.vqslod.filt.snps.vcf.gz",
+                            "indexURL": "http://localhost:3000/pm_data/Pm60/Asia.merged.min_ac0.6.Fst.filt.csq.bi.GT.miss0.5.vqslod.filt.snps.vcf.gz.tbi",
+                            "name": "Asia",
+                            "color": "#c1e7ff"
+
+                        }
+
+                    ]
+                }
+            };
+
+
+            igv.createBrowser(igvDiv, options)
+                .then(function (browser) {
+                    console.log("Created IGV browser");
+                })
+
+        </script>
+    </div>
+
+    <!--  ----------------------------------GENE IDs------------------------------------------- -->
+
+    <section class="description">
+        <h3>Gene Name Search</h3>
+        <p>Reported gene names can be inspected directly on <a href="https://plasmodb.org/plasmo/app"
+                target="_blank">Plasmodb</a><br>Please note that not all gene IDs have a corresponding gene name</p>
+
+    </section>
+
+
+    <!--  ---------------------------------- JQUERY ------------------------------------------- -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+
+    <body>
+        <!-- table from partials/ -->
+
+        <div class="row justify-content-center">
+            <table id="genesTable" class="table table-striped table-bordered table-sm table-hover">
+                <%- include ('partials/table_genes_pm.ejs') -%>
+            </table>
+
+            <section class="description">
+                <iframe src="http://localhost:3000/vennchartpm60" scrolling="no" frameBorder="0"
+                    style="width: 45vw ; height: 55vh; overflow: hidden"></iframe>
+            </section>
+
+        </div>
+
+
+
+        <!-- https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+        <script src=" https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap4.min.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                //$('#metadataTable').DataTable();
+                $('#genesTable').DataTable();
+                //$('.dataTables_length').addClass('bs-select');
+            });
+        </script>
+    </body>
+
+    <!-- footer from partials/ -->
+
+    <%- include ('partials/footer.ejs') -%>
+
+</html>

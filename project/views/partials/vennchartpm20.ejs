@@ -1,0 +1,83 @@
+<div id="anychart-embed-samples-bct-venn-diagram-09" class="anychart-embed anychart-embed-samples-bct-venn-diagram-09">
+    <script
+        src="https://cdn.anychart.com/releases/8.10.0/js/anychart-base.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4"></script>
+    <script
+        src="https://cdn.anychart.com/releases/8.10.0/js/anychart-venn.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4"></script>
+    <script
+        src="https://cdn.anychart.com/releases/8.10.0/js/anychart-exports.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4"></script>
+    <script
+        src="https://cdn.anychart.com/releases/8.10.0/js/anychart-ui.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4"></script>
+    <div id="ac_style_samples-bct-venn-diagram-09" style="display:none;">
+    </div>
+
+    <script>(function () {
+            function ac_add_to_head(el) {
+                var head = document.getElementsByTagName('head')[0];
+                head.insertBefore(el, head.firstChild);
+            }
+            function ac_add_link(url) {
+                var el = document.createElement('link');
+                el.rel = 'stylesheet'; el.type = 'text/css'; el.media = 'all'; el.href = url;
+                ac_add_to_head(el);
+            }
+            function ac_add_style(css) {
+                var ac_style = document.createElement('style');
+                if (ac_style.styleSheet) ac_style.styleSheet.cssText = css;
+                else ac_style.appendChild(document.createTextNode(css));
+                ac_add_to_head(ac_style);
+            }
+            ac_add_link('https://cdn.anychart.com/releases/8.10.0/css/anychart-ui.min.css?hcode=a0c21fc77e1449cc86299c5faa067dc4');
+            ac_add_style(document.getElementById("ac_style_samples-bct-venn-diagram-09").innerHTML);
+            ac_add_style(".anychart-embed-samples-bct-venn-diagram-09{width:600px;height:450px;}");
+        })();</script>
+
+    <div id="container"></div>
+    <script>
+        anychart.onDocumentReady(function () {
+
+            // create data
+            var data = [
+                { x: "Africa", value: 100, custom_field: "839" },
+                { x: "Americas", value: 100, custom_field: "2257" },
+                { x: "Asia", value: 100, custom_field: "2102" },
+                { x: ["Africa", "Americas"], value: 20, custom_field: "443" },
+                { x: ["Africa", "Asia"], value: 20, custom_field: "757" },
+                { x: ["Americas", "Asia"], value: 20, custom_field: "631" },
+                { x: ["Americas", "Africa", "Asia"], value: 20, custom_field: "2563" }
+            ];
+
+            // create a chart and set the data
+            chart = anychart.venn(data);
+
+            // configure labels of intersections 
+            chart.intersections().labels().format("{%custom_field}");
+
+            // show intersection names only if they are > 2
+            //     function () {
+            //     if (this.x.length > 2)
+            //         return this.x;
+            // });
+
+            // configure labels of circles
+            chart.labels().format("{%name}\n\n{%custom_field}");
+
+            // configure tooltips of circles
+            chart.tooltip().format(
+                "Unique SNPs: {%custom_field}"
+            );
+            // configure tooltips of intersections
+            chart.intersections().tooltip().format(
+                "Shared SNPs: {%custom_field}"
+            );
+
+            // set the chart title
+            chart.title("Variants Overview (Venn Diagram)");
+
+            // set the container id
+            chart.container('container');
+
+            // initiate drawing the chart
+            chart.draw();
+        });
+    </script>
+</div>

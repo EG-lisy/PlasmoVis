@@ -1,0 +1,18 @@
+[
+    {
+        "continent": "Africa",
+        "groups": 144
+    },
+    {
+        "continent": "Americas",
+        "groups": 6
+    },
+    {
+        "continent": "Asia",
+        "groups": 21
+    },
+    {
+        "continent": "Australasia",
+        "groups": 1
+    }
+]

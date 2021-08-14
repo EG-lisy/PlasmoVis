@@ -21,8 +21,8 @@
                 "reference": {
                     "id": "P. knowlesi",
                     "fastaURL": "https://www.dropbox.com/s/jbcf4wyvef0mglp/strain_A1_H.1.Icor.fasta",
-                    //"fastaURL": "localhost:3000/pk_data/strain_A1_H.1.Icor.fasta", // !!! error
-                    //"indexURL": "localhost:3000/pk_data/strain_A1_H.1.Icor.fasta.fai", // !!! error
+                    //"fastaURL": "https://localhost:3000/pk_data/strain_A1_H.1.Icor.fasta", // !!! error
+                    //"indexURL": "https://localhost:3000/pk_data/strain_A1_H.1.Icor.fasta.fai", // !!! error
                     "indexURL": "https://www.dropbox.com/s/gv03eq28ta4gco3/strain_A1_H.1.Icor.fasta.fai",
 
 
@@ -32,10 +32,17 @@
                             "nameField": "ID",
                             // "type": "annotation",
                             "format": "gff3",
-                            "url": "https://www.dropbox.com/s/hjoin75wiwr10y0/out.sorted.gff3.gz",
-                            //"url": "localhost:8080/static/pk_data/out.sorted.gff3.gz", !!!error
-                            "indexURL": "https://www.dropbox.com/s/yi0vwiu839wupie/out.sorted.gff3.gz.tbi",
-                            // "indexURL": "localhost:8080/static/pk_data/out.sorted.gff3.gz.tbi", !!!error
+                            //"url": "https://www.dropbox.com/s/hjoin75wiwr10y0/out.sorted.gff3.gz",
+                            
+                            "url": "http://localhost:3000/pk_data/out.sorted.gff3.gz", //!!!error
+
+                            //"url": "http://elvis.misc.cranfield.ac.uk/pk_data_static/out.sorted.gff3.gz",
+                            //"indexURL": "http://elvis.misc.cranfield.ac.uk/pk_data_static/out.sorted.gff3.gz.tbi",
+
+
+                            //"indexURL": "https://www.dropbox.com/s/yi0vwiu839wupie/out.sorted.gff3.gz.tbi",
+                           
+                            "indexURL": "http://localhost:3000/pk_data/out.sorted.gff3.gz.tbi", //!!!error
                             "displayMode": "EXPANDED",
                             "indexed": true,
                             // "supportsWholeGenome": true,
@@ -44,21 +51,20 @@
                             //  "color": "rgb(5,75,180)"  // change track col
 
                         },
-                        // {
-                        //     "name": "annotation",
-                        //     "type": "annotation",
-                        //     "format": "gff",
-                        //    // "url": "https://www.dropbox.com/s/bk1nic530j5lk4x/PlasmoDB-52_PknowlesiH.gff",
-                        //     //  "indexURL": "https://www.dropbox.com/s/yi0vwiu839wupie/out.sorted.gff3.gz.tbi", 
-                        //     "displayMode": "EXPANDED",
-                        //     "indexed": false,
-                        //     // "supportsWholeGenome": true,
-                        //     "labelAllFeatures": true
 
-                        //     //  "color": "rgb(5,75,180)"  // change track col
+                        /* merged_Mf NO!! see igv_gropus_Pk
+                        
+                        {
+                            "type": "variant",
+                            "format": "vcf",
+                            "url": "http://localhost:3000/pk_data/merged_Mf_Pk.vcf.gz",
+                           // "indexURL": "http://localhost:3000/pk_data/merged_Mf_Pk.vcf.gz.tbi",
+                            "name": "merged",
+                            "color": "#004c6d"
 
-                        // }
+                        }, */
 
+                        
                         //Mf-Pk
                         {
                             "type": "variant",
@@ -267,7 +273,7 @@
     <section class="description">
         <h3>Gene Name Search</h3>
         <p>Reference gene names ("PKNH") can be inspected directly on <a
-                href="https://plasmodb.org/plasmo/app">Plasmodb</a></p>
+                href="https://plasmodb.org/plasmo/app" target="_blank">Plasmodb</a></p>
     </section>
 
 

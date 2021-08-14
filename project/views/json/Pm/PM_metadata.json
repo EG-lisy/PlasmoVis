@@ -1,0 +1,1034 @@
+[
+    {
+        "sample_id": "PM_AGO_001",
+        "country": "Angola",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_AGO_002",
+        "country": "Angola",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_AGO_003",
+        "country": "Angola",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_AGO_004_com",
+        "country": "Angola",
+        "continent": "Africa",
+        "year": 2014
+    },
+    {
+        "sample_id": "PM_AGO_006",
+        "country": "Angola",
+        "continent": "Africa",
+        "year": 2001
+    },
+    {
+        "sample_id": "PM_AGO_007",
+        "country": "Angola",
+        "continent": "Africa",
+        "year": 2005
+    },
+    {
+        "sample_id": "PM_AGO_009",
+        "country": "Angola",
+        "continent": "Africa",
+        "year": 2019
+    },
+    {
+        "sample_id": "PM_AGO_010",
+        "country": "Angola",
+        "continent": "Africa",
+        "year": 2019
+    },
+    {
+        "sample_id": "PM_AGO_012",
+        "country": "Angola",
+        "continent": "Africa",
+        "year": 2017
+    },
+    {
+        "sample_id": "PM_AGO_013",
+        "country": "Angola",
+        "continent": "Africa",
+        "year": 2017
+    },
+    {
+        "sample_id": "PM_BRA_001",
+        "country": "Brazil",
+        "continent": "Americas",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_BRA_002",
+        "country": "Brazil",
+        "continent": "Americas",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_BRA_004",
+        "country": "Brazil",
+        "continent": "Americas",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_BRA_005",
+        "country": "Brazil",
+        "continent": "Americas",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_BRA_007",
+        "country": "Brazil",
+        "continent": "Americas",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_BRA_013",
+        "country": "Brazil",
+        "continent": "Americas",
+        "year": 2019
+    },
+    {
+        "sample_id": "PM_CAF_001",
+        "country": "Central African Republic",
+        "continent": "Africa",
+        "year": 2015
+    },
+    {
+        "sample_id": "PM_CIV_001",
+        "country": "Ivory Coast",
+        "continent": "Africa",
+        "year": 2015
+    },
+    {
+        "sample_id": "PM_CMR_001",
+        "country": "Cameroon",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_CMR_002",
+        "country": "Cameroon",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_CMR_003",
+        "country": "Cameroon",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_CMR_004",
+        "country": "Cameroon",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_CMR_006",
+        "country": "Cameroon",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_CMR_007",
+        "country": "Cameroon",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_COD_001",
+        "country": "Democratic Republic of Congo",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_COG_001",
+        "country": "Congo",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_COG_002",
+        "country": "Congo",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_COG_003",
+        "country": "Congo",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_COG_004",
+        "country": "Congo",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_COG_005",
+        "country": "Congo",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_COG_006",
+        "country": "Congo",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_COG_008",
+        "country": "Congo",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_DZA_001",
+        "country": "Algeria",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_GAB_002",
+        "country": "Gabon",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_GAB_003",
+        "country": "Gabon",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_GAB_004",
+        "country": "Gabon",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_GAB_005",
+        "country": "Gabon",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_GAB_006",
+        "country": "Gabon",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_GAB_007",
+        "country": "Gabon",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_GAB_009",
+        "country": "Gabon",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_GAB_011",
+        "country": "Gabon",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_GAB_013",
+        "country": "Gabon",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_GAB_015",
+        "country": "Gabon",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_GAB_016",
+        "country": "Gabon",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_GAB_018",
+        "country": "Gabon",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_GHA_001",
+        "country": "Ghana",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_GHA_002",
+        "country": "Ghana",
+        "continent": "Africa",
+        "year": 2014
+    },
+    {
+        "sample_id": "PM_GHA_003",
+        "country": "Ghana",
+        "continent": "Africa",
+        "year": 2014
+    },
+    {
+        "sample_id": "PM_GHA_004_com",
+        "country": "Ghana",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_GHA_005",
+        "country": "Ghana",
+        "continent": "Africa",
+        "year": 2015
+    },
+    {
+        "sample_id": "PM_GHA_006",
+        "country": "Ghana",
+        "continent": "Africa",
+        "year": 2015
+    },
+    {
+        "sample_id": "PM_GHA_007",
+        "country": "Ghana",
+        "continent": "Africa",
+        "year": 2013
+    },
+    {
+        "sample_id": "PM_GHA_008",
+        "country": "Ghana",
+        "continent": "Africa",
+        "year": 2017
+    },
+    {
+        "sample_id": "PM_GHA_009",
+        "country": "Ghana",
+        "continent": "Africa",
+        "year": 2013
+    },
+    {
+        "sample_id": "PM_GHA_010",
+        "country": "Ghana",
+        "continent": "Africa",
+        "year": 2011
+    },
+    {
+        "sample_id": "PM_GHA_011",
+        "country": "Ghana",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_GHA_012",
+        "country": "Ghana",
+        "continent": "Africa",
+        "year": 2019
+    },
+    {
+        "sample_id": "PM_GHA_014",
+        "country": "Guinea",
+        "continent": "Africa",
+        "year": 2019
+    },
+    {
+        "sample_id": "PM_GHA_015",
+        "country": "Ghana",
+        "continent": "Africa",
+        "year": 2019
+    },
+    {
+        "sample_id": "PM_GHA_016",
+        "country": "Ghana",
+        "continent": "Africa",
+        "year": 2019
+    },
+    {
+        "sample_id": "PM_GIN_001",
+        "country": "Ghana",
+        "continent": "Africa",
+        "year": 2019
+    },
+    {
+        "sample_id": "PM_GIN_002",
+        "country": "Guinea",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_GMB_001",
+        "country": "The Gambia",
+        "continent": "Africa",
+        "year": 2015
+    },
+    {
+        "sample_id": "PM_GNQ_001_com",
+        "country": "Equitorial Guinea",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_KEN_001",
+        "country": "Kenya",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_KEN_003",
+        "country": "Kenya",
+        "continent": "Africa",
+        "year": 2014
+    },
+    {
+        "sample_id": "PM_KEN_004",
+        "country": "Kenya",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_KEN_006",
+        "country": "Kenya",
+        "continent": "Africa",
+        "year": 2018
+    },
+    {
+        "sample_id": "PM_KEN_007_com",
+        "country": "Kenya",
+        "continent": "Africa",
+        "year": 2014
+    },
+    {
+        "sample_id": "PM_KEN_008",
+        "country": "Kenya",
+        "continent": "Africa",
+        "year": 2015
+    },
+    {
+        "sample_id": "PM_KEN_009",
+        "country": "Kenya",
+        "continent": "Africa",
+        "year": 2014
+    },
+    {
+        "sample_id": "PM_KEN_010",
+        "country": "Kenya",
+        "continent": "Africa",
+        "year": 2014
+    },
+    {
+        "sample_id": "PM_KEN_011",
+        "country": "Kenya",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_KEN_012",
+        "country": "Kenya",
+        "continent": "Africa",
+        "year": 2019
+    },
+    {
+        "sample_id": "PM_KEN_013",
+        "country": "Kenya",
+        "continent": "Africa",
+        "year": 2019
+    },
+    {
+        "sample_id": "PM_KEN_014",
+        "country": "Kenya",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_LAO_001",
+        "country": "Laos",
+        "continent": "Asia",
+        "year": 2017
+    },
+    {
+        "sample_id": "PM_LBR_002",
+        "country": "Liberia",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_LBR_003",
+        "country": "Liberia",
+        "continent": "Africa",
+        "year": 2017
+    },
+    {
+        "sample_id": "PM_MOZ_001",
+        "country": "Mozambique",
+        "continent": "Africa",
+        "year": 2013
+    },
+    {
+        "sample_id": "PM_MWI_001",
+        "country": "Malawi",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_MWI_002",
+        "country": "Malawi",
+        "continent": "Africa",
+        "year": 2017
+    },
+    {
+        "sample_id": "PM_MWI_003",
+        "country": "Malawi",
+        "continent": "Africa",
+        "year": 2017
+    },
+    {
+        "sample_id": "PM_MWI_004",
+        "country": "Malawi",
+        "continent": "Africa",
+        "year": 2012
+    },
+    {
+        "sample_id": "PM_MWI_005_com",
+        "country": "Malawi",
+        "continent": "Africa",
+        "year": 2014
+    },
+    {
+        "sample_id": "PM_MWI_006",
+        "country": "Malawi",
+        "continent": "Africa",
+        "year": 2013
+    },
+    {
+        "sample_id": "PM_NGA_001",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2017
+    },
+    {
+        "sample_id": "PM_NGA_002",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2017
+    },
+    {
+        "sample_id": "PM_NGA_003",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2017
+    },
+    {
+        "sample_id": "PM_NGA_004",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2017
+    },
+    {
+        "sample_id": "PM_NGA_005",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2017
+    },
+    {
+        "sample_id": "PM_NGA_006",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2017
+    },
+    {
+        "sample_id": "PM_NGA_007",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2017
+    },
+    {
+        "sample_id": "PM_NGA_008",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2017
+    },
+    {
+        "sample_id": "PM_NGA_009",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_NGA_010",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2014
+    },
+    {
+        "sample_id": "PM_NGA_011",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2013
+    },
+    {
+        "sample_id": "PM_NGA_012",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2013
+    },
+    {
+        "sample_id": "PM_NGA_013_com",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_NGA_014",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2017
+    },
+    {
+        "sample_id": "PM_NGA_015",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2010
+    },
+    {
+        "sample_id": "PM_NGA_016_com",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_NGA_017_com",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_NGA_019",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2011
+    },
+    {
+        "sample_id": "PM_NGA_021",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2019
+    },
+    {
+        "sample_id": "PM_NGA_022",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2019
+    },
+    {
+        "sample_id": "PM_NGA_023",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2019
+    },
+    {
+        "sample_id": "PM_NGA_024",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2019
+    },
+    {
+        "sample_id": "PM_NGA_025",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2019
+    },
+    {
+        "sample_id": "PM_NGA_026",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2019
+    },
+    {
+        "sample_id": "PM_NGA_027",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2019
+    },
+    {
+        "sample_id": "PM_NGA_028",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2019
+    },
+    {
+        "sample_id": "PM_NGA_029",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": 2018
+    },
+    {
+        "sample_id": "PM_NGA_031",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_NGA_033",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_PNG_001",
+        "country": "Papua New Guinea",
+        "continent": "Australasia",
+        "year": 2014
+    },
+    {
+        "sample_id": "PM_SDN_001",
+        "country": "Sudan",
+        "continent": "Africa",
+        "year": "S1085"
+    },
+    {
+        "sample_id": "PM_SDN_002",
+        "country": "Sudan",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_SDN_003",
+        "country": "Sudan",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_SDN_004_com",
+        "country": "Sudan",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_SDN_005",
+        "country": "Sudan",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_SDN_006",
+        "country": "Sudan",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_SDN_007",
+        "country": "Sudan",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_SDN_008",
+        "country": "Sudan",
+        "continent": "Africa",
+        "year": "??"
+    },
+    {
+        "sample_id": "PM_SDN_009",
+        "country": "Sudan",
+        "continent": "Africa",
+        "year": 2019
+    },
+    {
+        "sample_id": "PM_SDN_010",
+        "country": "Sudan",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_SEA_001",
+        "country": "Southeast Asia",
+        "continent": "Asia",
+        "year": 2018
+    },
+    {
+        "sample_id": "PM_SEN_001",
+        "country": "Senegal",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_SLE_001",
+        "country": "Sierra Leone",
+        "continent": "Africa",
+        "year": 2015
+    },
+    {
+        "sample_id": "PM_SLE_002",
+        "country": "Sierra Leone",
+        "continent": "Africa",
+        "year": 2014
+    },
+    {
+        "sample_id": "PM_SLE_003_com",
+        "country": "Sierra Leone",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_SLE_004",
+        "country": "Sierra Leone",
+        "continent": "Africa",
+        "year": 2014
+    },
+    {
+        "sample_id": "PM_SLE_005",
+        "country": "Sierra Leone",
+        "continent": "Africa",
+        "year": 2013
+    },
+    {
+        "sample_id": "PM_SLE_007",
+        "country": "Sierra Leone",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_SLE_008",
+        "country": "Sierra Leone",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_SLE_011_com",
+        "country": "Sierra Leone",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_THA_001",
+        "country": "Thailand",
+        "continent": "Asia",
+        "year": 1999
+    },
+    {
+        "sample_id": "PM_THA_002",
+        "country": "Thailand",
+        "continent": "Asia",
+        "year": 1999
+    },
+    {
+        "sample_id": "PM_THA_003",
+        "country": "Thailand",
+        "continent": "Asia",
+        "year": 1999
+    },
+    {
+        "sample_id": "PM_THA_004",
+        "country": "Thailand",
+        "continent": "Asia",
+        "year": 1999
+    },
+    {
+        "sample_id": "PM_THA_005",
+        "country": "Thailand",
+        "continent": "Asia",
+        "year": 1998
+    },
+    {
+        "sample_id": "PM_THA_006",
+        "country": "Thailand",
+        "continent": "Asia",
+        "year": 1999
+    },
+    {
+        "sample_id": "PM_THA_008_com",
+        "country": "Thailand",
+        "continent": "Asia",
+        "year": 2000
+    },
+    {
+        "sample_id": "PM_THA_009",
+        "country": "Thailand",
+        "continent": "Asia",
+        "year": 2000
+    },
+    {
+        "sample_id": "PM_THA_010",
+        "country": "Thailand",
+        "continent": "Asia",
+        "year": 1999
+    },
+    {
+        "sample_id": "PM_THA_011",
+        "country": "Thailand",
+        "continent": "Asia",
+        "year": 2000
+    },
+    {
+        "sample_id": "PM_THA_012",
+        "country": "Thailand",
+        "continent": "Asia",
+        "year": 2000
+    },
+    {
+        "sample_id": "PM_THA_013",
+        "country": "Thailand",
+        "continent": "Asia",
+        "year": 2000
+    },
+    {
+        "sample_id": "PM_THA_014",
+        "country": "Thailand",
+        "continent": "Asia",
+        "year": 1999
+    },
+    {
+        "sample_id": "PM_THA_015",
+        "country": "Thailand",
+        "continent": "Asia",
+        "year": 1999
+    },
+    {
+        "sample_id": "PM_THA_016",
+        "country": "Thailand",
+        "continent": "Asia",
+        "year": 2000
+    },
+    {
+        "sample_id": "PM_THA_018",
+        "country": "Thailand",
+        "continent": "Asia",
+        "year": 1999
+    },
+    {
+        "sample_id": "PM_THA_019",
+        "country": "Thailand",
+        "continent": "Asia",
+        "year": 1999
+    },
+    {
+        "sample_id": "PM_THA_020_com",
+        "country": "Thailand",
+        "continent": "Asia",
+        "year": 1999
+    },
+    {
+        "sample_id": "PM_THA_021",
+        "country": "Thailand",
+        "continent": "Asia",
+        "year": 2014
+    },
+    {
+        "sample_id": "PM_TZA_001_com",
+        "country": "Tanzania",
+        "continent": "Africa",
+        "year": 2014
+    },
+    {
+        "sample_id": "PM_TZA_026",
+        "country": "Tanzania",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_UGA_001",
+        "country": "Uganda",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_UGA_003",
+        "country": "Uganda",
+        "continent": "Africa",
+        "year": 2014
+    },
+    {
+        "sample_id": "PM_UGA_004",
+        "country": "Uganda",
+        "continent": "Africa",
+        "year": 2013
+    },
+    {
+        "sample_id": "PM_UGA_005",
+        "country": "Uganda",
+        "continent": "Africa",
+        "year": 2014
+    },
+    {
+        "sample_id": "PM_UGA_007",
+        "country": "Uganda",
+        "continent": "Africa",
+        "year": 2010
+    },
+    {
+        "sample_id": "PM_UGA_008",
+        "country": "Uganda",
+        "continent": "Africa",
+        "year": 2010
+    },
+    {
+        "sample_id": "PM_UGA_009",
+        "country": "Uganda",
+        "continent": "Africa",
+        "year": 2011
+    },
+    {
+        "sample_id": "PM_UGA_010",
+        "country": "Uganda",
+        "continent": "Africa",
+        "year": 2012
+    },
+    {
+        "sample_id": "PM_UGA_011",
+        "country": "Uganda",
+        "continent": "Africa",
+        "year": 2013
+    },
+    {
+        "sample_id": "PM_UGA_012",
+        "country": "Uganda",
+        "continent": "Africa",
+        "year": 2013
+    },
+    {
+        "sample_id": "PM_UGA_013",
+        "country": "Uganda",
+        "continent": "Africa",
+        "year": 2013
+    },
+    {
+        "sample_id": "PM_UGA_014",
+        "country": "Uganda",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_UGA_015",
+        "country": "Uganda",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM_UGA_016",
+        "country": "Uganda",
+        "continent": "Africa",
+        "year": "NA"
+    },
+    {
+        "sample_id": "PM0015_lshtm",
+        "country": "Angola",
+        "continent": "Africa",
+        "year": "NA"
+    }
+]

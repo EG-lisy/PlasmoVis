@@ -1,0 +1,90 @@
+[
+    {
+        "country": "Algeria",
+        "counts": 1
+    },
+    {
+        "country": "Angola",
+        "counts": 11
+    },
+    {
+        "country": "Cameroon",
+        "counts": 6
+    },
+    {
+        "country": "Central African Republic",
+        "counts": 1
+    },
+    {
+        "country": "Congo",
+        "counts": 7
+    },
+    {
+        "country": "Democratic Republic of Congo",
+        "counts": 1
+    },
+    {
+        "country": "Equitorial Guinea",
+        "counts": 1
+    },
+    {
+        "country": "Gabon",
+        "counts": 12
+    },
+    {
+        "country": "Ghana",
+        "counts": 15
+    },
+    {
+        "country": "Guinea",
+        "counts": 2
+    },
+    {
+        "country": "Ivory Coast",
+        "counts": 1
+    },
+    {
+        "country": "Kenya",
+        "counts": 12
+    },
+    {
+        "country": "Liberia",
+        "counts": 2
+    },
+    {
+        "country": "Malawi",
+        "counts": 6
+    },
+    {
+        "country": "Mozambique",
+        "counts": 1
+    },
+    {
+        "country": "Nigeria",
+        "counts": 29
+    },
+    {
+        "country": "Senegal",
+        "counts": 1
+    },
+    {
+        "country": "Sierra Leone",
+        "counts": 8
+    },
+    {
+        "country": "Sudan",
+        "counts": 10
+    },
+    {
+        "country": "Tanzania",
+        "counts": 2
+    },
+    {
+        "country": "The Gambia",
+        "counts": 1
+    },
+    {
+        "country": "Uganda",
+        "counts": 14
+    }
+]

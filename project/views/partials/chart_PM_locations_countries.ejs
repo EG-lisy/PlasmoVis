@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Sample Location</title>
+</head>
+
+<body>
+
+    <div class="containerv2">
+        <canvas id="myChart"></canvas>
+    </div>
+
+
+    <script>
+        // var for chart
+        let myChart = document.getElementById('myChart').getContext('2d');
+
+        // Global Options
+        Chart.defaults.global.defaultFontFamily = 'Arial';
+        Chart.defaults.global.defaultFontSize = 12;
+        Chart.defaults.global.defaultFontColor = '#777';
+
+        let massPopChart = new Chart(myChart, {
+
+            //all properties, data
+            type: 'horizontalBar', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
+            data: {
+
+                labels: [
+                    //AFRICA
+                    'Algeria',
+                    'Angola',
+                    'Cameroon',
+                    'Central African Republic',
+                    'Congo',
+                    'Dem. Rep. of Congo',
+                    'Equitorial Guinea',
+                    'Gabon',
+                    'Ghana',
+                    'Guinea',
+                    'Ivory Coast',
+                    'Kenya',
+                    'Liberia',
+                    'Malawi',
+                    'Mozambique',
+                    'Nigeria',
+                    'Senegal',
+                    'Sierra Leone',
+                    'Sudan',
+                    'Tanzania',
+                    'The Gambia',
+                    'Uganda',
+                    //AMERICAS
+                    'Brazil',
+                    //ASIA
+                    'Laos',
+                    'Southeast Asia',
+                    'Thailand',
+                    //AUSTRALASIA
+                    'Papua New Guinea'],
+
+                ///CHECK THIS OUT https://codepen.io/jordanwillis/pen/xqrjGp
+                datasets: [{
+                    data: [
+                        1, 11, 6, 1, 7, 1, 1, 12, 15, 2, 1, 12, 2, 6, 1, 29, 1, 8, 10, 2, 1, 14, 6, 1, 1, 19, 1
+                    ],
+                    //backgroundColor:'green',
+                    //27 needed!!
+                    backgroundColor: [
+                        //AFRICA (22)
+                        //'#fafa6e', '#f0f66d', '#e6f16c', '#dced6b', '#d2e86a', '#c8e46a', '#bfdf69', '#b6da69', '#add668', '#a4d168', '#9bcc68', '#93c767', '#8ac267', '#82bd66', '#7ab866', '#73b365', '#6bae64', '#64a964', '#5da463', '#569f62','#4f9a61', '#489560',
+
+                        // '#004c6d', '#004a69', '#004766', '#004562', '#00425e', '#00405b', '#003d57', '#003b54', '#003950', '#00364d', '#003449', '#003246', '#002f43', '#002d3f', '#002b3c', '#002839', '#002636', '#012432', '#01222f', '#011f2c', '#011d29', '#011b26',
+                        // //AMERICAS (1) 
+                        // '#004c6d',//'#be486a', //'#6996b3',
+                        // //ASIA (3)
+                        // '#6996b3', '#9bc2d8', '#9bc2d8',
+                        // //AUSTRALASIA (1)
+                        // '#727272'
+
+                        // same color shade
+                        '#c1e7ff', '#bae1f9', '#b3daf3', '#acd4ed', '#a5cde7', '#9fc7e1', '#98c1db', '#91bbd6', '#8ab4d0', '#84aeca', '#7da8c4', '#76a2bf', '#709cb9', '#6996b3', '#6290ae', '#5c8aa8', '#5584a3', '#4e7e9d', '#477898', '#417392', '#3a6d8d', '#326787', '#2b6282', '#235c7d', '#1a5777', '#0f5172', '#727272'
+                    ],
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                legend: {
+                    display: false,
+                    position: 'right',
+                    labels: {
+                        fontColor: "#000080",
+                    }
+                },
+                scales: {
+                    xAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
