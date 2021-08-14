@@ -3,12 +3,20 @@
 
 # JUST A RAW SCHELETON...to be done...
 
-PlasmoVis is a species-specific genomic variant browser specifically developped to inspect Plasmodium malariae variations.
+PlasmoVis is a  user-friendly web-based visualisation tool to assist with the analysis and visualisation of sequencing data, specifically to interrogate the genomic variation of P. malariae parasites. 
 
 ## Table of Contents
-> - [Preview](#Preview)
+> - [About](#About)
+> - [Preview](#Preview) 
 > - [Prerequisites](#Prerequisites)<br>
 > - [Author](#Author)<br>
+
+# Prerequisites
+
+PlasmoVis is is compatible for being run either on Mac or Windows Operating Systems.
+
+Requirement:
+- [Node.js](https://nodejs.org/it/download/ "Node.js")
 
 # Preview
 Complete web page view<br>
