@@ -1,5 +1,6 @@
 <br><br>
 <img style="float: center;" src="PV_pics/plasmoVis_logo.png" width="550"> </img>
+
 PlasmoVis is a  user-friendly web-based visualisation tool to assist with the analysis and visualisation of sequencing data, specifically to interrogate the genomic variation of P. malariae parasites. 
 
 ## Table of Contents
@@ -10,7 +11,7 @@ PlasmoVis is a  user-friendly web-based visualisation tool to assist with the an
 > - [Author](#Author)<br>
 
 # Prerequisites
-PlasmoVis is is compatible for being run either on Mac or Windows Operating Systems.
+PlasmoVis is is compatible for being run either on Mac or Windows Operating Systems.<br>
 Please check that you have <b>Node.js</b> installed on your computer before proceeding.
 
 - [Node.js](https://nodejs.org/it/download/ "Node.js")
