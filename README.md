@@ -17,8 +17,7 @@ Please check that you have <b>Node.js<b> installed on your computer before proce
 
 # Download
 
-PlasmoVis is is compatible for being run either on Mac or Windows Operating Systems.
-Please check that you have <b>Node.js</b> installed on your computer before proceeding.
+BLABLA
 
 
 # Preview
