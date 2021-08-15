@@ -22,9 +22,7 @@ Download PlasmoVis in one of the following ways:
 
 1. Click on the green `Code` button above and select `Download ZIP` (Figure 1)
 
-![fig1](PV_pics/download_repo.png)<br><b>Figure 1.</b> Download PlasmoVis<br>
-<p align="center">
-<img src="PV_pics/download_repo.png" width="550"> </img></p>
+<p align="center"><img src="PV_pics/download_repo.png" width="400"></img></p><br><b>Figure 1.</b> Download PlasmoVis<br>
 
 
 2. In case you have [Git](https://git-scm.com/downloads "Install Git") installed on your computer, run the following commands on your Terminal
