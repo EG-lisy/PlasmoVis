@@ -110,7 +110,7 @@ The navigation bar on the upper-section allows switching in between pages <b>(Fi
 <p align="center"><img src="PV_pics/navbar.png"></img></p><b>Figure 4.</b>PlasmoVis Navigation Bar<br><br><br>
 
 Where: 
-1. <b>PlasmoVis logo</b> takes back to the [home page](#home-page)
+➊ <b>PlasmoVis logo</b> takes back to the [home page](#home-page)
 2. <b>GENOME BROWSER</b> allows to inspect <i>P. malariae</i> variants over a IGV.js framework
 3. <b>DATA</b> allows to inspect sample information in the form of a world map, charts and tables
 4. <b>ABOUT</b> includes additional information on <i>P. knowlesi</i> data used whilst developing PlasmoVis
