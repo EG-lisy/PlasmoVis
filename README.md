@@ -7,11 +7,11 @@ PlasmoVis is a  user-friendly web-based visualisation tool to assist with the an
 > - [About](#About)<br>
 > - [Prerequisites](#Prerequisites)<br>
 > - [PlasmoVis Setup](#)<br>
-    > - [Download PlasmoVis](#1-download-plasmovis) <br>
-    > - [Install PlasmoVis Dependendencies](#2-install-plasmovis-dependencies) <br>
-    > - [Run PlasmoVis](#run-plasmovis)<br>
-    > - [Close PlasmoVis](#close-plasmovis)<br>
-    > - [Author](#Author)<br>
+>   - [Download PlasmoVis](#1-download-plasmovis) <br>
+>   - [Install PlasmoVis Dependendencies](#2-install-plasmovis-dependencies) <br>
+>   - [Run PlasmoVis](#run-plasmovis)<br>
+>   - [Close PlasmoVis](#close-plasmovis)<br>
+>   - [Author](#Author)<br>
 
 # Prerequisites
 PlasmoVis is is compatible for being run either on Mac or Windows Operating Systems.<br>
