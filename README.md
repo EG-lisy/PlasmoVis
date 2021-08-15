@@ -34,7 +34,7 @@ PlasmoVis can be downloaded in two ways:
 
 ```sh
 # set your working directory (i.e. folder in which you would like to save PlasmoVis)
-cd mydir/myfolder
+cd <yourdir/yourfolder>
 # clone the repository
 git clone https://github.com/EG-lisy/PlasmoVis.git
 ```
@@ -47,7 +47,7 @@ Proceede installing PlasmoVis dependencies (i.e. node modules).
 
 ```sh
 # set your working directory (i.e. folder in which you would like to save PlasmoVis)
-cd myworkingdirectory/PlasmoVis/PlasmoVis
+cd <yourworkingdirectory>/PlasmoVis/PlasmoVis
 # install dependencies
 npm install
 ```
