@@ -104,7 +104,7 @@ Below the welcoming message, self-explanatory hooverable links are also included
 
 The navigation bar on the upper-section allows switching in between pages <b>(Figure 4)</b>.
 
-<p align="center"><img src="PV_pics/navbar.png" width="200"></img></p><br><b>Figure 4.</b>PlasmoVis Navigation Bar<br><br>
+<p align="center"><img src="PV_pics/navbar.png" width="600"></img></p><br><b>Figure 4.</b>PlasmoVis Navigation Bar<br><br>
 
 Where: 
 1. <b>PlasmoVis logo</b> takes back to the [home page](#home-page)
