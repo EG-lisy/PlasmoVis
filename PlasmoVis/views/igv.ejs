@@ -7,7 +7,7 @@
     <script src="https://igv.org/web/release/2.1.0/dist/igv.min.js"></script>
 
     <div>
-        
+
         <!-- <h1>Genomic Variant Browser (P. knowlesi)</h1> -->
         <div id="igv-div" style="padding-top: 10px;padding-bottom: 10px; border:1px solid lightgray"></div>
 
@@ -33,7 +33,7 @@
                             // "type": "annotation",
                             "format": "gff3",
                             //"url": "https://www.dropbox.com/s/hjoin75wiwr10y0/out.sorted.gff3.gz",
-                            
+
                             "url": "http://localhost:3000/pk_data/out.sorted.gff3.gz", //!!!error
 
                             //"url": "http://elvis.misc.cranfield.ac.uk/pk_data_static/out.sorted.gff3.gz",
@@ -41,7 +41,7 @@
 
 
                             //"indexURL": "https://www.dropbox.com/s/yi0vwiu839wupie/out.sorted.gff3.gz.tbi",
-                           
+
                             "indexURL": "http://localhost:3000/pk_data/out.sorted.gff3.gz.tbi", //!!!error
                             "displayMode": "EXPANDED",
                             "indexed": true,
@@ -64,7 +64,7 @@
 
                         }, */
 
-                        
+
                         //Mf-Pk
                         {
                             "type": "variant",
@@ -272,8 +272,8 @@
 
     <section class="description">
         <h3>Gene Name Search</h3>
-        <p>Reference gene names ("PKNH") can be inspected directly on <a
-                href="https://plasmodb.org/plasmo/app" target="_blank">Plasmodb</a></p>
+        <p>Reference gene names ("PKNH") can be inspected directly on <a href="https://plasmodb.org/plasmo/app"
+                target="_blank">Plasmodb</a></p>
     </section>
 
 
@@ -288,7 +288,7 @@
         <div class="row justify-content-center">
             <table id="genesTable" class="table table-striped table-bordered table-sm table-hover">
                 <%- include ('partials/table_genes.ejs') -%>
-            </table> 
+            </table>
             <%- include ('partials/chart_groups.ejs') -%>
         </div>
 
@@ -312,7 +312,7 @@
     </body>
 
     <!-- footer from partials/ -->
-    
+
     <%- include ('partials/footer.ejs') -%>
 
 </html>

@@ -91,7 +91,7 @@ This section aims to assist with the navigation of PlasmoVis web-pages.
 From [http://localhost:3000](http://localhost:3000 "PlasmoVis") you will end up on the landing page of PlasmoVis <b>(Figure 2)</b>.
 
 
-![PlasmoVis - Home Page](PV_pics/homepage.png)<br><b>Figure 2.</b> PlasmoVis Landing Page. Pic downloaded from [FreePik](https://www.freepik.com/free-photo/close-up-mosquito-sucking-blood_4283015.htm#page=1&query=mosquito&position=41)<br>
+![PlasmoVis - Home Page](PV_pics/homepage.png)<br><b>Figure 2.</b> PlasmoVis Landing Page.<br>
 
 Below the welcoming message, self-explanatory hooverable links are also included <b>(Figure 3)</b>.
 

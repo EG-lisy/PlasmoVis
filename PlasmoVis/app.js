@@ -234,7 +234,7 @@ app.listen(port, function (error) {
         console.log('Something went wrong', error)
     } else {
         console.log('Server is listening on port: ' +
-            port + '\n-------------------------------- PlasmoVis --------------------------------' + 
+            port + '\n-------------------------------- PlasmoVis --------------------------------' +
             '\nWelcome to PlasmoVis!\n1. Open your browser of choice\n2. Visit: http://localhost:' + port)
     }
 });
