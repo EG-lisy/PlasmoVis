@@ -102,15 +102,15 @@ Below the welcoming message, self-explanatory hooverable links are also included
 
 ## Navigation bar
 
-The navigation bar (Figure 4) on PlasmoVis upper-section assists switching in between pages.
+The navigation bar on the upper-section allows switching in between pages <b>(Figure 4)</b>.
 
 ![PlasmoVis - Nav Bar](PV_pics/navbar.png)<br><b>Figure 4.</b>PlasmoVis Navigation Bar<br>
-
-> 1. <b>PlasmoVis logo</b> takes back to the [home page](#home-page)
-> 2. <b>GENOME BROWSER</b>
-> 3. <b>DATA</b>
-> 4. <b>ABOUT</b>
-> 5. <b>HOME</b> takes back to [home page](#home-page)
+Where: 
+1. <b>PlasmoVis logo</b> takes back to the [home page](#home-page)
+2. <b>GENOME BROWSER</b>
+3. <b>DATA</b>
+4. <b>ABOUT</b>
+5. <b>HOME</b> takes back to [home page](#home-page)
 
 
 # Sequencing Files
