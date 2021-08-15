@@ -40,7 +40,7 @@ Once you have downloaded the project, proceede installing the required dependenc
 
 1. Set your working directory inside `PlasmoVis/PlasmoVis`. Please note that the project subfolder has the same name of the main one.
 
-```R
+```sh
 # set your working directory (i.e. folder in which you would like to save PlasmoVis)
 cd mydir/myfolder
 # clone the repository
