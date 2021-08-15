@@ -6,13 +6,13 @@ PlasmoVis is a  user-friendly web-based visualisation tool to assist with the an
 ## Table of Contents
 > - [About](#About)<br>
 > - [Prerequisites](#Prerequisites)<br>
-> - [Setup:](#setup)<br>
+> - [Setup](#setup)<br>
 >   - [Download PlasmoVis](#1-download-plasmovis) <br>
 >   - [Install PlasmoVis Dependendencies](#2-install-plasmovis-dependencies) <br>
->   - [Run PlasmoVis](#run-plasmovis)<br>
+>   - [Run PlasmoVis](#3-run-plasmovis)<br>
 >   - [Close PlasmoVis](#4-close-plasmovis)<br>
 > - [PlasmoVis](#PlasmoVis)<br>
->   - [PlasmoVis](#home-page)<br>
+>   - [Home Page](#home-page)<br>
 
 >   - [Author](#Author)<br>
 
@@ -84,17 +84,21 @@ To stop PlasmoVis from running, type `Ctrl+C` on your terminal.
 
 
 # PlasmoVis
+
+This section aims to assist with the navigation of PlasmoVis web-pages.
+Please note that a navigation bar is included to allow an easier navigation.
+
 ## Home Page
 
+From the home page you can directly inspect <i>P. malariae</i> variants by clicking on the green `Run PlasmoVis` button (Figure)
 
+![PlasmoVis - Home Page](PV_pics/homepage.png)
 
 # Sequencing Files
 ## THIS SECTION MIGHT NOT BE NEEDED
 Download the sequencing files running the following command
 
 
-
-![preview](PV_pics/preview.png)
 
 ## Responsive view
 If the user is using a smaller screen, the menu will adapt accordingly
