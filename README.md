@@ -6,11 +6,14 @@ PlasmoVis is a  user-friendly web-based visualisation tool to assist with the an
 ## Table of Contents
 > - [About](#About)<br>
 > - [Prerequisites](#Prerequisites)<br>
-> - PlasmoVis Setup<br>
+> - [Setup:](#setup)<br>
 >   - [Download PlasmoVis](#1-download-plasmovis) <br>
 >   - [Install PlasmoVis Dependendencies](#2-install-plasmovis-dependencies) <br>
 >   - [Run PlasmoVis](#run-plasmovis)<br>
->   - [Close PlasmoVis](#close-plasmovis)<br>
+>   - [Close PlasmoVis](#4-close-plasmovis)<br>
+> - [PlasmoVis](#PlasmoVis)<br>
+>   - [PlasmoVis](#home-page)<br>
+
 >   - [Author](#Author)<br>
 
 # Prerequisites
@@ -18,8 +21,8 @@ PlasmoVis is is compatible for being run either on Mac or Windows Operating Syst
 Please ensure you have <b>Node.js</b> installed on your computer before proceeding.
 
 - [Node.js](https://nodejs.org/it/download/ "Node.js")
-
-# 1. Download PlasmoVis
+# Setup
+## 1. Download PlasmoVis
 
 PlasmoVis can be downloaded in two ways:
 
@@ -37,7 +40,7 @@ cd mydir/myfolder
 git clone https://github.com/EG-lisy/PlasmoVis.git
 ```
 
-# 2. Install PlasmoVis Dependencies
+## 2. Install PlasmoVis Dependencies
 
 Proceede installing PlasmoVis dependencies (i.e. node modules).
 
@@ -52,7 +55,7 @@ npm install
 
 Once the installation is completed, a `node_modules` folder containing all the required dependencies needed to run PlasmoVis will be created inside `PlasmoVis/PlasmoVis`.
 
-# 3. Run PlasmoVis
+## 3. Run PlasmoVis
 
 1. Without changing the working directory, run the following command from the Terminal:
 
@@ -75,9 +78,14 @@ Welcome to PlasmoVis!
 3. You will be now able to visit PlasmoVis on [http://localhost:3000](http://localhost:3000 "PlasmoVis").
 
 
-# Close PlasmoVis
+## 4. Close PlasmoVis
 
 To stop PlasmoVis from running, type `Ctrl+C` on your terminal.
+
+
+# PlasmoVis
+## Home Page
+
 
 
 # Sequencing Files
