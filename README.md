@@ -98,7 +98,7 @@ Below the welcoming message, self-explanatory hooverable links are also included
 ![PlasmoVis - Bottom home Page](PV_pics/homepage_bottom.png)<br><b>Figure 3.</b> PlasmoVis bottom-section navigation links.<br>
 
 
-<br><i>P. malariae</i> variants can be inspected either by clicking on the green `Run PlasmoVis` button (refer to <b>Figure 2</b>) or by using the navigation bar.<br>
+<br><i>P. malariae</i> variants can be inspected either by clicking on the green `Run PlasmoVis` button (refer to <b>Figure 2</b>) or by using the navigation bar (read below).<br>
 
 ## Navigation bar
 
@@ -108,10 +108,13 @@ The navigation bar on the upper-section allows switching in between pages <b>(Fi
 
 Where: 
 1. <b>PlasmoVis logo</b> takes back to the [home page](#home-page)
-2. <b>GENOME BROWSER</b>
-3. <b>DATA</b>
-4. <b>ABOUT</b>
+2. <b>GENOME BROWSER</b> allows to inspect <i>P. malariae</i> variants over a IGV.js framework
+3. <b>DATA</b> allows to inspect sample information in the form of a world map, charts and tables
+4. <b>ABOUT</b> includes additional information on <i>P. knowlesi</i> data used whilst developing PlasmoVis
 5. <b>HOME</b> takes back to [home page](#home-page)
+
+
+## Genome Browser
 
 
 # Sequencing Files
