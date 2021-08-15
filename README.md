@@ -26,12 +26,12 @@ Please ensure you have <b>Node.js</b> installed on your computer before proceedi
 
 PlasmoVis can be downloaded in two ways:
 
-1. Click on the green `Code` button on the upper-right corner above and select `Download ZIP` <b>(Figure 1)</b>
+1. Click on the green `Code` button on the upper-right corner above and select `Download ZIP` <b>(Figure 1)
+</b>.
 
-<p align="center"><img src="PV_pics/download_repo.png" width="400"></img></p><br><b>Figure 1.</b> Download PlasmoVis directly from GitHub<br><br>
+<p align="center"><img src="PV_pics/download_repo.png" width="400"></img></p><br><b>Figure 1.</b> Download PlasmoVis - GitHub screenshot.<br><br>
 
-
-2. In case you have [Git](https://git-scm.com/downloads "Install Git") installed on your computer, run the following commands on your Terminal
+2. In case you have [Git](https://git-scm.com/downloads "Install Git") installed on your computer, run the following commands on your Terminal.
 
 ```sh
 # set your working directory (i.e. folder in which you would like to save PlasmoVis)
@@ -89,12 +89,12 @@ This section aims to assist with the navigation of PlasmoVis web-pages.
 
 ## Home Page
 
-From [http://localhost:3000](http://localhost:3000 "PlasmoVis") you will end up on the landing page of PlasmoVis <b>(Figure 2)</b>
+From [http://localhost:3000](http://localhost:3000 "PlasmoVis") you will end up on the landing page of PlasmoVis <b>(Figure 2)</b>.
 
 
 ![PlasmoVis - Home Page](PV_pics/homepage.png)<br><b>Figure 2.</b> PlasmoVis Landing Page.<br>
 
-Below the welcoming message, self-explanatory hooverable links are included to further assist PlasmoVis navigation (Figure 3)
+Below the welcoming message, self-explanatory hooverable links are included to further assist PlasmoVis navigation <b>(Figure 3)</b>.
 
 ![PlasmoVis - Home Page](PV_pics/homepage_bottom.png)<br><b>Figure 3.</b> PlasmoVis bottom-section navigation links.<br>
 
