@@ -92,9 +92,9 @@ This section aims to assist with the navigation of PlasmoVis web-pages.
 By visiting [http://localhost:3000](http://localhost:3000 "PlasmoVis") you will end up on the home page of PlasmoVis <b>(Figure 2)</b>.
 
 
-![PlasmoVis - Home Page](PV_pics/homepage.png)<br><b>Figure 2.</b>PlasmoVis Landing Page. <i>P. malariae</i> variants can be inspected by clicking on the green `Run PlasmoVis` button<br>
+![PlasmoVis - Home Page](PV_pics/homepage.png)<br><b>Figure 2.</b> PlasmoVis Landing Page. <br><br><i>P. malariae</i> variants can be inspected either by clicking on the green `Run PlasmoVis` button or by using the navigation bar<br>
 
-On the upper section a navigation bar will assist switching in between the following pages:
+The navigation bar on the upper-section will assist switching in between the following pages:
 - GENOME BROWSER
 - DATA
 - ABOUT
