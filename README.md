@@ -13,7 +13,6 @@ PlasmoVis is a  user-friendly web-based visualisation tool to assist with the an
 >   - [Close PlasmoVis](#4-close-plasmovis)<br>
 > - [PlasmoVis](#PlasmoVis)<br>
 >   - [Home Page](#home-page)<br>
-
 >   - [Author](#Author)<br>
 
 # Prerequisites
@@ -107,11 +106,11 @@ The navigation bar (Figure 4) on PlasmoVis upper-section assists switching in be
 
 ![PlasmoVis - Nav Bar](PV_pics/navbar.png)<br><b>Figure 4.</b>PlasmoVis Navigation Bar<br>
 
-- 1. <b>PlasmoVis logo</b> takes back to the [home page](#home-page)
-- 2. <b>GENOME BROWSER</b>
-- 3. <b>DATA</b>
-- 4. <b>ABOUT</b>
-- 5. <b>HOME</b> takes back to [home page](#home-page)
+> 1. <b>PlasmoVis logo</b> takes back to the [home page](#home-page)
+> 2. <b>GENOME BROWSER</b>
+> 3. <b>DATA</b>
+> 4. <b>ABOUT</b>
+> 5. <b>HOME</b> takes back to [home page](#home-page)
 
 
 # Sequencing Files
