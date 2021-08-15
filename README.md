@@ -13,7 +13,10 @@ PlasmoVis is a  user-friendly web-based visualisation tool to assist with the an
 >   - [Close PlasmoVis](#4-close-plasmovis)<br>
 > - [PlasmoVis](#PlasmoVis)<br>
 >   - [Home Page](#home-page)<br>
->   - [Author](#Author)<br>
+>   - [Genomic Variant Browser]()<br>
+>   - [Data]()<br>
+>   - [About - P. knowlesi]()<br>
+> - [Author](#Author)<br>
 
 # Prerequisites
 PlasmoVis is is compatible for being run either on Mac or Windows Operating Systems.<br>
