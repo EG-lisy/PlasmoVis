@@ -6,8 +6,8 @@ PlasmoVis is a  user-friendly web-based visualisation tool to assist with the an
 ## Table of Contents
 > - [About](#About)<br>
 > - [Prerequisites](#Prerequisites)<br>
-> - [Download PlasmoVis](#download-plasmovis) <br>
-> - [Install PlasmoVis Dependendencies](#installing-plasmovis-dependencies) <br>
+> - [Download PlasmoVis](#1.-download-plasmovis) <br>
+> - [Install PlasmoVis Dependendencies](#install-plasmovis-dependencies) <br>
 > - [Run PlasmoVis](#run-plasmovis)<br>
 > - [Close PlasmoVis](#close-plasmovis)<br>
 > - [Author](#Author)<br>
@@ -18,13 +18,13 @@ Please ensure you have <b>Node.js</b> installed on your computer before proceedi
 
 - [Node.js](https://nodejs.org/it/download/ "Node.js")
 
-# Download PlasmoVis
+# 1. Download PlasmoVis
 
 PlasmoVis can be downloaded in two ways:
 
 1. Click on the green `Code` button on the upper-right corner above and select `Download ZIP` (Figure 1)
 
-<p align="center"><img src="PV_pics/download_repo.png" width="400"></img></p><br><b>Figure 1.</b> Download PlasmoVis<br><br>
+<p align="center"><img src="PV_pics/download_repo.png" width="400"></img></p><br><b>Figure 1.</b> Download PlasmoVis directly from GitHub<br><br>
 
 
 2. In case you have [Git](https://git-scm.com/downloads "Install Git") installed on your computer, run the following commands on your Terminal
