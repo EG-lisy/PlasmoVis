@@ -26,7 +26,7 @@ Please ensure you have <b>Node.js</b> installed on your computer before proceedi
 
 PlasmoVis can be downloaded in two ways:
 
-1. Click on the green `Code` button on the upper-right corner above and select `Download ZIP` (Figure 1)
+1. Click on the green `Code` button on the upper-right corner above and select `Download ZIP` <b>(Figure 1)</b>
 
 <p align="center"><img src="PV_pics/download_repo.png" width="400"></img></p><br><b>Figure 1.</b> Download PlasmoVis directly from GitHub<br><br>
 
@@ -86,13 +86,22 @@ To stop PlasmoVis from running, type `Ctrl+C` on your terminal.
 # PlasmoVis
 
 This section aims to assist with the navigation of PlasmoVis web-pages.
-Please note that a navigation bar is included to allow an easier navigation.
 
 ## Home Page
 
-From the home page you can directly inspect <i>P. malariae</i> variants by clicking on the green `Run PlasmoVis` button (Figure)
+By visiting [http://localhost:3000](http://localhost:3000 "PlasmoVis") you will end up on the home page of PlasmoVis <b>(Figure 2)</b>.
 
-![PlasmoVis - Home Page](PV_pics/homepage.png)
+
+![PlasmoVis - Home Page](PV_pics/homepage.png)<br><b>Figure 2.</b>PlasmoVis Landing Page. <i>P. malariae</i> variants can be inspected by clicking on the green `Run PlasmoVis` button<br>
+
+On the upper section a navigation bar will assist switching in between the following pages:
+- GENOME BROWSER
+- DATA
+- ABOUT
+- HOME
+
+
+![PlasmoVis - Home Page](PV_pics/homepage.png)<br><b>Figure 2.</b>PlasmoVis Landing Page<br>
 
 # Sequencing Files
 ## THIS SECTION MIGHT NOT BE NEEDED
