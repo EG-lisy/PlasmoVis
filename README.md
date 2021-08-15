@@ -12,14 +12,26 @@ PlasmoVis is a  user-friendly web-based visualisation tool to assist with the an
 
 # Prerequisites
 PlasmoVis is is compatible for being run either on Mac or Windows Operating Systems.<br>
-Please check that you have <b>Node.js</b> installed on your computer before proceeding.
+Please ensure you have <b>Node.js</b> installed on your computer before proceeding.
 
 - [Node.js](https://nodejs.org/it/download/ "Node.js")
 
-# Download
+# Download PlasmoVis
 
-BLABLA
+Download PlasmoVis in one of the following ways:
 
+1. Click on the green `Code` button above and select `Download ZIP` (Figure 1)
+
+![fig1](PV_pics/download_repo.png)<br><b>Figure 1.</b> Download PlasmoVis<br>
+
+
+2. In case you have [Git](https://git-scm.com/downloads "Install Git") installed on your computer, run the following commands on your Terminal
+
+```R
+# set your working directory (i.e. folder in which you would like to save PlasmoVis)
+cd <your working directory>
+git clone https://github.com/EG-lisy/PlasmoVis.git
+```
 
 # Preview
 Complete web page view<br>
