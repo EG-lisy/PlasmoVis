@@ -9,6 +9,7 @@ PlasmoVis is a  user-friendly web-based visualisation tool to assist with the an
 > - [Download PlasmoVis](#download-plasmovis) <br>
 > - [Install PlasmoVis Dependendencies](#installing-plasmovis-dependencies) <br>
 > - [Run PlasmoVis](#run-plasmovis)<br>
+> - [Close PlasmoVis](#close-plasmovis)<br>
 > - [Author](#Author)<br>
 
 # Prerequisites
@@ -19,7 +20,7 @@ Please ensure you have <b>Node.js</b> installed on your computer before proceedi
 
 # Download PlasmoVis
 
-Download PlasmoVis in one of the following ways:
+PlasmoVis can be downloaded in two ways:
 
 1. Click on the green `Code` button on the upper-right corner above and select `Download ZIP` (Figure 1)
 
@@ -37,7 +38,7 @@ git clone https://github.com/EG-lisy/PlasmoVis.git
 
 # Install PlasmoVis Dependencies
 
-Once you have downloaded the project, proceede installing PlasmoVis dependencies (i.e. node modules).
+Proceede installing PlasmoVis dependencies (i.e. node modules).
 
 1. Open your Terminal and set your working directory inside `PlasmoVis/PlasmoVis`. Please note that the project subfolder has the same name of the main one.
 
@@ -45,10 +46,10 @@ Once you have downloaded the project, proceede installing PlasmoVis dependencies
 # set your working directory (i.e. folder in which you would like to save PlasmoVis)
 cd myworkingdirectory/PlasmoVis/PlasmoVis
 # install dependencies
-npm run
+npm install
 ```
 
-Once the installation is completed, a `node_modules` folder will be created inside `PlasmoVis/PlasmoVis` folder, containing all the required dependencies needed to run PlasmoVis.
+Once the installation is completed, a `node_modules` folder containing all the required dependencies needed to run PlasmoVis will be created inside `PlasmoVis/PlasmoVis`.
 
 # Run PlasmoVis
 
@@ -58,10 +59,11 @@ Once the installation is completed, a `node_modules` folder will be created insi
 node app.js
 ```
 
-2. If all the steps have been followed correclty, the following welcoming message will be displayed on your Command Line:
+2. If all the steps have been followed correclty, the following welcoming message will be displayed on your Console:
 
 ```console
 (base) MacBook-Pro-di-Elisabetta:PlasmoVis lisy$ node app.js
+
 Server is listening on port: 3000
 -------------------------------- PlasmoVis --------------------------------
 Welcome to PlasmoVis!
@@ -69,9 +71,12 @@ Welcome to PlasmoVis!
 2. Visit: http://localhost:3000
 ```
 
+3. You will be now able to visit PlasmoVis on [http://localhost:3000](http://localhost:3000 "PlasmoVis").
 
 
+# Close PlasmoVis
 
+To stop PlasmoVis from running, type `Ctrl+C` on your terminal.
 
 
 # Sequencing Files
