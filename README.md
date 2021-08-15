@@ -26,11 +26,11 @@ Please ensure you have <b>Node.js</b> installed on your computer before proceedi
 PlasmoVis can be downloaded in two ways:
 
 1. Click on the green `Code` button on the upper-right corner above and select `Download ZIP` <b>(Figure 1)
-</b>.
+</b>. Remember to unzip the file before proceeding.
 
 <p align="center"><img src="PV_pics/download_repo.png" width="400"></img></p><br><b>Figure 1.</b> Download PlasmoVis - GitHub screenshot.<br><br>
 
-2. In case you have [Git](https://git-scm.com/downloads "Install Git") installed on your computer, run the following commands on your terminal:
+2. Alternatively, in case you have [Git](https://git-scm.com/downloads "Install Git") installed on your computer, run the following commands on your terminal:
 
 ```sh
 # set your working directory (i.e. folder in which you would like to save PlasmoVis)
@@ -116,35 +116,16 @@ Where:
 
 ## Genome Browser
 
+## Data
+
+## About
+
+## Home
+
 
 # Sequencing Files
 ## THIS SECTION MIGHT NOT BE NEEDED
 Download the sequencing files running the following command
-
-
-
-## Responsive view
-If the user is using a smaller screen, the menu will adapt accordingly
-![responsive](PV_pics/responsive.png)
-
-# Prerequisites
-Prerequisites<br>
-
-- [One](https://www.rstudio.com/products/rstudio/download/ "RStudio") (free version) <br>
-- [Two](https://cran.r-project.org "R") 
-
-BSAvis package requires merged Variant Calling Format (`VCF`) files as input files, generated using `GATK4`.<br> 
-
-- [Alignment Steps](https://github.com/FadyMohareb/BSAvis_GP_2020/blob/main/QC_Alignment_VC/alignment_variantCalling/steps/alignment_steps.txt "Alignment Steps")
-- [Variant Calling Steps](https://github.com/FadyMohareb/BSAvis_GP_2020/blob/main/QC_Alignment_VC/alignment_variantCalling/steps/variantCalling_steps.txt "Variant Calling Steps")
-
-
-* `test.vcf` 
-
-
-```R
-# script
-```
 
 # Author
 ```
