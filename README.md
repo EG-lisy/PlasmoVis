@@ -6,8 +6,9 @@ PlasmoVis is a  user-friendly web-based visualisation tool to assist with the an
 ## Table of Contents
 > - [About](#About)<br>
 > - [Prerequisites](#Prerequisites)<br>
-> - [Download PlasmoVis](#Preview) <br>
-> - [Prerequisites](#Prerequisites)<br>
+> - [Download PlasmoVis](#download-plasmovis) <br>
+> - [Install PlasmoVis Dependendencies](#installing-plasmovis-dependencies) <br>
+> - [Run PlasmoVis](#run-plasmovis)<br>
 > - [Author](#Author)<br>
 
 # Prerequisites
@@ -27,25 +28,56 @@ Download PlasmoVis in one of the following ways:
 
 2. In case you have [Git](https://git-scm.com/downloads "Install Git") installed on your computer, run the following commands on your Terminal
 
-```bash
-# set your working directory (i.e. folder in which you would like to save PlasmoVis)
-cd mydir/myfolder
-# clone the repository
-git clone https://github.com/EG-lisy/PlasmoVis.git
-```
-
-# Dependencies
-
-Once you have downloaded the project, proceede installing the required dependencies.
-
-1. Set your working directory inside `PlasmoVis/PlasmoVis`. Please note that the project subfolder has the same name of the main one.
-
 ```sh
 # set your working directory (i.e. folder in which you would like to save PlasmoVis)
 cd mydir/myfolder
 # clone the repository
 git clone https://github.com/EG-lisy/PlasmoVis.git
 ```
+
+# Install PlasmoVis Dependencies
+
+Once you have downloaded the project, proceede installing PlasmoVis dependencies (i.e. node modules).
+
+1. Open your Terminal and set your working directory inside `PlasmoVis/PlasmoVis`. Please note that the project subfolder has the same name of the main one.
+
+```sh
+# set your working directory (i.e. folder in which you would like to save PlasmoVis)
+cd myworkingdirectory/PlasmoVis/PlasmoVis
+# install dependencies
+npm run
+```
+
+Once the installation is completed, a `node_modules` folder will be created inside `PlasmoVis/PlasmoVis` folder, containing all the required dependencies needed to run PlasmoVis.
+
+# Run PlasmoVis
+
+1. Without changing the working directory, run the following command from the Terminal:
+
+```sh
+node app.js
+```
+
+2. If all the steps have been followed correclty, the following welcoming message will be displayed on your Command Line:
+
+```console
+(base) MacBook-Pro-di-Elisabetta:PlasmoVis lisy$ node app.js
+Server is listening on port: 3000
+-------------------------------- PlasmoVis --------------------------------
+Welcome to PlasmoVis!
+1. Open your browser of choice
+2. Visit: http://localhost:3000
+```
+
+
+
+
+
+
+# Sequencing Files
+## THIS SECTION MIGHT NOT BE NEEDED
+Download the sequencing files running the following command
+
 
 
 ![preview](PV_pics/preview.png)
