@@ -22,12 +22,12 @@ Download PlasmoVis in one of the following ways:
 
 1. Click on the green `Code` button on the upper-right corner above and select `Download ZIP` (Figure 1)
 
-<p align="center"><img src="PV_pics/download_repo.png" width="400"></img></p><br><b>Figure 1.</b> Download PlasmoVis<br>
+<p align="center"><img src="PV_pics/download_repo.png" width="400"></img></p><br><b>Figure 1.</b> Download PlasmoVis<br><br>
 
 
-2. Otherwise, in case you have [Git](https://git-scm.com/downloads "Install Git") installed on your computer, run the following commands on your Terminal
+2. In case you have [Git](https://git-scm.com/downloads "Install Git") installed on your computer, run the following commands on your Terminal
 
-```
+```bash
 # set your working directory (i.e. folder in which you would like to save PlasmoVis)
 cd mydir/myfolder
 # clone the repository
