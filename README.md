@@ -53,7 +53,7 @@ cd myworkingdirectory/PlasmoVis/PlasmoVis
 npm install
 ```
 
-Once the installation is completed, a `node_modules` folder containing all the required dependencies needed to run PlasmoVis will be created inside `PlasmoVis/PlasmoVis`.
+Once the installation is completed, a `node_modules` folder containing all the required dependencies will be created inside `PlasmoVis/PlasmoVis`.
 
 ## 3. Run PlasmoVis
 
@@ -94,21 +94,25 @@ From [http://localhost:3000](http://localhost:3000 "PlasmoVis") you will end up 
 
 ![PlasmoVis - Home Page](PV_pics/homepage.png)<br><b>Figure 2.</b> PlasmoVis Landing Page.<br>
 
-Below the welcoming message, self-explanatory hooverable links are included to further assist PlasmoVis navigation <b>(Figure 3)</b>.
+Below the welcoming message, self-explanatory hooverable links are also included <b>(Figure 3)</b>.
 
-![PlasmoVis - Home Page](PV_pics/homepage_bottom.png)<br><b>Figure 3.</b> PlasmoVis bottom-section navigation links.<br>
-
-
-<br><i>P. malariae</i> variants can be inspected either by clicking on the green `Run PlasmoVis` button (see <b>Figure 2</b>) or by using the navigation bar.<br>
-
-The navigation bar on the upper-section will assist switching in between the following pages:
-- GENOME BROWSER
-- DATA
-- ABOUT
-- HOME
+![PlasmoVis - Bottom home Page](PV_pics/homepage_bottom.png)<br><b>Figure 3.</b> PlasmoVis bottom-section navigation links.<br>
 
 
-![PlasmoVis - Home Page](PV_pics/homepage.png)<br><b>Figure 2.</b>PlasmoVis Landing Page<br>
+<br><i>P. malariae</i> variants can be inspected either by clicking on the green `Run PlasmoVis` button (refer to <b>Figure 2</b>) or by using the navigation bar.<br>
+
+## Navigation bar
+
+The navigation bar (Figure 4) on PlasmoVis upper-section assists switching in between pages.
+
+![PlasmoVis - Nav Bar](PV_pics/navbar.png)<br><b>Figure 4.</b>PlasmoVis Navigation Bar<br>
+
+- 1. <b>PlasmoVis logo</b> takes back to the [home page](#home-page)
+- 2. <b>GENOME BROWSER</b>
+- 3. <b>DATA</b>
+- 4. <b>ABOUT</b>
+- 5. <b>HOME</b> takes back to [home page](#home-page)
+
 
 # Sequencing Files
 ## THIS SECTION MIGHT NOT BE NEEDED
