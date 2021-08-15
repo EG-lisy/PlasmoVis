@@ -31,7 +31,7 @@ PlasmoVis can be downloaded in two ways:
 
 <p align="center"><img src="PV_pics/download_repo.png" width="400"></img></p><br><b>Figure 1.</b> Download PlasmoVis - GitHub screenshot.<br><br>
 
-2. In case you have [Git](https://git-scm.com/downloads "Install Git") installed on your computer, run the following commands on your Terminal.
+2. In case you have [Git](https://git-scm.com/downloads "Install Git") installed on your computer, run the following commands on your terminal:
 
 ```sh
 # set your working directory (i.e. folder in which you would like to save PlasmoVis)
@@ -44,7 +44,7 @@ git clone https://github.com/EG-lisy/PlasmoVis.git
 
 Proceede installing PlasmoVis dependencies (i.e. node modules).
 
-1. Open your Terminal and set your working directory inside `PlasmoVis/PlasmoVis`. Please note that the project subfolder has the same name of the main one.
+1. From the terminal, set your working directory inside `PlasmoVis/PlasmoVis`. Please note that the project subfolder has the same name of the main one.
 
 ```sh
 # set your working directory (i.e. folder in which you would like to save PlasmoVis)
@@ -57,7 +57,7 @@ Once the installation is completed, a `node_modules` folder containing all the r
 
 ## 3. Run PlasmoVis
 
-1. Without changing the working directory, run the following command from the Terminal:
+1. Without changing the working directory, run the following command from the terminal:
 
 ```sh
 node app.js
