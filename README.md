@@ -6,8 +6,8 @@ PlasmoVis is a  user-friendly web-based visualisation tool to assist with the an
 ## Table of Contents
 > - [About](#About)<br>
 > - [Prerequisites](#Prerequisites)<br>
-> - [Download PlasmoVis](#1.-download-plasmovis) <br>
-> - [Install PlasmoVis Dependendencies](#install-plasmovis-dependencies) <br>
+> - [Download PlasmoVis](#1-download-plasmovis) <br>
+> - [Install PlasmoVis Dependendencies](#2-install-plasmovis-dependencies) <br>
 > - [Run PlasmoVis](#run-plasmovis)<br>
 > - [Close PlasmoVis](#close-plasmovis)<br>
 > - [Author](#Author)<br>
@@ -36,7 +36,7 @@ cd mydir/myfolder
 git clone https://github.com/EG-lisy/PlasmoVis.git
 ```
 
-# Install PlasmoVis Dependencies
+# 2. Install PlasmoVis Dependencies
 
 Proceede installing PlasmoVis dependencies (i.e. node modules).
 
@@ -51,7 +51,7 @@ npm install
 
 Once the installation is completed, a `node_modules` folder containing all the required dependencies needed to run PlasmoVis will be created inside `PlasmoVis/PlasmoVis`.
 
-# Run PlasmoVis
+# 3. Run PlasmoVis
 
 1. Without changing the working directory, run the following command from the Terminal:
 
