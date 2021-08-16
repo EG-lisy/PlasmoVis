@@ -134,8 +134,7 @@ Where:
 > 1. <i>Plasmodium Malariae</i> Genome (`PmUG01`)
 > 2. Annotation (gene IDs)
 > 3. Intersected samples variants based on continent of origin (Africa, Americas and Asia)
-> 4. SNPs (Single Nucleotide Polymorphisms). 
-
+> 4. SNPs (Single Nucleotide Polymorphisms)
 
 ### Tracks
 
@@ -199,7 +198,7 @@ or by clicking, dragging and dropping on the genome section <b>(Figure 8)</b>
 
 ### Scrolling
 
-Drag and drop on the annotation/variant tracks section to scroll along genomic positions.
+To manually scroll along the genome, drag and drop over the annotation/variant tracks section (refer to [Figure 5](#genomic-variant-browser), bulletpoints <b>2 and 3</b>).
 
 To input a specific location, refer to the [section below](#input-specific-chromosome-positions).
 
@@ -227,8 +226,8 @@ Visualisation guides are also included in the IGV framework <b>(Figure 11)</b>.
 <p align="center"><img src="PV_pics/igv_cursors.png"></img></p><b>Figure 11.</b> Visualisation Guides<br><br>
 
 Where:
-1. <b>Cursor Guide</b> will display a guide which will follow your mouse movements
-2. <b>Center Line</b> will display two guides at the middle of the Genomic Variant Browser
+> 1. <b>Cursor Guide</b> will display a guide which will follow your mouse movements
+> 2. <b>Center Line</b> will display two guides at the middle of the Genomic Variant Browser
 
 ### Track Settings
 
@@ -241,14 +240,14 @@ Tracks can also be customised using the grey gears found on the right-hand side 
 <p align="center"><img src="PV_pics/igv_tracks.png" width="500"></img></p><b>Figure 13.</b> Track Settings <br><br>
 
 Where:
-1. Allows setting different track names
-2. Allows setting a different track height
-3. Allows setting a different track colour
-4. Allows setting the Collapsed view
-5. Allows setting the Squished view
-6. Allows setting the Expanded view (set by default)
-7. Allows setting the visibility window (window hight)
-8. Removes the tracks
+> 1. Allows setting different track names
+> 2. Allows setting a different track height
+> 3. Allows setting a different track colour
+> 4. Allows setting the Collapsed view
+> 5. Allows setting the Squished view
+> 6. Allows setting the Expanded view (set by default)
+> 7. Allows setting the visibility window (window hight)
+> 8. Removes the tracks
 
 <b>Note:</b> all the above options are reversable, exept point <b>8</b>. If you remove a track by mistake you will need to refresh the page.
 
