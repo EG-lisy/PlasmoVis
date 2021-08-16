@@ -235,9 +235,9 @@ Track labels can be hidden/shown using the `Track Labels` button found on the up
 
 <p align="center"><img src="PV_pics/igv_tracknames.png" width="700"></img></p><b>Figure 12.</b> Track Labels button<br><br>
 
-Tracks can also be customised using the grey gears found on the right-hand side of the genomic variant browser.
+Tracks can also be customised using the grey gears found on the right-hand side of the genomic variant browser <b>(Figure 13)</b>.
 
-<p align="center"><img src="PV_pics/igv_tracks.png" width="500"></img></p><b>Figure 12.</b> Track Settings <br><br>
+<p align="center"><img src="PV_pics/igv_tracks.png" width="500"></img></p><b>Figure 13.</b> Track Settings <br><br>
 
 Where:
 1. Allows setting different track names
@@ -251,16 +251,16 @@ Where:
 
 <b>Note:</b> all the above options are reversable, exept point <b>8</b>. If you remove a track by mistake you will need to refresh the page.
 
-The disposion of tracks can also be changed by dragging and dropping the track bars on the right <b>Figure 13)</b>.
+The disposion of tracks can also be changed by dragging and dropping the track bars on the right <b>(Figure 14)</b>.
 
-<p align="center"><img src="PV_pics/igv_movetracks.png"></img></p><b>Figure 13.</b> Track Dispositions<br><br>
+<p align="center"><img src="PV_pics/igv_movetracks.png"></img></p><b>Figure 14.</b> Track Dispositions<br><br>
 
 ## Gene Search
 
 The `GENOME BROWSER` page also include a Gene Search section.
-Gene names/Gene IDs can be searched using the Gene Name `Search` box<b>(Figure 14)</b>.
+Gene names/Gene IDs can be searched using the Gene Name `Search` box<b>(Figure 15)</b>.
 
-<p align="center"><img src="PV_pics/genesearch.png"></img></p><b>Figure 14.</b> Gene Search Table<br><br>
+<p align="center"><img src="PV_pics/genesearch.png"></img></p><b>Figure 15.</b> Gene Search Table<br><br>
 
 <b>Note:</b> columns can be sorted in ascending/descending order by clicking on the header titles (`Gene ID`, `Chromosome`, `Start`, `End`, `Gene Name`). Up to 100 entries can be showed at the same time.
 
@@ -268,9 +268,9 @@ To obtain more information about a specific gene of interest, a direct link to t
 
 ## Venn Diagram
 
-An interactive venn diagram is also included at the bottom of the `GENOME BROWSER` page, displaying the total number of unique/shared SNPs <b>(Figure 15.)</b>.
+An interactive venn diagram is also included at the bottom of the `GENOME BROWSER` page, displaying the total number of unique/shared SNPs <b>(Figure 16.)</b>.
 
-<p align="center"><img src="PV_pics/genesearch.png"></img></p><b>Figure 15.</b> Interactive Venn Diagram<br><br>
+<p align="center"><img src="PV_pics/genesearch.png"></img></p><b>Figure 16.</b> Interactive Venn Diagram<br><br>
 
 ## Data
 
