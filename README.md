@@ -115,13 +115,12 @@ The navigation bar on the upper-section allows switching in between pages <b>(Fi
 <p align="center"><img src="PV_pics/navbar.png"></img></p><b>Figure 4.</b>PlasmoVis Navigation Bar<br><br><br>
 
 Where: 
-```sh
-1. <b>PlasmoVis logo</b> takes back to the [home page](#home-page)
-2. <b>GENOME BROWSER</b> takes to the [Genomic Variant Browser](#genomic-variant-browser) page 
-3. <b>DATA</b> takes to the [Data](#data) page
-4. <b>ABOUT</b> includes additional information on <i>P. knowlesi</i> data used whilst developing PlasmoVis
-5. <b>HOME</b> takes back to [home page](#home-page)
-```
+> 1. <b>PlasmoVis logo</b> takes back to the [home page](#home-page)
+> 2. <b>GENOME BROWSER</b> takes to the [Genomic Variant Browser](#genomic-variant-browser) page 
+> 3. <b>DATA</b> takes to the [Data](#data) page
+> 4. <b>ABOUT</b> includes additional information on <i>P. knowlesi</i> data used whilst developing PlasmoVis
+> 5. <b>HOME</b> takes back to [home page](#home-page)
+
 
 ## Genomic Variant Browser
 
@@ -132,12 +131,11 @@ This page allows to inspect <i>P. malariae</i> variants over an `IGV.js` framewo
 <p align="center"><img src="PV_pics/igv.png"></img></p><b>Figure 5.</b> Screenshot of the Genomic Variant Browser<br><br>
 
 Where:
-```
-1. <i>Plasmodium Malariae</i> Genome (`PmUG01`)
-2. Annotation (gene IDs)
-3. Intersected samples variants based on continent of origin (Africa, Americas and Asia)
-4. SNPs (Single Nucleotide Polymorphisms). 
-```
+> 1. <i>Plasmodium Malariae</i> Genome (`PmUG01`)
+> 2. Annotation (gene IDs)
+> 3. Intersected samples variants based on continent of origin (Africa, Americas and Asia)
+> 4. SNPs (Single Nucleotide Polymorphisms). 
+
 
 ### Tracks
 
