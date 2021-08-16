@@ -111,7 +111,7 @@ Below the welcoming message, self-explanatory clickable links can be found <b>(F
 
 The navigation bar on the upper-section allows switching in between pages <b>(Figure 4)</b>.
 
-<p align="center"><img src="PV_pics/navbar.png"></img></p><b>Figure 4.</b>PlasmoVis Navigation Bar<br>
+<p align="center"><img src="PV_pics/navbar.png"></img></p><b>Figure 4.</b>PlasmoVis Navigation Bar<br><br>
 
 Where: 
 > 1. <b>PlasmoVis logo</b> takes back to the [home page](#home-page)
@@ -127,7 +127,7 @@ This page allows to inspect <i>P. malariae</i> variants over an `IGV.js` framewo
 
 ### Overview 
 
-<p align="center"><img src="PV_pics/igv.png"></img></p><b>Figure 5.</b> Screenshot of the Genomic Variant Browser<br>
+<p align="center"><img src="PV_pics/igv.png"></img></p><b>Figure 5.</b> Screenshot of the Genomic Variant Browser<br><br>
 
 Where:
 > 1. <i>Plasmodium Malariae</i> Genome (`PmUG01`)
@@ -267,7 +267,6 @@ To obtain more information about a specific gene of interest, a direct link to t
 ## Venn Diagram
 
 An interactive venn diagram is included at the bottom of the `GENOME BROWSER` page, displaying the total number of unique/shared SNPs <b>(Figure 16.)</b>.
-
 <p align="center"><img src="PV_pics/venn.png"></img></p><b>Figure 16.</b> Interactive Venn Diagram<br><br>
 
 ## Data
