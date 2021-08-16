@@ -68,7 +68,7 @@ node app.js
 > <b>Note for Developers</b><br>
 > Nodemon has been installed to allow changes being automatically updated on the server.<br> If you wish to edit the code and run PlasmoVis in the developer mode, run `npm start` instead.
 
-2. If all the steps have been followed correclty, the following welcoming message will be displayed on your Console:
+2. If all the steps have been followed correclty, the following welcoming message will show up on the console:
 
 ```console
 MacBook-Pro-di-Elisabetta:PlasmoVis lisy$ node app.js
