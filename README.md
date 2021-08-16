@@ -260,7 +260,7 @@ The `GENOME BROWSER` page include a Gene Search section <b>(Figure 15)</b> from 
 
 <p align="center"><img src="PV_pics/genesearch.png"></img></p><b>Figure 15.</b> Gene Search Table<br><br>
 
-<b>Note:</b> columns can be sorted in ascending/descending order by clicking on the header title of interest(`Gene ID`, `Chromosome`, `Start`, `End`, `Gene Name`). Up to 100 entries can be showed at the same time.
+> <b>Note:</b> columns can be sorted in ascending/descending order by clicking on the header title of interest(`Gene ID`, `Chromosome`, `Start`, `End`, `Gene Name`). Up to 100 entries can be showed at the same time.
 
 To obtain more information about a specific gene of interest, a direct link to the official database of <i>Plasmodium</i> parasites ([PlasmoDB](https://plasmodb.org/plasmo/app)) is also included.
 
