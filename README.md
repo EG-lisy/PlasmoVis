@@ -205,11 +205,11 @@ Alternatively, to input a specific location refer to the [section below](#input-
 
 Chromosomes can be selected using the drop-down menu found on the upper-left corner of the genomic variant browser <b>(Figure 9)</b>.
 
-<p align="center"><img src="PV_pics/igv_chr.png" width="700"></img></p><b>Figure 9.</b> Chromosome Selection<br><br>
+<p align="center"><img src="PV_pics/igv_chr.png" width="600"></img></p><b>Figure 9.</b> Chromosome Selection<br><br>
 
 To avoid manually [scrolling](#scrolling) to a position of interest, genomic coordinates can be directy pasted in the search box found on the upper-left corner of the genomic variant browser, opposite the chromosome selection <b>(Figure 10)</b>.
 
-<p align="center"><img src="PV_pics/igv_input.png" width="700"></img></p><b>Figure 10.</b> Genomic Coordinates Search Box<br><br>
+<p align="center"><img src="PV_pics/igv_input.png" width="600"></img></p><b>Figure 10.</b> Genomic Coordinates Search Box<br><br>
 
 Taking as an example `PmUG01_05_v1:1,335,145-1,335,183`:
 - `PmUG01_05_v1` refers to the chromosome of interest
@@ -232,11 +232,11 @@ Where:
 
 Track labels can be hidden/shown using the `Track Labels` button found on the upper section next to the cursor guides buttons <b>(Figure 12)</b>.
 
-<p align="center"><img src="PV_pics/igv_tracknames.png" width="700"></img></p><b>Figure 12.</b> Track Labels button<br><br>
+<p align="center"><img src="PV_pics/igv_tracknames.png" width="600"></img></p><b>Figure 12.</b> Track Labels button<br><br>
 
 Tracks can be also customised using the grey gears found on the right-hand side of the genomic variant browser <b>(Figure 13)</b>.
 
-<p align="center"><img src="PV_pics/igv_tracks.png" width="500"></img></p><b>Figure 13.</b> Track Settings <br><br>
+<p align="center"><img src="PV_pics/igv_tracks.png" width="400"></img></p><b>Figure 13.</b> Track Settings <br><br>
 
 Where:
 > 1. Allows setting different track names
