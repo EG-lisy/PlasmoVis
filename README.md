@@ -226,7 +226,7 @@ Visualisation guides are also included in the IGV framework <b>(Figure 11)</b>.
 <p align="center"><img src="PV_pics/igv_cursors.png"></img></p><b>Figure 11.</b> Visualisation Guides<br><br>
 
 Where:
-> 1. <b>Cursor Guide</b> will display a guide which will follow your mouse movements
+> 1. <b>Cursor Guide</b> will display a guide which will follow the movements of your cursor
 > 2. <b>Center Line</b> will display two guides at the middle of the Genomic Variant Browser
 
 ### Track Settings
@@ -247,11 +247,11 @@ Where:
 > 5. Allows setting the Squished view
 > 6. Allows setting the Expanded view (set by default)
 > 7. Allows setting the visibility window (window hight)
-> 8. Removes the tracks
+> 8. Removes the track
 
 <b>Note:</b> all the above options are reversable, exept point <b>8</b>. If you remove a track by mistake you will need to refresh the page.
 
-The disposion of tracks can also be changed by dragging and dropping the track bars on the right <b>(Figure 14)</b>.
+The disposion of the tracks can be modified by dragging and dropping the dark-grey tack bars on the right-hand-side <b>(Figure 14)</b>.
 
 <p align="center"><img src="PV_pics/igv_movetracks.png"></img></p><b>Figure 14.</b> Track Dispositions<br><br>
 
