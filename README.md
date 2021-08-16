@@ -106,7 +106,7 @@ Below the welcoming message, self-explanatory clickable links are also included 
 ![PlasmoVis - Bottom home Page](PV_pics/homepage_bottom.png)<br><b>Figure 3.</b> PlasmoVis bottom-section navigation links.<br>
 
 
-<br><i>P. malariae</i> variants can be inspected either by clicking on the green `Run PlasmoVis` button (refer to <b>Figure 2</b>) or by using the navigation bar (read below).<br>
+<br><i>P. malariae</i> variants can be inspected on the [Genomic Variant Browser](#genomic-variant-browser) page, either by clicking on the green `Run PlasmoVis` button (refer to <b>Figure 2</b>) or by using the navigation bar (see below).<br>
 
 ## Navigation bar
 
