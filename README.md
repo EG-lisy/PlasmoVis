@@ -133,6 +133,8 @@ Where:
 3. Intersected samples variants based on continent of origin (Africa, Americas and Asia)
 4. SNPs (Single Nucleotide Polymorphisms). 
 
+### Tracks
+
 Genome, annotation and variants tracks are all interactive.
 
 By clicking on a specific gene track, an info box pops up displaying the gene ID/parent ID, which can be copied to your clipboard to identify the gene name using the gene table found at the bottom of the genomic variant browser (see [Gene Table]() section). 
@@ -143,7 +145,7 @@ See <b>Figure 6</b> below for a better understanding on the info boxes.
 
 <p align="center"><img src="PV_pics/igv_info.png"></img></p><b>Figure 6.</b> Tracks Info Boxes<br><br>
 
-Where:
+### Upper subtrack:
 > <b>CHR</b> chromosome name<br>
 > <b>Pos</b> SNP position<br>
 > <b>Names</b> SNP name added during the annotation pipeline used to calculate fixation indices (R script)<br>
@@ -169,8 +171,17 @@ Where:
 > <b>VQSLOD</b> log odds of being a true variant versus being false under the trained gaussian mixture model<br>
 > <b>culprit</b>  the annotation which was the worst performing in the Gaussian mixture model, explains the reason why the variant was filtered out (e.g. FisherStrand (FS), QualByDepth (QD), StrandOddsRatio (SOR), RMSMappingQuality (MQ), MappingQualityRankSumTest (MQRankSum), ReadPosRankSumTest (ReadPosRankSum)…)<br>
 > <b>BCSQ</b> haplotype-aware consequence annotation from BCFtools/csq, see http://samtools.github.io/bcftools/howtos/csq-calling.html for details. Format: Consequence|gene|transcript|biotype|strand|amino_acid_change|dna_change<br>
-> <b>Fst</b> Fixaction index (range 0-1)
-
+> <b>Fst</b> Fixaction index (range 0-1)<br>
+### Lower subtrack:
+> <b>Name</b> sample name (continent)<br>
+> <b>Genotype</b> genotype info. Please note that Plasmodium species are haploid. This diploid output is due to the GATK pipeline but can be translated as the detected alteration<br>
+> <b>DP</b> approximate read depth (reads with MQ=255 or with bad mates are filtered<br> 
+> <b>GQ</b> genotype quality<br>
+> <b>PGT</b> pysical phasing haplotype information, describing how the alternate alleles are phased in relation to one another; will always be heterozygous and
+ is not intended to describe called alleles <br>
+> <b>PID</b> physical phasing ID information, where each unique ID within a given sample (but not across samples) connects records within a phasing group) <br>
+> <b>PL</b> phred-scaled likelihoods for genotypes as defined in the VCF specification <br>
+> <b>BCSQ</b> Haplotype-aware consequence value 
 
 
 
