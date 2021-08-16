@@ -100,7 +100,9 @@ From [http://localhost:3000](http://localhost:3000 "PlasmoVis") you will end up 
 
 ![PlasmoVis - Home Page](PV_pics/homepage.png)<br><b>Figure 2.</b> PlasmoVis Landing Page.<br>
 
-Below the welcoming message, self-explanatory hooverable links are also included <b>(Figure 3)</b>.
+### Bottom Navigation
+
+Below the welcoming message, self-explanatory clickable links are also included <b>(Figure 3)</b>.
 
 ![PlasmoVis - Bottom home Page](PV_pics/homepage_bottom.png)<br><b>Figure 3.</b> PlasmoVis bottom-section navigation links.<br>
 
