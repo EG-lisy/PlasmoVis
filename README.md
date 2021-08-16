@@ -35,7 +35,7 @@ PlasmoVis can be downloaded in two ways:
 
 2. Alternatively, in case you have [Git](https://git-scm.com/downloads "Install Git") installed on your computer, run the following commands on your terminal:
 
-```console
+```sh
 # set your working directory (i.e. folder in which you would like to save PlasmoVis)
 cd <yourdir/yourfolder>
 # clone the repository
