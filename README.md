@@ -256,7 +256,7 @@ The disposion of the tracks can be modified by dragging and dropping the dark-gr
 
 ## Gene Search
 
-The `GENOME BROWSER` page include a Gene Search section from which Gene names/Gene IDs can be searched <b>(Figure 15)</b>.
+The `GENOME BROWSER` page include a Gene Search section <b>(Figure 15)</b> from which both Gene names and Gene IDs can be searched.
 
 <p align="center"><img src="PV_pics/genesearch.png"></img></p><b>Figure 15.</b> Gene Search Table<br><br>
 
