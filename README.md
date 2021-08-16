@@ -190,7 +190,7 @@ See <b>Figure 6</b> below for a better understanding.
 ### Zooming Functionality 
 
 You can zoom in and out of the genomic variant browser either by using the zooming bar found on the upper-right corner of the genome browser <b>(Figure 7)</b> 
-<p align="center"><img src="PV_pics/igv_zoom.png" width="700"></img></p><b>Figure 7.</b> Zooming Bar<br><br>
+<p align="center"><img src="PV_pics/igv_zoom.png" width="600"></img></p><b>Figure 7.</b> Zooming Bar<br><br>
 
 or by clicking, dragging and dropping on the genome section <b>(Figure 8)</b>
 
