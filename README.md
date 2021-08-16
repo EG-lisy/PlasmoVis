@@ -281,7 +281,7 @@ This page allows to visually inspect sample information in interactive charts an
 
 Interactive sample-charts display sample counts based on country and continent of origin <b>(Figure 18)</b>.
 
-<p align="center"><img src="samples.png"></img></p><b>Figure 17.</b> Interactive Sample Charts<br><br>
+<p align="center"><img src="PV_pics/samples.png"></img></p><b>Figure 17.</b> Interactive Sample Charts<br><br>
 
 ## Sample Search
 
