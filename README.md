@@ -125,6 +125,8 @@ Where:
 
 This page allows to inspect <i>P. malariae</i> variants over an `IGV.js` framework<b>(Figure 5)</b>.
 
+### Overview 
+
 <p align="center"><img src="PV_pics/igv.png"></img></p><b>Figure 5.</b>Screenshot example of the Genomic Variant Browser<br><br>
 
 Where:
@@ -174,12 +176,12 @@ See <b>Figure 6</b> below for a better understanding on the info boxes.
 > <b>Fst</b> Fixaction index (range 0-1)<br>
 ### Lower subtrack:
 > <b>Name</b> sample name (continent)<br>
-> <b>Genotype</b> genotype info. Please note that Plasmodium species are haploid. This diploid output is due to the GATK pipeline but can be translated as the detected alteration<br>
-> <b>DP</b> approximate read depth (reads with MQ=255 or with bad mates are filtered<br> 
+> <b>Genotype</b> genotype info. Please note that Plasmodium species are haploid. This diploid output is due to the GATK pipeline<br>
+> <b>DP</b> approximate read depth (reads with MQ=255 or with bad mates are filtered)<br> 
 > <b>GQ</b> genotype quality<br>
 > <b>PGT</b> pysical phasing haplotype information, describing how the alternate alleles are phased in relation to one another; will always be heterozygous and
  is not intended to describe called alleles <br>
-> <b>PID</b> physical phasing ID information, where each unique ID within a given sample (but not across samples) connects records within a phasing group) <br>
+> <b>PID</b> physical phasing ID information, where each unique ID within a given sample (but not across samples) connects records within a phasing group <br>
 > <b>PL</b> phred-scaled likelihoods for genotypes as defined in the VCF specification <br>
 > <b>BCSQ</b> Haplotype-aware consequence value 
 
