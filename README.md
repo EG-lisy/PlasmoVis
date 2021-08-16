@@ -91,7 +91,7 @@ Welcome to PlasmoVis!
 
 This section aims to assist with the navigation of PlasmoVis web-pages.
 
-## Home Page
+# Home Page
 
 From [http://localhost:3000](http://localhost:3000 "PlasmoVis") you will end up on the landing page of PlasmoVis <b>(Figure 2)</b>.
 
@@ -121,11 +121,11 @@ Where:
 > 5. <b>HOME</b> takes back to [home page](#home-page)
 
 
-## Genomic Variant Browser
+# Genomic Variant Browser
 
 This page allows to inspect <i>P. malariae</i> variants over an `IGV.js` framework<b>(Figure 5)</b>.
 
-### Overview 
+## Overview 
 
 <p align="center"><img src="PV_pics/igv.png"></img></p><b>Figure 5.</b> Screenshot of the Genomic Variant Browser<br><br>
 
@@ -135,7 +135,7 @@ Where:
 > 3. Intersected samples variants based on continent of origin (Africa, Americas and Asia)
 > 4. SNPs (Single Nucleotide Polymorphisms)
 
-### Tracks
+## Tracks
 
 Genome, annotation and variants tracks are all interactive.
 
@@ -186,7 +186,7 @@ See <b>Figure 6</b> below for a better understanding.
 > <b>PL</b> phred-scaled likelihoods for genotypes as defined in the VCF specification <br>
 > <b>BCSQ</b> Haplotype-aware consequence value 
 
-### Zooming Functionality 
+## Zooming Functionality 
 
 You can zoom in and out of the genomic variant browser either by using the zooming bar found on the upper-right corner of the genome browser <b>(Figure 7)</b> 
 <p align="center"><img src="PV_pics/igv_zoom.png" width="600"></img></p><b>Figure 7.</b> Zooming Bar<br><br>
@@ -195,13 +195,13 @@ or by clicking, dragging and dropping over the genome range of interest <b>(Figu
 
 <p align="center"><img src="PV_pics/igv_zoom2.png"></img></p><b>Figure 8.</b> Drag & drop zooming functionality<br><br>
 
-### Scrolling
+## Scrolling
 
 To manually move along the genome, drag and drop over the annotation/variant tracks section (refer to [Figure 5](#genomic-variant-browser), bulletpoints <b>2 and 3</b>).
 
 Alternatively, to input a specific location refer to the [section below](#input-specific-chromosome-positions).
 
-### Input Specific Chromosome Positions
+## Input Specific Chromosome Positions
 
 Chromosomes can be selected using the drop-down menu found on the upper-left corner of the genomic variant browser <b>(Figure 9)</b>.
 
@@ -218,7 +218,7 @@ Taking as an example `PmUG01_05_v1:1,335,145-1,335,183`:
 
 <b>Note</b> that this will also work when specifying just the start position of interest.
 
-### Cursor Guide
+## Cursor Guides
 
 Visualisation guides are also included in the IGV framework <b>(Figure 11)</b>.
 
@@ -228,7 +228,7 @@ Where:
 > 1. <b>Cursor Guide</b> will display a guide which will follow the movements of your cursor
 > 2. <b>Center Line</b> will display two guides in the middle of the Genomic Variant Browser
 
-### Track Settings
+## Track Settings
 
 Track labels can be hidden/shown using the `Track Labels` button found on the upper section next to the cursor guides buttons <b>(Figure 12)</b>.
 
@@ -250,7 +250,7 @@ Where:
 
 <b>Note:</b> all the above options are reversable, exept point <b>8</b>. If you remove a track by mistake you will need to refresh the page.
 
-### Move Tracks
+## Track Disposition
 
 The disposion of the tracks can be modified by dragging and dropping the dark-grey tack bars on the right-hand-side <b>(Figure 14)</b>.
 
@@ -271,15 +271,13 @@ To obtain more information about a specific gene of interest, a direct link to t
 An interactive venn diagram is included at the bottom of the `GENOME BROWSER` page, displaying the total number of unique/shared SNPs <b>(Figure 16.)</b>.
 <p align="center"><img src="PV_pics/venn.png"></img></p><b>Figure 16.</b> Interactive Venn Diagram<br><br>
 
-## Data
+# Data
 
 This page allows to visually inspect sample information in the form of a world map, charts and tables
 
+# About
 
-
-## About
-
-## Home
+BlaBla
 
 
 # Sequencing Files
