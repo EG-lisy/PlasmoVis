@@ -65,10 +65,14 @@ Once the installation is completed, a `node_modules` folder containing all the r
 node app.js
 ```
 
+### Note for Developers
+
+> Nodemon has been installed to allow changes being automatically updated on the server.<br> If you wish to edit the code and run PlasmoVis in the developer mode, run `npm start` instead.
+
 2. If all the steps have been followed correclty, the following welcoming message will be displayed on your Console:
 
 ```console
-(base) MacBook-Pro-di-Elisabetta:PlasmoVis lisy$ node app.js
+MacBook-Pro-di-Elisabetta:PlasmoVis lisy$ node app.js
 
 Server is listening on port: 3000
 -------------------------------- PlasmoVis --------------------------------
@@ -110,14 +114,65 @@ The navigation bar on the upper-section allows switching in between pages <b>(Fi
 <p align="center"><img src="PV_pics/navbar.png"></img></p><b>Figure 4.</b>PlasmoVis Navigation Bar<br><br><br>
 
 Where: 
-➊ <b>PlasmoVis logo</b> takes back to the [home page](#home-page)
-2. <b>GENOME BROWSER</b> allows to inspect <i>P. malariae</i> variants over a IGV.js framework
+1. <b>PlasmoVis logo</b> takes back to the [home page](#home-page)
+2. <b>GENOME BROWSER</b> takes to the [Genomic Variant Browser](#genomic-variant-browser) page allows to inspect <i>P. malariae</i> variants over a IGV.js framework
 3. <b>DATA</b> allows to inspect sample information in the form of a world map, charts and tables
 4. <b>ABOUT</b> includes additional information on <i>P. knowlesi</i> data used whilst developing PlasmoVis
 5. <b>HOME</b> takes back to [home page](#home-page)
 
 
-## Genome Browser
+## Genomic Variant Browser
+
+This page allows to inspect <i>P. malariae</i> variants over an `IGV.js` framework<b>(Figure 5)</b>.
+
+<p align="center"><img src="PV_pics/igv.png"></img></p><b>Figure 5.</b>Screenshot example of the Genomic Variant Browser<br><br>
+
+Where:
+1. Plasmodium Malariae Genome (`PmUG01`)
+2. Annotation - gene IDs
+3. Intersected samples variants based on continent of origin (Africa, Americas and Asia)
+4. SNPs (Single Nucleotide Polymorphisms). 
+
+Genome, annotation and variants tracks are all interactive.
+
+By clicking on a specific gene track, an info box pops up displaying the gene ID/parent ID, which can be copyied to your clipboard to identify the gene name using the gene table (see [Gene Table]() section). 
+
+SNPs tracks display two subtracks. The upper subtrack is coloured by continent; by clicking on it, an info box pops up displaying all the informaiton stored inside the VCF file. Likewise, the lower subtrack pops up an info box displaying genotype information.
+
+ <b>(Figure 6)</b>.
+
+<p align="center"><img src="PV_pics/igv.png"></img></p><b>Figure 5.</b>Screenshot example of the Genomic Variant Browser<br><br>
+
+Where:
+> <b>CHR</b> chromosome name
+> <b>Pos</b> SNP position
+> <b>Names</b> SNP name added during the annotation pipeline used to calculate fixation indices (R script)
+> <b>Ref</b> reference allele
+> <b>ALT</b> alternative allele
+> <b>Qual</b> a phred-scaled quality score assigned by the variant caller
+> <b>Filter</b> PASS if specific position has passed all given filters when generating the vcf file
+> <b>AC</b> allele count in genotypes, for each ALT allele, in the same order as listed
+> <b>AF</b> allele Frequency, for each ALT allele, in the same order as listed
+> <b>AN</b> total number of alleles in called genotypes
+> <b>BaseQRankSum</b> z-score from Wilcoxon rank sum test of Alt Vs. Ref base qualities
+> <b>DP</b> approximate read depth; some reads may have been filtered
+> <b>ExcessHet</b> phred-scaled p-value for exact test of excess heterozygosity
+> <b>FS</b> phred-scaled p-value using Fisher's exact test to detect strand bias
+> <b>InbreedingCoeff</b> inbreeding coefficient as estimated from the genotype likelihoods per-sample when compared against the Hardy-Weinberg expectation
+> <b>MLEAC</b> maximum likelihood expectation (MLE) for the allele counts (not necessarily the same as the AC), for each ALT allele, in the same order as listed
+> <b>MLEAF</b> maximum likelihood expectation (MLE) for the allele frequency (not necessarily the same as the AF), for each ALT allele, in the same order as listed
+> <b>MQ</b> RMS (root mean square) Mapping Quality
+> <b>MQRankSum</b> z-score From Wilcoxon rank sum test of Alt vs. Ref read mapping qualities
+> <b>QD</b> variant Confidence/Quality by Depth
+> <b>ReadPosRankSum</b> z-score from Wilcoxon rank sum test of Alt vs. Ref read position bias
+> <b>SOR</b> symmetric Odds Ratio of 2x2 contingency table to detect strand bias
+> <b>VQSLOD</b> log odds of being a true variant versus being false under the trained gaussian mixture model
+> <b>culprit</b>  the annotation which was the worst performing in the Gaussian mixture model, explains the reason why the variant was filtered out (e.g. FisherStrand (FS), QualByDepth (QD), StrandOddsRatio (SOR), RMSMappingQuality (MQ), MappingQualityRankSumTest (MQRankSum), ReadPosRankSumTest (ReadPosRankSum)…)
+> <b>BCSQ</b> haplotype-aware consequence annotation from BCFtools/csq, see http://samtools.github.io/bcftools/howtos/csq-calling.html for details. Format: Consequence|gene|transcript|biotype|strand|amino_acid_change|dna_change
+> <b>Fst</b> Fixaction index (range 0-1)
+
+
+
 
 ## Data
 
