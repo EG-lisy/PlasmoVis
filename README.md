@@ -141,34 +141,34 @@ SNPs tracks display two subtracks. The upper subtrack is coloured by continent; 
 
  <b>(Figure 6)</b>.
 
-<p align="center"><img src="PV_pics/igv.png"></img></p><b>Figure 5.</b>Screenshot example of the Genomic Variant Browser<br><br>
+<p align="center"><img src="PV_pics/igv_info.png"></img></p><b>Figure 5.</b>Screenshot example of the Genomic Variant Browser<br><br>
 
 Where:
-> <b>CHR</b> chromosome name
-> <b>Pos</b> SNP position
-> <b>Names</b> SNP name added during the annotation pipeline used to calculate fixation indices (R script)
-> <b>Ref</b> reference allele
-> <b>ALT</b> alternative allele
-> <b>Qual</b> a phred-scaled quality score assigned by the variant caller
-> <b>Filter</b> PASS if specific position has passed all given filters when generating the vcf file
-> <b>AC</b> allele count in genotypes, for each ALT allele, in the same order as listed
-> <b>AF</b> allele Frequency, for each ALT allele, in the same order as listed
-> <b>AN</b> total number of alleles in called genotypes
-> <b>BaseQRankSum</b> z-score from Wilcoxon rank sum test of Alt Vs. Ref base qualities
-> <b>DP</b> approximate read depth; some reads may have been filtered
-> <b>ExcessHet</b> phred-scaled p-value for exact test of excess heterozygosity
-> <b>FS</b> phred-scaled p-value using Fisher's exact test to detect strand bias
-> <b>InbreedingCoeff</b> inbreeding coefficient as estimated from the genotype likelihoods per-sample when compared against the Hardy-Weinberg expectation
-> <b>MLEAC</b> maximum likelihood expectation (MLE) for the allele counts (not necessarily the same as the AC), for each ALT allele, in the same order as listed
-> <b>MLEAF</b> maximum likelihood expectation (MLE) for the allele frequency (not necessarily the same as the AF), for each ALT allele, in the same order as listed
-> <b>MQ</b> RMS (root mean square) Mapping Quality
-> <b>MQRankSum</b> z-score From Wilcoxon rank sum test of Alt vs. Ref read mapping qualities
-> <b>QD</b> variant Confidence/Quality by Depth
-> <b>ReadPosRankSum</b> z-score from Wilcoxon rank sum test of Alt vs. Ref read position bias
-> <b>SOR</b> symmetric Odds Ratio of 2x2 contingency table to detect strand bias
-> <b>VQSLOD</b> log odds of being a true variant versus being false under the trained gaussian mixture model
-> <b>culprit</b>  the annotation which was the worst performing in the Gaussian mixture model, explains the reason why the variant was filtered out (e.g. FisherStrand (FS), QualByDepth (QD), StrandOddsRatio (SOR), RMSMappingQuality (MQ), MappingQualityRankSumTest (MQRankSum), ReadPosRankSumTest (ReadPosRankSum)…)
-> <b>BCSQ</b> haplotype-aware consequence annotation from BCFtools/csq, see http://samtools.github.io/bcftools/howtos/csq-calling.html for details. Format: Consequence|gene|transcript|biotype|strand|amino_acid_change|dna_change
+> <b>CHR</b> chromosome name<br>
+> <b>Pos</b> SNP position<br>
+> <b>Names</b> SNP name added during the annotation pipeline used to calculate fixation indices (R script)<br>
+> <b>Ref</b> reference allele<br>
+> <b>ALT</b> alternative allele<br>
+> <b>Qual</b> a phred-scaled quality score assigned by the variant caller<br>
+> <b>Filter</b> PASS if specific position has passed all given filters when generating the vcf file<br>
+> <b>AC</b> allele count in genotypes, for each ALT allele, in the same order as listed<br>
+> <b>AF</b> allele Frequency, for each ALT allele, in the same order as listed<br>
+> <b>AN</b> total number of alleles in called genotypes<br>
+> <b>BaseQRankSum</b> z-score from Wilcoxon rank sum test of Alt Vs. Ref base qualities<br>
+> <b>DP</b> approximate read depth; some reads may have been filtered<br>
+> <b>ExcessHet</b> phred-scaled p-value for exact test of excess heterozygosity<br>
+> <b>FS</b> phred-scaled p-value using Fisher's exact test to detect strand bias<br>
+> <b>InbreedingCoeff</b> inbreeding coefficient as estimated from the genotype likelihoods per-sample when compared against the Hardy-Weinberg expectation<br>
+> <b>MLEAC</b> maximum likelihood expectation (MLE) for the allele counts (not necessarily the same as the AC), for each ALT allele, in the same order as listed<br>
+> <b>MLEAF</b> maximum likelihood expectation (MLE) for the allele frequency (not necessarily the same as the AF), for each ALT allele, in the same order as listed<br>
+> <b>MQ</b> RMS (root mean square) Mapping Quality<br>
+> <b>MQRankSum</b> z-score From Wilcoxon rank sum test of Alt vs. Ref read mapping qualities<br>
+> <b>QD</b> variant Confidence/Quality by Depth<br>
+> <b>ReadPosRankSum</b> z-score from Wilcoxon rank sum test of Alt vs. Ref read position bias<br>
+> <b>SOR</b> symmetric Odds Ratio of 2x2 contingency table to detect strand bias<br>
+> <b>VQSLOD</b> log odds of being a true variant versus being false under the trained gaussian mixture model<br>
+> <b>culprit</b>  the annotation which was the worst performing in the Gaussian mixture model, explains the reason why the variant was filtered out (e.g. FisherStrand (FS), QualByDepth (QD), StrandOddsRatio (SOR), RMSMappingQuality (MQ), MappingQualityRankSumTest (MQRankSum), ReadPosRankSumTest (ReadPosRankSum)…)<br>
+> <b>BCSQ</b> haplotype-aware consequence annotation from BCFtools/csq, see http://samtools.github.io/bcftools/howtos/csq-calling.html for details. Format: Consequence|gene|transcript|biotype|strand|amino_acid_change|dna_change<br>
 > <b>Fst</b> Fixaction index (range 0-1)
 
 
