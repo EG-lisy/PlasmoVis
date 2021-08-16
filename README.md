@@ -129,19 +129,19 @@ This page allows to inspect <i>P. malariae</i> variants over an `IGV.js` framewo
 
 Where:
 1. Plasmodium Malariae Genome (`PmUG01`)
-2. Annotation - gene IDs
+2. Annotation (gene IDs)
 3. Intersected samples variants based on continent of origin (Africa, Americas and Asia)
 4. SNPs (Single Nucleotide Polymorphisms). 
 
 Genome, annotation and variants tracks are all interactive.
 
-By clicking on a specific gene track, an info box pops up displaying the gene ID/parent ID, which can be copyied to your clipboard to identify the gene name using the gene table (see [Gene Table]() section). 
+By clicking on a specific gene track, an info box pops up displaying the gene ID/parent ID, which can be copied to your clipboard to identify the gene name using the gene table found at the bottom of the genomic variant browser (see [Gene Table]() section). 
 
-SNPs tracks display two subtracks. The upper subtrack is coloured by continent; by clicking on it, an info box pops up displaying all the informaiton stored inside the VCF file. Likewise, the lower subtrack pops up an info box displaying genotype information.
+SNPs tracks display two subtracks. The upper subtrack is coloured in different shades of blue based on the continent of origin; by clicking on it, an info box pops up displaying all the informaiton stored inside the VCF file. Likewise, the lower subtrack pops up an info box displaying genotype information.
 
- <b>(Figure 6)</b>.
+See <b>Figure 6</b> below for a better understanding on the info boxes.
 
-<p align="center"><img src="PV_pics/igv_info.png"></img></p><b>Figure 5.</b>Screenshot example of the Genomic Variant Browser<br><br>
+<p align="center"><img src="PV_pics/igv_info.png"></img></p><b>Figure 6.</b> Tracks Info Boxes<br><br>
 
 Where:
 > <b>CHR</b> chromosome name<br>
