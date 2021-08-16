@@ -109,7 +109,7 @@ Below the welcoming message, self-explanatory clickable links can be found <b>(F
 
 ## Navigation bar
 
-The navigation bar on the upper-section allows switching in between pages <b>(Figure 4)</b>.<br><br>
+The navigation bar on the upper-section allows switching in between pages <b>(Figure 4)</b>.
 
 <p align="center"><img src="PV_pics/navbar.png"></img></p><b>Figure 4.</b>PlasmoVis Navigation Bar<br><br><br>
 
