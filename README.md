@@ -209,7 +209,7 @@ Chromosomes can be selected using the drop-down menu found on the upper-left cor
 
 To avoid manually [scrolling](#scrolling) to a position of interest, genomic coordinates can be directy pasted in the search box found on the upper-left corner of the genomic variant browser, opposite the chromosome selection <b>(Figure 10)</b>.
 
-<p align="center"><img src="PV_pics/igv_chr.png"></img></p><b>Figure 10.</b> Genomic Coordinates Search Box<br><br>
+<p align="center"><img src="PV_pics/igv_input.png"></img></p><b>Figure 10.</b> Genomic Coordinates Search Box<br><br>
 
 Taking as an example `PmUG01_05_v1:1,335,145-1,335,183`:
 - `PmUG01_05_v1` refers to the chromosome of interest
