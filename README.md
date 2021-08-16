@@ -250,6 +250,8 @@ Where:
 
 <b>Note:</b> all the above options are reversable, exept point <b>8</b>. If you remove a track by mistake you will need to refresh the page.
 
+### Move Tracks
+
 The disposion of the tracks can be modified by dragging and dropping the dark-grey tack bars on the right-hand-side <b>(Figure 14)</b>.
 
 <p align="center"><img src="PV_pics/igv_movetracks.png"></img></p><b>Figure 14.</b> Track Dispositions<br><br>
