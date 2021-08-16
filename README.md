@@ -237,7 +237,7 @@ Track labels can be hidden/shown using the `Track Labels` button found on the up
 
 Tracks can also be customised using the grey gears found on the right-hand side of the genomic variant browser.
 
-<p align="center"><img src="PV_pics/igv_tracks.png" width="700"></img></p><b>Figure 12.</b> Track Settings <br><br>
+<p align="center"><img src="PV_pics/igv_tracks.png" width="100"></img></p><b>Figure 12.</b> Track Settings <br><br>
 
 Where:
 1. Allows setting different track names
