@@ -192,7 +192,7 @@ See <b>Figure 6</b> below for a better understanding on the info boxes.
 You can zoom in and out of the genomic variant browser either by using the zooming bar found on the upper-right corner of the genome browser <b>(Figure 7)</b> 
 <p align="center"><img src="PV_pics/igv_zoom.png"></img></p><b>Figure 7.</b> Zooming Bar<br><br>
 
-or by clicking, dragging and dropping on the genome section (Figure 8)
+or by clicking, dragging and dropping on the genome section <b>(Figure 8)</b>
 <p align="center"><img src="PV_pics/igv_zoom2.png"></img></p><b>Figure 8.</b> Drag & drop zooming functionality<br><br>
 
 ### Scrolling
@@ -203,11 +203,13 @@ To input a specific location, refer to the [section below](#input-specific-chrom
 
 ### Input Specific Chromosome Positions
 
-Chromosome can be selected using the drop-down menu found on the upper-left corner of the genomic variant browser (Figure)
+Chromosomes can be selected using the drop-down menu found on the upper-left corner of the genomic variant browser <b>(Figure 9)</b>.
 
--figure-
+<p align="center"><img src="PV_pics/igv_chr.png"></img></p><b>Figure 9.</b> Chromosome Selection<br><br>
 
-To avoid manually [scrolling](#scrolling) to a position of interest, genomic coordinates can be directy pasted in the search box found on the upper-left corner of the genomic variant browser, opposite the chromosome selection (Figure)
+To avoid manually [scrolling](#scrolling) to a position of interest, genomic coordinates can be directy pasted in the search box found on the upper-left corner of the genomic variant browser, opposite the chromosome selection <b>(Figure 10)</b>.
+
+<p align="center"><img src="PV_pics/igv_chr.png"></img></p><b>Figure 10.</b> Genomic Coordinates Search Box<br><br>
 
 Taking as an example `PmUG01_05_v1:1,335,145-1,335,183`:
 - `PmUG01_05_v1` refers to the chromosome of interest
