@@ -98,7 +98,7 @@ From [http://localhost:3000](http://localhost:3000 "PlasmoVis") you will end up 
 
 ![PlasmoVis - Home Page](PV_pics/homepage.png)<br><b>Figure 2.</b> PlasmoVis Landing Page.<br>
 
-### Bottom Navigation
+### Bottom-Section Navigation
 
 Below the welcoming message, self-explanatory clickable links can be found <b>(Figure 3)</b>.
 
@@ -139,9 +139,9 @@ Where:
 
 Genome, annotation and variants tracks are all interactive.
 
-By clicking on a specific gene track, an info box pops up displaying the gene ID/parent ID, which can be copied to your clipboard to identify the gene name using the gene table found at the bottom of the genomic variant browser (see [Gene Search](#gene-search) section). 
+By clicking on a specific gene track, an info box will pop up displaying the gene ID/parent ID, which can be copied to the clipboard to identify the name of the gene using the Gene Search table found at the bottom of the genomic variant browser (see [Gene Search](#gene-search) section). 
 
-SNPs tracks display two subtracks. The upper subtrack is coloured in different shades of blue based on the continent of origin; by clicking on it, an info box pops up displaying all the informaiton stored inside the VCF file. Likewise, the lower subtrack pops up an info box displaying genotype information.
+SNPs tracks display two subtracks. The upper subtracks are coloured in different shades of blue based on the continent of origin; by clicking on it, an info box will pop up displaying the informaiton stored inside the VCF file. Likewise, the lower subtrack will pop up an info box displaying genotype and additional allelic information.
 
 See <b>Figure 6</b> below for a better understanding.
 
@@ -191,15 +191,15 @@ See <b>Figure 6</b> below for a better understanding.
 You can zoom in and out of the genomic variant browser either by using the zooming bar found on the upper-right corner of the genome browser <b>(Figure 7)</b> 
 <p align="center"><img src="PV_pics/igv_zoom.png" width="600"></img></p><b>Figure 7.</b> Zooming Bar<br><br>
 
-or by clicking, dragging and dropping on the genome section <b>(Figure 8)</b>
+or by clicking, dragging and dropping over the genome range of interest <b>(Figure 8)</b>.
 
 <p align="center"><img src="PV_pics/igv_zoom2.png"></img></p><b>Figure 8.</b> Drag & drop zooming functionality<br><br>
 
 ### Scrolling
 
-To manually scroll along the genome, drag and drop over the annotation/variant tracks section (refer to [Figure 5](#genomic-variant-browser), bulletpoints <b>2 and 3</b>).
+To manually move along the genome, drag and drop over the annotation/variant tracks section (refer to [Figure 5](#genomic-variant-browser), bulletpoints <b>2 and 3</b>).
 
-To input a specific location, refer to the [section below](#input-specific-chromosome-positions).
+Alternatively, to input a specific location refer to the [section below](#input-specific-chromosome-positions).
 
 ### Input Specific Chromosome Positions
 
