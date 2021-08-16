@@ -109,7 +109,7 @@ Below the welcoming message, self-explanatory clickable links can be found <b>(F
 
 ## Navigation bar
 
-The navigation bar on the upper-section allows switching in between pages <b>(Figure 4)</b>.
+The navigation bar allows switching in between pages <b>(Figure 4)</b>.
 
 <p align="center"><img src="PV_pics/navbar.png"></img></p><b>Figure 4.</b>PlasmoVis Navigation Bar<br><br>
 
@@ -273,7 +273,19 @@ An interactive venn diagram is included at the bottom of the `GENOME BROWSER` pa
 
 # Data
 
-This page allows to visually inspect sample information in the form of a world map, charts and tables
+This page allows to visually inspect sample information in interactive charts and tables, and includes an interactive cloropleth map displaying sample counts based on their country of origin <b>(Figure 17)</b>.
+
+<p align="center"><img src="PV_pics/cloroplethmap.png"></img></p><b>Figure 17.</b> Cloropleth Map<br><br>
+
+## Sample Charts
+
+Interactive sample-charts display sample counts based on country and continent of origin <b>(Figure 18)</b>.
+
+<p align="center"><img src="samples.png"></img></p><b>Figure 17.</b> Interactive Sample Charts<br><br>
+
+## Sample Search
+
+A Sample Search Table is included at the bottom of this page, from which sample ID/location information can be retrived.
 
 # About
 
