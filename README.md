@@ -35,7 +35,7 @@ PlasmoVis can be downloaded in two ways:
 
 2. Alternatively, in case you have [Git](https://git-scm.com/downloads "Install Git") installed on your computer, run the following commands on your terminal:
 
-```sh
+```console
 # set your working directory (i.e. folder in which you would like to save PlasmoVis)
 cd <yourdir/yourfolder>
 # clone the repository
@@ -186,6 +186,35 @@ See <b>Figure 6</b> below for a better understanding on the info boxes.
 > <b>PID</b> physical phasing ID information, where each unique ID within a given sample (but not across samples) connects records within a phasing group <br>
 > <b>PL</b> phred-scaled likelihoods for genotypes as defined in the VCF specification <br>
 > <b>BCSQ</b> Haplotype-aware consequence value 
+
+### Zooming Functionality 
+
+You can zoom in and out of the genomic variant browser either by using the zooming bar found on the upper-right corner of the genome browser <b>(Figure 7)</b> 
+<p align="center"><img src="PV_pics/igv_zoom.png"></img></p><b>Figure 7.</b> Zooming Bar<br><br>
+or by clicking, dragging and dropping on the genome section (Figure 8)
+<p align="center"><img src="PV_pics/igv_zoom2.png"></img></p><b>Figure 8.</b> Drag & drop zooming functionality<br><br>
+
+### Scrolling
+
+Drag and drop on the annotation/variant tracks section to scroll along genomic positions.
+
+To input a specific location, refer to the [section below](#input-specific-chromosome-positions).
+
+### Input Specific Chromosome Positions
+
+Chromosome can be selected using the drop-down menu found on the upper-left corner of the genomic variant browser (Figure)
+
+-figure-
+
+To avoid manually [scrolling](#scrolling) to a position of interest, genomic coordinates can be directy pasted in the search box found on the upper-left corner of the genomic variant browser, opposite the chromosome selection (Figure)
+
+Taking as an example `PmUG01_05_v1:1,335,145-1,335,183`:
+- `PmUG01_05_v1` refers to the chromosome of interest
+- `:` precedes the chromosome coordinates
+- `1,335,145-1,335,183` refers to the chromosome coordinates (in this case, from `1,335,145-1,335,183` to `1,335,183`)
+
+<b>Note</b> that this will work also by pasting only the starting position of interest.
+
 
 
 
