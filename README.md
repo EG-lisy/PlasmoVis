@@ -227,7 +227,7 @@ Visualisation guides are also included in the IGV framework <b>(Figure 11)</b>.
 
 Where:
 > 1. <b>Cursor Guide</b> will display a guide which will follow the movements of your cursor
-> 2. <b>Center Line</b> will display two guides at the middle of the Genomic Variant Browser
+> 2. <b>Center Line</b> will display two guides in the middle of the Genomic Variant Browser
 
 ### Track Settings
 
@@ -257,20 +257,19 @@ The disposion of the tracks can be modified by dragging and dropping the dark-gr
 
 ## Gene Search
 
-The `GENOME BROWSER` page also include a Gene Search section.
-Gene names/Gene IDs can be searched using the Gene Name `Search` box<b>(Figure 15)</b>.
+The `GENOME BROWSER` page include a Gene Search section from which Gene names/Gene IDs can be searched <b>(Figure 15)</b>.
 
 <p align="center"><img src="PV_pics/genesearch.png"></img></p><b>Figure 15.</b> Gene Search Table<br><br>
 
-<b>Note:</b> columns can be sorted in ascending/descending order by clicking on the header titles (`Gene ID`, `Chromosome`, `Start`, `End`, `Gene Name`). Up to 100 entries can be showed at the same time.
+<b>Note:</b> columns can be sorted in ascending/descending order by clicking on the header title of interest(`Gene ID`, `Chromosome`, `Start`, `End`, `Gene Name`). Up to 100 entries can be showed at the same time.
 
 To obtain more information about a specific gene of interest, a direct link to the official database of <i>Plasmodium</i> parasites ([PlasmoDB](https://plasmodb.org/plasmo/app)) is also included.
 
 ## Venn Diagram
 
-An interactive venn diagram is also included at the bottom of the `GENOME BROWSER` page, displaying the total number of unique/shared SNPs <b>(Figure 16.)</b>.
+An interactive venn diagram is included at the bottom of the `GENOME BROWSER` page, displaying the total number of unique/shared SNPs <b>(Figure 16.)</b>.
 
-<p align="center"><img src="PV_pics/genesearch.png"></img></p><b>Figure 16.</b> Interactive Venn Diagram<br><br>
+<p align="center"><img src="PV_pics/venn.png"></img></p><b>Figure 16.</b> Interactive Venn Diagram<br><br>
 
 ## Data
 
