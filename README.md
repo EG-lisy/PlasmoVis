@@ -83,9 +83,8 @@ Welcome to PlasmoVis!
 3. You will be now able to visit PlasmoVis on [http://localhost:3000](http://localhost:3000 "PlasmoVis").
 
 
-## 4. Close PlasmoVis
 
-To stop PlasmoVis from running, type `Ctrl+C` on your terminal.
+> <b>Note:</b> to stop PlasmoVis from running, type `Ctrl+C` on your terminal.
 
 
 # PlasmoVis
