@@ -1,11 +1,11 @@
 <br><br>
 <img style="float: center;" src="PV_pics/plasmoVis_logo.png" width="550"> </img>
 
-PlasmoVis is a  user-friendly web-based visualisation tool to assist with the analysis and visualisation of sequencing data, specifically to interrogate the genomic variation of P. malariae parasites. 
+PlasmoVis is a  user-friendly web-based visualisation tool to assist with the analysis and visualisation of sequencing data, specifically to interrogate the genomic variation of <i>Plasmodium malariae</i> parasites. 
 
 ## Table of Contents
-> - [About](#About)<br>
-> - [Prerequisites](#Prerequisites)<br>
+> - [About](#about)<br>
+> - [Prerequisites](#prerequisites)<br>
 > - [Setup](#setup)<br>
 >   - [Download PlasmoVis](#1-download-plasmovis) <br>
 >   - [Install PlasmoVis Dependendencies](#2-install-plasmovis-dependencies) <br>
@@ -28,12 +28,12 @@ Please ensure you have <b>Node.js</b> installed on your computer before proceedi
 
 PlasmoVis can be downloaded in two ways:
 
-1. Click on the green `Code` button on the upper-right corner above and select `Download ZIP` <b>(Figure 1)
+- Click on the green `Code` button on the upper-right corner above and select `Download ZIP` <b>(Figure 1)
 </b>. Remember to unzip the file before proceeding.
 
 <p align="center"><img src="PV_pics/download_repo.png" width="400"></img></p><br><b>Figure 1.</b> Download PlasmoVis - GitHub screenshot.<br><br>
 
-2. Alternatively, in case you have [Git](https://git-scm.com/downloads "Install Git") installed on your computer, run the following commands on your terminal:
+- Alternatively, in case you have [Git](https://git-scm.com/downloads "Install Git") installed on your computer, run the following commands on your terminal:
 
 ```sh
 # set your working directory (i.e. folder in which you would like to save PlasmoVis)
@@ -44,7 +44,7 @@ git clone https://github.com/EG-lisy/PlasmoVis.git
 
 ## 2. Install PlasmoVis Dependencies
 
-Proceede installing PlasmoVis dependencies (i.e. node modules).
+Proceede installing PlasmoVis dependencies (node modules).
 
 1. From the terminal, set your working directory inside `PlasmoVis/PlasmoVis`. Please note that the project subfolder has the same name of the main one.
 
@@ -65,8 +65,7 @@ Once the installation is completed, a `node_modules` folder containing all the r
 node app.js
 ```
 
-### Note for Developers
-
+> <b>Note for Developers</b><br>
 > Nodemon has been installed to allow changes being automatically updated on the server.<br> If you wish to edit the code and run PlasmoVis in the developer mode, run `npm start` instead.
 
 2. If all the steps have been followed correclty, the following welcoming message will be displayed on your Console:
@@ -117,8 +116,8 @@ The navigation bar on the upper-section allows switching in between pages <b>(Fi
 
 Where: 
 1. <b>PlasmoVis logo</b> takes back to the [home page](#home-page)
-2. <b>GENOME BROWSER</b> takes to the [Genomic Variant Browser](#genomic-variant-browser) page allows to inspect <i>P. malariae</i> variants over a IGV.js framework
-3. <b>DATA</b> allows to inspect sample information in the form of a world map, charts and tables
+2. <b>GENOME BROWSER</b> takes to the [Genomic Variant Browser](#genomic-variant-browser) page 
+3. <b>DATA</b> takes to the [Data](#data) page
 4. <b>ABOUT</b> includes additional information on <i>P. knowlesi</i> data used whilst developing PlasmoVis
 5. <b>HOME</b> takes back to [home page](#home-page)
 
@@ -129,10 +128,10 @@ This page allows to inspect <i>P. malariae</i> variants over an `IGV.js` framewo
 
 ### Overview 
 
-<p align="center"><img src="PV_pics/igv.png"></img></p><b>Figure 5.</b>Screenshot example of the Genomic Variant Browser<br><br>
+<p align="center"><img src="PV_pics/igv.png"></img></p><b>Figure 5.</b> Screenshot of the Genomic Variant Browser<br><br>
 
 Where:
-1. Plasmodium Malariae Genome (`PmUG01`)
+1. <i>Plasmodium Malariae</i> Genome (`PmUG01`)
 2. Annotation (gene IDs)
 3. Intersected samples variants based on continent of origin (Africa, Americas and Asia)
 4. SNPs (Single Nucleotide Polymorphisms). 
@@ -141,15 +140,15 @@ Where:
 
 Genome, annotation and variants tracks are all interactive.
 
-By clicking on a specific gene track, an info box pops up displaying the gene ID/parent ID, which can be copied to your clipboard to identify the gene name using the gene table found at the bottom of the genomic variant browser (see [Gene Table]() section). 
+By clicking on a specific gene track, an info box pops up displaying the gene ID/parent ID, which can be copied to your clipboard to identify the gene name using the gene table found at the bottom of the genomic variant browser (see [Gene Search](#gene-search) section). 
 
 SNPs tracks display two subtracks. The upper subtrack is coloured in different shades of blue based on the continent of origin; by clicking on it, an info box pops up displaying all the informaiton stored inside the VCF file. Likewise, the lower subtrack pops up an info box displaying genotype information.
 
-See <b>Figure 6</b> below for a better understanding on the info boxes.
+See <b>Figure 6</b> below for a better understanding.
 
 <p align="center"><img src="PV_pics/igv_info.png"></img></p><b>Figure 6.</b> Tracks Info Boxes<br><br>
 
-### Upper subtrack:
+> <b>Upper subtrack:</b><br>
 > <b>CHR</b> chromosome name<br>
 > <b>Pos</b> SNP position<br>
 > <b>Names</b> SNP name added during the annotation pipeline used to calculate fixation indices (R script)<br>
@@ -176,7 +175,8 @@ See <b>Figure 6</b> below for a better understanding on the info boxes.
 > <b>culprit</b>  the annotation which was the worst performing in the Gaussian mixture model, explains the reason why the variant was filtered out (e.g. FisherStrand (FS), QualByDepth (QD), StrandOddsRatio (SOR), RMSMappingQuality (MQ), MappingQualityRankSumTest (MQRankSum), ReadPosRankSumTest (ReadPosRankSum)…)<br>
 > <b>BCSQ</b> haplotype-aware consequence annotation from BCFtools/csq, see http://samtools.github.io/bcftools/howtos/csq-calling.html for details. Format: Consequence|gene|transcript|biotype|strand|amino_acid_change|dna_change<br>
 > <b>Fst</b> Fixaction index (range 0-1)<br>
-### Lower subtrack:
+
+> <b>Lower subtrack:</b><br>
 > <b>Name</b> sample name (continent)<br>
 > <b>Genotype</b> genotype info. Please note that Plasmodium species are haploid. This diploid output is due to the GATK pipeline<br>
 > <b>DP</b> approximate read depth (reads with MQ=255 or with bad mates are filtered)<br> 
@@ -193,6 +193,7 @@ You can zoom in and out of the genomic variant browser either by using the zoomi
 <p align="center"><img src="PV_pics/igv_zoom.png"></img></p><b>Figure 7.</b> Zooming Bar<br><br>
 
 or by clicking, dragging and dropping on the genome section <b>(Figure 8)</b>
+
 <p align="center"><img src="PV_pics/igv_zoom2.png"></img></p><b>Figure 8.</b> Drag & drop zooming functionality<br><br>
 
 ### Scrolling
@@ -216,12 +217,66 @@ Taking as an example `PmUG01_05_v1:1,335,145-1,335,183`:
 - `:` precedes the chromosome coordinates
 - `1,335,145-1,335,183` refers to the chromosome coordinates (in this case, from `1,335,145-1,335,183` to `1,335,183`)
 
-<b>Note</b> that this will work also by pasting only the starting position of interest.
+<b>Note</b> that this will also work when specifying just the start position of interest.
 
+### Cursor Guide
 
+Visualisation guides are also included in the IGV framework <b>(Figure 11)</b>.
 
+<p align="center"><img src="PV_pics/igv_cursors.png"></img></p><b>Figure 11.</b> Visualisation Guides<br><br>
+
+Where:
+1. <b>Cursor Guide</b> will display a guide which will follow your mouse movements
+2. <b>Center Line</b> will display two guides at the middle of the Genomic Variant Browser
+
+### Track Settings
+
+Track labels can be hidden/shown using the `Track Labels` button found on the upper section next to the cursor guides buttons <b>(Figure 12)</b>.
+
+<p align="center"><img src="PV_pics/igv_tracknames.png" width="700"></img></p><b>Figure 12.</b> Track Labels button<br><br>
+
+Tracks can also be customised using the grey gears found on the right-hand side of the genomic variant browser.
+
+<p align="center"><img src="PV_pics/igv_tracks.png" width="700"></img></p><b>Figure 12.</b> Track Settings <br><br>
+
+Where:
+1. Allows setting different track names
+2. Allows setting a different track height
+3. Allows setting a different track colour
+4. Allows setting the Collapsed view
+5. Allows setting the Squished view
+6. Allows setting the Expanded view (set by default)
+7. Allows setting the visibility window (window hight)
+8. Removes the tracks
+
+<b>Note:</b> all the above options are reversable, exept point <b>8</b>. If you remove a track by mistake you will need to refresh the page.
+
+The disposion of tracks can also be changed by dragging and dropping the track bars on the right <b>Figure 13)</b>.
+
+<p align="center"><img src="PV_pics/igv_movetracks.png"></img></p><b>Figure 13.</b> Track Dispositions<br><br>
+
+## Gene Search
+
+The `GENOME BROWSER` page also include a Gene Search section.
+Gene names/Gene IDs can be searched using the Gene Name `Search` box<b>(Figure 14)</b>.
+
+<p align="center"><img src="PV_pics/genesearch.png"></img></p><b>Figure 14.</b> Gene Search Table<br><br>
+
+<b>Note:</b> columns can be sorted in ascending/descending order by clicking on the header titles (`Gene ID`, `Chromosome`, `Start`, `End`, `Gene Name`). Up to 100 entries can be showed at the same time.
+
+To obtain more information about a specific gene of interest, a direct link to the official database of <i>Plasmodium</i> parasites ([PlasmoDB](https://plasmodb.org/plasmo/app)) is also included.
+
+## Venn Diagram
+
+An interactive venn diagram is also included at the bottom of the `GENOME BROWSER` page, displaying the total number of unique/shared SNPs <b>(Figure 15.)</b>.
+
+<p align="center"><img src="PV_pics/genesearch.png"></img></p><b>Figure 15.</b> Interactive Venn Diagram<br><br>
 
 ## Data
+
+This page allows to visually inspect sample information in the form of a world map, charts and tables
+
+
 
 ## About
 
