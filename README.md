@@ -13,9 +13,22 @@ PlasmoVis is a  user-friendly web-based visualisation tool to assist with the an
 >   - [Close PlasmoVis](#4-close-plasmovis)<br>
 > - [PlasmoVis](#PlasmoVis)<br>
 >   - [Home Page](#home-page)<br>
->   - [Genomic Variant Browser]()<br>
+>   - [Navigation Bar](#nagivation-bar)<br>
+>   - [Genomic Variant Browser](#genomic-variant-browser)<br>
+>       - [Overview](#overview)<br>
+>       - [Tacks](#tracks)<br>
+>       - [Zooming Functionality](#zooming-functionality)<br>
+>       - [Scrolling](#scrolling)<br>
+>       - [Input Specific Chromosome Positions](#input-specific-chromosome-positions)<br>
+>       - [Cursor Guides](#cursor-guides)<br>
+>       - [Track Settings](#track-settings)<br>
+>       - [Track Disposition](#overview)<br>
+>       - [Gene Search](#gene-search)<br>
+>       - [Venn Diagram](#venn-diagram)<br>
 >   - [Data]()<br>
->   - [About - P. knowlesi]()<br>
+>       - [Sample Charts](#sample-charts)<br>
+>       - [Sample Search](#sample-search)<br>
+>   - [About](#about)<br>
 > - [Author](#Author)<br>
 
 # Prerequisites
@@ -107,7 +120,7 @@ Below the welcoming message, self-explanatory clickable links can be found <b>(F
 
 <br><i>P. malariae</i> variants can be inspected on the [Genomic Variant Browser](#genomic-variant-browser) page, either by clicking on the green `Run PlasmoVis` button (refer to <b>Figure 2</b>) or by using the navigation bar (see below).<br>
 
-## Navigation bar
+# Navigation bar
 
 The navigation bar allows switching in between pages <b>(Figure 4)</b>.
 
@@ -258,38 +271,48 @@ The disposion of the tracks can be modified by dragging and dropping the dark-gr
 
 ## Gene Search
 
-The `GENOME BROWSER` page include a Gene Search section <b>(Figure 15)</b> from which both Gene names and Gene IDs can be searched.
+The `GENOME BROWSER` page includes a `Gene Search` section <b>(Figure 15)</b> from which both gene names and gene IDs can be searched.
 
 <p align="center"><img src="PV_pics/genesearch.png"></img></p><b>Figure 15.</b> Gene Search Table<br><br>
 
-> <b>Note:</b> columns can be sorted in ascending/descending order by clicking on the header title of interest(`Gene ID`, `Chromosome`, `Start`, `End`, `Gene Name`). Up to 100 entries can be showed at the same time.
+> <b>Note:</b> columns can be sorted in ascending/descending order by clicking on the header title of interest(`Gene ID`, `Chromosome`, `Start`, `End`, `Gene Name`). <br>
+> Up to 100 entries can be displayed at the same time.
 
 To obtain more information about a specific gene of interest, a direct link to the official database of <i>Plasmodium</i> parasites ([PlasmoDB](https://plasmodb.org/plasmo/app)) is also included.
 
 ## Venn Diagram
 
-An interactive venn diagram is included at the bottom of the `GENOME BROWSER` page, displaying the total number of unique/shared SNPs <b>(Figure 16.)</b>.
+An interactive venn diagram is included at the bottom of the `GENOME BROWSER` page, displaying the total number of unique/shared SNPs between groups <b>(Figure 16.)</b>.
 <p align="center"><img src="PV_pics/venn.png"></img></p><b>Figure 16.</b> Interactive Venn Diagram<br><br>
 
 # Data
 
-This page allows to visually inspect sample information in interactive charts and tables, and includes an interactive cloropleth map displaying sample counts based on their country of origin <b>(Figure 17)</b>.
+This page allows to visually inspect sample information in interactive charts and tables. An interactive cloropleth map is also available, displaying sample counts based on their country of origin <b>(Figure 17)</b>.
 
-<p align="center"><img src="PV_pics/cloroplethmap.png"></img></p><b>Figure 17.</b> Cloropleth Map<br><br>
+<p align="center"><img src="PV_pics/cloroplethmap.png"></img></p><b>Figure 17.</b> Cloropleth Map based on sample counts<br><br>
 
 ## Sample Charts
 
-Interactive sample-charts display sample counts based on country and continent of origin <b>(Figure 18)</b>.
+Interactive sample-charts displaying sample counts based on country and continent of origin are also included <b>(Figure 18)</b>.
 
 <p align="center"><img src="PV_pics/samples.png"></img></p><b>Figure 17.</b> Interactive Sample Charts<br><br>
 
+> <b>Note:</b> sample counts will display by hoovering over the bar charts.
+
+
 ## Sample Search
 
-A Sample Search Table is included at the bottom of this page, from which sample ID/location information can be retrived.
+A Sample Search Table is included at the bottom of this page, from which sample ID/location information can be retrived <b>(Figure 18)</b>.
+
+<p align="center"><img src="PV_pics/samplesearch.png"></img></p><b>Figure 18.</b> Interactive Sample Charts<br><br>
 
 # About
 
-BlaBla
+This page includes additional information about the development of PlasmoVis and direct links to the <i>P. knowlesi</i> dataset initially tested on PlasmoVis <b>(Figure 19)</b>.
+
+<p align="center"><img src="PV_pics/samplesearch.png"></img></p><b>Figure 19.</b> About section<br><br>
+
+> <b>Note:</b> <i>P. malariae</i> samples were intersected in a different way compared to the <i>P. knowlesi</i> dataset. Therefore, be aware that the visualisation of <i>P. knowlesi</i> samples might appear different.
 
 
 # Sequencing Files
