@@ -308,7 +308,7 @@ A Sample Search Table is included at the bottom of this page, from which sample 
 
 # About
 
-This page includes additional information about the development of PlasmoVis and direct links to the <i>P. knowlesi</i> dataset initially tested on PlasmoVis <b>(Figure 19)</b>.
+This page includes additional information about the development of PlasmoVis. Direct links to the <i>P. knowlesi</i> dataset initially tested on PlasmoVis are also included<b>(Figure 19)</b>.
 
 <p align="center"><img src="PV_pics/about.png"></img></p><b>Figure 19.</b> About section<br><br>
 
