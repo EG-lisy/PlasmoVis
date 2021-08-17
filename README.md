@@ -310,7 +310,7 @@ A Sample Search Table is included at the bottom of this page, from which sample 
 
 This page includes additional information about the development of PlasmoVis and direct links to the <i>P. knowlesi</i> dataset initially tested on PlasmoVis <b>(Figure 19)</b>.
 
-<p align="center"><img src="PV_pics/samplesearch.png"></img></p><b>Figure 19.</b> About section<br><br>
+<p align="center"><img src="PV_pics/about.png"></img></p><b>Figure 19.</b> About section<br><br>
 
 > <b>Note:</b> <i>P. malariae</i> samples were intersected in a different way compared to the <i>P. knowlesi</i> dataset. Therefore, be aware that the visualisation of <i>P. knowlesi</i> samples might appear different.
 
