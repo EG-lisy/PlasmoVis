@@ -271,11 +271,11 @@ The disposion of the tracks can be modified by dragging and dropping the dark-gr
 
 ## Gene Search
 
-The `GENOME BROWSER` page includes a `Gene Search` section <b>(Figure 15)</b> from which both gene names and gene IDs can be searched.
+The `GENOME BROWSER` page includes a `Gene Search` section <b>(Figure 15)</b> where both gene names and gene IDs can be searched from.
 
 <p align="center"><img src="PV_pics/genesearch.png"></img></p><b>Figure 15.</b> Gene Search Table<br><br>
 
-> <b>Note:</b> columns can be sorted in ascending/descending order by clicking on the header title of interest(`Gene ID`, `Chromosome`, `Start`, `End`, `Gene Name`). <br>
+> <b>Note:</b> columns can be sorted in ascending/descending order by clicking on the header title of interest (`Gene ID`, `Chromosome`, `Start`, `End`, `Gene Name`). <br>
 > Up to 100 entries can be displayed at the same time.
 
 To obtain more information about a specific gene of interest, a direct link to the official database of <i>Plasmodium</i> parasites ([PlasmoDB](https://plasmodb.org/plasmo/app)) is also included.
@@ -302,13 +302,13 @@ Interactive sample-charts displaying sample counts based on country and continen
 
 ## Sample Search
 
-A Sample Search Table is included at the bottom of this page, from which sample ID/location information can be retrived <b>(Figure 18)</b>.
+A Sample Search Table is included at the bottom of this page where sample ID/location information can be retrived from <b>(Figure 18)</b>.
 
 <p align="center"><img src="PV_pics/samplesearch.png"></img></p><b>Figure 18.</b> Interactive Sample Charts<br><br>
 
 # About
 
-This page includes additional information about the development of PlasmoVis. Direct links to the <i>P. knowlesi</i> dataset initially tested on PlasmoVis are also included<b>(Figure 19)</b>.
+This page includes additional information about the development of PlasmoVis. Direct links to the <i>P. knowlesi</i> dataset initially tested on PlasmoVis are also included <b>(Figure 19)</b>.
 
 <p align="center"><img src="PV_pics/about.png"></img></p><b>Figure 19.</b> About section<br><br>
 
