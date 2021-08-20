@@ -1,9 +1,11 @@
-<br><br>
-<img style="float: center;" src="PV_pics/plasmoVis_logo.png" width="550"> </img>
+<img style="float: center;" src="PV_pics/plasmoVis_small.png"> </img>
 
-PlasmoVis is a  user-friendly web-based visualisation tool to assist with the analysis and visualisation of sequencing data, specifically to interrogate the genomic variation of <i>Plasmodium malariae</i> parasites. 
+# User Manual
 
-## Table of Contents
+PlasmoVis is a  user-friendly web-based visualisation tool to assist with the analysis and visualisation of sequencing data, specifically to interrogate the genomic variation of <i>Plasmodium malariae</i> parasites.<br>
+<br>
+
+> # Table of Contents
 > - [About](#about)<br>
 > - [Prerequisites](#prerequisites)<br>
 > - [Setup](#setup)<br>
@@ -30,6 +32,9 @@ PlasmoVis is a  user-friendly web-based visualisation tool to assist with the an
 >       - [Sample Search](#sample-search)<br>
 >   - [About](#about)<br>
 > - [Author](#Author)<br>
+> <br>
+<br><br>
+##
 
 # Prerequisites
 PlasmoVis is is compatible for being run either on Mac or Windows Operating Systems.<br>
@@ -41,8 +46,7 @@ Please ensure you have <b>Node.js</b> installed on your computer before proceedi
 
 PlasmoVis can be downloaded in two ways:
 
-- Click on the green `Code` button on the upper-right corner above and select `Download ZIP` <b>(Figure 1)
-</b>. Remember to unzip the file before proceeding.
+- Click on the green `Code` button on the upper-right corner of GitHub. From the drop-down window, select `Download ZIP` <b>(Figure 1)</b>. Remember to unzip the file before proceeding.
 
 <p align="center"><img src="PV_pics/download_repo.png" width="400"></img></p><br><b>Figure 1.</b> Download PlasmoVis - GitHub screenshot.<br><br>
 
@@ -54,6 +58,7 @@ cd <yourdir/yourfolder>
 # clone the repository
 git clone https://github.com/EG-lisy/PlasmoVis.git
 ```
+## <br>
 
 ## 2. Install PlasmoVis Dependencies
 
@@ -80,6 +85,7 @@ node app.js
 
 > <b>Note for Developers</b><br>
 > Nodemon has been installed to allow changes being automatically updated on the server.<br> If you wish to edit the code and run PlasmoVis in the developer mode, run `npm start` instead.
+<br>
 
 2. If all the steps have been followed correclty, the following welcoming message will show up on the console:
 
@@ -95,10 +101,11 @@ Welcome to PlasmoVis!
 
 3. You will be now able to visit PlasmoVis on [http://localhost:3000](http://localhost:3000 "PlasmoVis").
 
-
+<br>
 
 > <b>Note:</b> to stop PlasmoVis from running, type `Ctrl+C` on your terminal.
 
+<br>
 
 # PlasmoVis
 
@@ -115,7 +122,7 @@ From [http://localhost:3000](http://localhost:3000 "PlasmoVis") you will end up 
 
 Below the welcoming message, self-explanatory clickable links can be found <b>(Figure 3)</b>.
 
-![PlasmoVis - Bottom home Page](PV_pics/homepage_bottom.png)<br><b>Figure 3.</b> PlasmoVis bottom-section navigation links.<br>
+![PlasmoVis - Bottom home Page](PV_pics/homepage_bottom.png)<br><b>Figure 3.</b> PlasmoVis bottom-section navigation links<br>
 
 
 <br><i>P. malariae</i> variants can be inspected on the [Genomic Variant Browser](#genomic-variant-browser) page, either by clicking on the green `Run PlasmoVis` button (refer to <b>Figure 2</b>) or by using the navigation bar (see below).<br>
@@ -133,7 +140,7 @@ Where:
 > 4. <b>ABOUT</b> takes to the [About](#about) page (<i>P. knowlesi</i> data used whilst developing PlasmoVis)
 > 5. <b>HOME</b> takes back to [home page](#home-page)
 
-
+<br><br>
 # Genomic Variant Browser
 
 This page allows to inspect <i>P. malariae</i> variants over an `IGV.js` framework<b>(Figure 5)</b>.
