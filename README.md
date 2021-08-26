@@ -316,6 +316,9 @@ This page includes additional information about the development of PlasmoVis. Di
 ```
 Developed by Elisabetta Galatola
 
+Supervisors: Dr Fady Mohareb, Prof Susana Campino (LSHTM), Prof Taane Clark (LSHTM)
+Acknowledgements: Anna Turkiewicz, Tomasz Kurowski
+
 Applied Bioinformatics MSc
 Cranfield University - Cranfield, Bedford, UK
 Academic Year: 2020-2021
