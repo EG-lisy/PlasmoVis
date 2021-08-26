@@ -1,6 +1,5 @@
 <br><br>
 <img style="float: center;" src="PV_pics/plasmoVis_logo.png" width="550"> </img>
-
 PlasmoVis is a  user-friendly web-based visualisation tool to assist with the analysis and visualisation of sequencing data, specifically to interrogate the genomic variation of <i>Plasmodium malariae</i> parasites. 
 
 ## Table of Contents
@@ -10,10 +9,9 @@ PlasmoVis is a  user-friendly web-based visualisation tool to assist with the an
 >   - [Download PlasmoVis](#1-download-plasmovis) <br>
 >   - [Install PlasmoVis Dependendencies](#2-install-plasmovis-dependencies) <br>
 >   - [Run PlasmoVis](#3-run-plasmovis)<br>
->   - [Close PlasmoVis](#4-close-plasmovis)<br>
 > - [PlasmoVis](#PlasmoVis)<br>
 >   - [Home Page](#home-page)<br>
->   - [Navigation Bar](#nagivation-bar)<br>
+>   - [Navigation Bar](#navigation-bar)<br>
 >   - [Genomic Variant Browser](#genomic-variant-browser)<br>
 >       - [Overview](#overview)<br>
 >       - [Tacks](#tracks)<br>
