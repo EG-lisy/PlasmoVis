@@ -312,11 +312,6 @@ This page includes additional information about the development of PlasmoVis. Di
 
 > <b>Note:</b> <i>P. malariae</i> samples were intersected in a different way compared to <i>P. knowlesi</i>. Be aware that the visualisation of <i>P. knowlesi</i> samples might appear different.
 
-
-# Sequencing Files
-## THIS SECTION MIGHT NOT BE NEEDED
-Download the sequencing files running the following command
-
 # Author
 ```
 Developed by Elisabetta Galatola
