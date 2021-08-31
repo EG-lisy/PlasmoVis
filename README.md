@@ -136,8 +136,7 @@ Where:
 
 This page allows to inspect <i>P. malariae</i> variants over an `IGV.js` framework<b>(Figure 5)</b>.<br>
 
-> Note that the default genomic variant browser will display intersected samples using a 20% treshold of shared SNPs. 60% and 80% tresholds can be inspected respectively from [http://localhost:3000/igv_Pm60](http://localhost:3000/igv_Pm60) and [http://localhost:3000/igv_Pm80](http://localhost:3000/igv_Pm80).
-
+> Note that the default genomic variant browser will display intersected samples having a 20% of common SNPs. 60% and 80% tresholds can be inspected respectively from [http://localhost:3000/igv_Pm60](http://localhost:3000/igv_Pm60) and [http://localhost:3000/igv_Pm80](http://localhost:3000/igv_Pm80).
 
 ## Overview 
 
