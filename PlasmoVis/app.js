@@ -43,7 +43,7 @@ app.use('/api', router); // check router js - metadata queries (PK)
 // Access folders - serve static files
 app.use(express.static('public'));
 app.use('/css', express.static(__dirname + 'public/css'));
-app.use('/js', express.static(__dirname + 'public/js'));
+app.use('/json', express.static(__dirname + 'public/json'));
 app.use('/img', express.static(__dirname + 'public/img'));
 
 //static data (e.g. http://localhost:3000/pk_data/filteredERR274221_bqsr.vcf.gz)
@@ -52,9 +52,6 @@ app.use('/pk_data', express.static(__dirname + 'public/pk_data'));
 //static data (e.g. http://localhost:3000/pm_data/Pmalariae_fullgenome.fasta
 app.use('/pm_data', express.static(__dirname + 'public/pm_data'));
 
-//json directory
-app.use(express.static('views'))
-app.use('/json', express.static(__dirname + 'views/json'));
 
 // Set Views
 app.set('views', './views');
