@@ -7,7 +7,7 @@ PlasmoVis is a  user-friendly web-based visualisation tool to assist with the an
 > - [Prerequisites](#prerequisites)<br>
 > - [Setup](#setup)<br>
 >   - [Download PlasmoVis](#1-download-plasmovis) <br>
->   - [Install PlasmoVis Dependendencies](#2-install-plasmovis-dependencies) <br>
+>   - [Install PlasmoVis Dependencies](#2-install-plasmovis-dependencies) <br>
 >   - [Run PlasmoVis](#3-run-plasmovis)<br>
 > - [PlasmoVis](#PlasmoVis)<br>
 >   - [Home Page](#home-page)<br>
@@ -30,7 +30,7 @@ PlasmoVis is a  user-friendly web-based visualisation tool to assist with the an
 > - [Author](#Author)<br>
 
 # Prerequisites
-PlasmoVis is is compatible for being run either on Mac or Windows Operating Systems.<br>
+PlasmoVis is compatible for being run either on Mac or Windows Operating Systems.<br>
 Please ensure you have <b>Node.js</b> installed on your computer before proceeding.
 
 - [Node.js](https://nodejs.org/it/download/ "Node.js")
@@ -55,9 +55,9 @@ git clone https://github.com/EG-lisy/PlasmoVis.git
 
 ## 2. Install PlasmoVis Dependencies
 
-Proceede installing PlasmoVis dependencies (node modules).
+Proceed installing PlasmoVis dependencies (node modules).
 
-1. From the terminal, set your working directory inside `PlasmoVis/PlasmoVis`. Please note that the project subfolder has the same name of the main one.
+1. From the terminal, set your working directory inside `PlasmoVis/PlasmoVis`. Please note that the project subfolder has the same name as the main one.
 
 ```sh
 # set your working directory (i.e. folder in which you would like to save PlasmoVis)
@@ -79,7 +79,7 @@ node app.js
 > <b>Note for Developers</b><br>
 > Nodemon has been installed to allow changes being automatically updated on the server.<br> If you wish to edit the code and run PlasmoVis in the developer mode, run `npm start` instead.
 
-2. If all the steps have been followed correclty, the following welcoming message will show up on the console:
+2. If all the steps have been followed correctly, the following welcoming message will show up on the console:
 
 ```console
 MacBook-Pro-di-Elisabetta:PlasmoVis lisy$ node app.js
@@ -136,7 +136,7 @@ Where:
 
 This page allows to inspect <i>P. malariae</i> variants over an `IGV.js` framework<b>(Figure 5)</b>.<br>
 
-> Note that the default genomic variant browser will display intersected samples having a 20% of common SNPs. 60% and 80% tresholds can be inspected respectively at [http://localhost:3000/igv_Pm60](http://localhost:3000/igv_Pm60) and [http://localhost:3000/igv_Pm80](http://localhost:3000/igv_Pm80).
+> Note that the default genomic variant browser will display intersected samples having a 20% of common SNPs. 60% and 80% thresholds can be inspected respectively at [http://localhost:3000/igv_Pm60](http://localhost:3000/igv_Pm60) and [http://localhost:3000/igv_Pm80](http://localhost:3000/igv_Pm80).
 
 ## Overview 
 
@@ -193,7 +193,7 @@ See <b>Figure 6</b> below for a better understanding.
 > <b>Genotype</b> genotype info. Please note that Plasmodium species are haploid. This diploid output is due to the GATK pipeline<br>
 > <b>DP</b> approximate read depth (reads with MQ=255 or with bad mates are filtered)<br> 
 > <b>GQ</b> genotype quality<br>
-> <b>PGT</b> pysical phasing haplotype information, describing how the alternate alleles are phased in relation to one another; will always be heterozygous and
+> <b>PGT</b> physical phasing haplotype information, describing how the alternate alleles are phased in relation to one another; will always be heterozygous and
  is not intended to describe called alleles <br>
 > <b>PID</b> physical phasing ID information, where each unique ID within a given sample (but not across samples) connects records within a phasing group <br>
 > <b>PL</b> phred-scaled likelihoods for genotypes as defined in the VCF specification <br>
@@ -302,7 +302,7 @@ Interactive sample-charts displaying sample counts based on country and continen
 
 ## Sample Search
 
-A Sample Search Table is included at the bottom of this page where sample ID/location information can be retrived from <b>(Figure 18)</b>.
+A Sample Search Table is included at the bottom of this page where sample ID/location information can be retrieved from <b>(Figure 18)</b>.
 
 <p align="center"><img src="PV_pics/samplesearch.png"></img></p><b>Figure 18.</b> Interactive Sample Charts<br><br>
 
