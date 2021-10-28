@@ -1,3 +1,5 @@
+NOTE: repository over data quota (git-LFS issue) - contact owner to obtain data
+
 <br><br>
 <img style="float: center;" src="PV_pics/plasmoVis_logo.png" width="550"> </img><br>
 PlasmoVis is a  user-friendly web-based visualisation tool to assist with the analysis and visualisation of sequencing data, specifically to interrogate the genomic variation of <i>Plasmodium malariae</i> parasites. 
