@@ -1,4 +1,4 @@
-NOTE: repository over data quota (git-LFS issue) - contact owner to obtain data
+<b>NOTE: repository over data quota (git-LFS issue</b> - contact owner to obtain data
 
 <br><br>
 <img style="float: center;" src="PV_pics/plasmoVis_logo.png" width="550"> </img><br>
